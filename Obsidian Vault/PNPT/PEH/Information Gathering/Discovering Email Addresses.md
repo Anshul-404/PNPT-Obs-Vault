@@ -1,0 +1,15 @@
+1. **Discovering Email addresses:**
+	- `www.hunter.io`:  
+	     - Enter company name to find email addresses of users and also their designations.
+	     - Also gives patterns. For eg: {f}{last}@tesla.com
+	 - `www.phonebook.cz`:
+		- Enter company domain name to find email addresses of users.
+	- `www.voilanorbert.com`:
+	- `connect.clearbit.com`:
+		- Enter company name to find email addresses.
+		- Also has an extension that works on chrome too.
+	- `www.emailhippo.com`:
+		- Identify valid email addresses
+	- `www.accounts.google.com`:
+		- To find valid email addresses
+		- To find linked email addresses in forgot password section (partially)
