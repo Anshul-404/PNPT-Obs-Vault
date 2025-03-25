@@ -8,31 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3f0b35f3bea8481",
+            "id": "5ff1ccd353189542",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Exploitation/Manual Exploitation.md",
+                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Manual Exploitation"
+              "title": "Privilege Escalation (Root)"
             }
           },
           {
-            "id": "8f06d2c850e37ae5",
+            "id": "e7ee8eb6c161be9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Exploitation/Staged vs Non staged payloads.md",
+                "file": "PNPT/PEH/Capstone/Academy/Port 22 (FTP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Staged vs Non staged payloads"
+              "title": "Port 22 (FTP)"
+            }
+          },
+          {
+            "id": "37a7382d5a8e0e01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/tools scans/Nmap results for Academy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nmap results for Academy"
             }
           }
         ]
@@ -92,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.51103591918945
+    "width": 270.51103591918945
   },
   "right": {
     "id": "d52752b75cdc265e",
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT/PEH/Exploitation/Manual Exploitation.md",
+                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Manual Exploitation"
+              "title": "Backlinks for Privilege Escalation (Root)"
             }
           },
           {
@@ -127,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT/PEH/Exploitation/Manual Exploitation.md",
+                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Manual Exploitation"
+              "title": "Outgoing links from Privilege Escalation (Root)"
             }
           },
           {
@@ -182,11 +196,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b56712a7a1f3da93",
+  "active": "5ff1ccd353189542",
   "lastOpenFiles": [
-    "PNPT/PEH/Scanning & Enumeration/Enumerating HTTP and HTTPS.md",
+    "PNPT/assets/Pasted image 20250325065645.png",
+    "PNPT/assets/Pasted image 20250325065612.png",
+    "PNPT/assets/Pasted image 20250325065556.png",
+    "PNPT/assets/Pasted image 20250325065531.png",
+    "PNPT/assets/Pasted image 20250325065221.png",
+    "PNPT/PEH/Capstone/Academy/Grimmie User.md",
+    "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
+    "PNPT/assets/Pasted image 20250325064843.png",
+    "PNPT/PEH/Capstone/Academy/Basic Information.md",
+    "PNPT/PEH/Capstone/Academy/Machine Enumeration.md",
+    "PNPT/assets/Pasted image 20250325064415.png",
+    "PNPT/assets/Pasted image 20250325064256.png",
+    "PNPT/PEH/Capstone/Academy/HTTP - Port 80.md",
+    "PNPT/assets/Pasted image 20250325062922.png",
+    "PNPT/assets/Pasted image 20250325062841.png",
+    "PNPT/assets/Pasted image 20250325062839.png",
+    "PNPT/PEH/Capstone/Academy/Port 22 (FTP).md",
+    "PNPT/tools scans/Nmap results for Academy.md",
+    "PNPT/PEH/Capstone/Blue/Port 139, 445.md",
+    "PNPT/PEH/Capstone/Blue/Notes From Walkthrough.md",
+    "PNPT/PEH/Capstone/Blue/Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1).md",
+    "PNPT/PEH/Capstone/Blue/Basic Information.md",
+    "PNPT/PEH/Capstone/Academy",
+    "PNPT/tools scans/Nmap results for Blue.md",
     "PNPT/PEH/Exploitation/Staged vs Non staged payloads.md",
+    "PNPT/tools scans/Nmap Scan for kioptrix.md",
     "PNPT/PEH/Exploitation/Manual Exploitation.md",
+    "PNPT/PEH/Capstone/Blue",
+    "PNPT/PEH/Capstone",
+    "PNPT/PEH/Scanning & Enumeration/Enumerating HTTP and HTTPS.md",
     "PNPT/PEH/Exploitation/Bruteforcing (SSH Specially).md",
     "PNPT/PEH/Exploitation/Reverse vs Bind Shells.md",
     "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
@@ -196,39 +237,12 @@
     "PNPT/PEH/Information Gathering/Discovering Email Addresses.md",
     "PNPT/PEH/Exploitation/Gaining root with Metasploit.md",
     "PNPT/PEH/Exploitation/Credential Stuffing and Password Spraying.md",
-    "PNPT/PEH/Scanning & Enumeration/SSH Scanning.md",
-    "PNPT/assets/Pasted image 20250324163409.png",
-    "PNPT/assets/Pasted image 20250324163402.png",
-    "PNPT/assets/Pasted image 20250324162937.png",
-    "PNPT/tools scans/Nmap Scan for kioptrix.md",
-    "PNPT/assets/Pasted image 20250324161227.png",
-    "PNPT/PEH/Scanning & Enumeration/Enumerating SMB (Samba Shares).md",
-    "PNPT/assets/Pasted image 20250324160531.png",
-    "PNPT/assets/Pasted image 20250324155951.png",
-    "PNPT/assets/Pasted image 20250324155815.png",
     "PNPT/PEH/Exploitation",
-    "PNPT/PEH/Scanning & Enumeration/Scanning with Nmap.md",
-    "PNPT/PEH/Scanning & Enumeration/Researching Potential Vulnerabilities.md",
-    "PNPT/assets/Pasted image 20250324153142.png",
-    "PNPT/assets/Pasted image 20250324152120.png",
-    "PNPT/assets/Pasted image 20250324145358.png",
-    "PNPT/tools scans/nikto for kioptrix.md",
     "PNPT/PEH/Scanning & Enumeration/Untitled",
-    "PNPT/PEH/5 Stages of Ethical Hacking.md",
-    "PNPT/PEH/Information Gathering/BurpSuite.md",
-    "burp_info_gathering.md",
     "PNPT/tools scans",
     "PNPT/assets/nmap_kioptrix_all",
-    "home/drasstrange/PNPT_Prep/PEH/nmap.md",
     "home/drasstrange/PNPT_Prep/PEH",
     "home/drasstrange/PNPT_Prep",
-    "home/drasstrange",
-    "home",
-    "PNPT/assets",
-    "PNPT/PEH/Scanning & Enumeration",
-    "PNPT/PEH/Untitled.md",
-    "Welcome.md",
-    "2025-03-23.md",
-    "Hello.md"
+    "home/drasstrange"
   ]
 }
