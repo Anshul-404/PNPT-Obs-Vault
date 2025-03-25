@@ -1,0 +1,2 @@
+- Keep scanning subdirectories with gobuster [[HTTP - Port 80]], almost missed `admin` directory.
+- Look for database config files, though not useful in this one, can be helpful later on.

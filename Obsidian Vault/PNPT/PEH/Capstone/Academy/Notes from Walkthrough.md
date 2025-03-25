@@ -1,0 +1,3 @@
+- `crontab -u root -l` => Can be used to see `cronjobs` of other users
+- `pspy` => Can be used to see all the processes running on the system ==without root==. Useful to see automated processes.
+- 

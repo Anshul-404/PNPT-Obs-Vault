@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af782239496bf340",
+        "id": "2573b49d27d18bb4",
         "type": "tabs",
         "children": [
           {
-            "id": "5ff1ccd353189542",
+            "id": "d80748b4c851e5d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
+                "file": "PNPT/PEH/Capstone/Butler/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Privilege Escalation (Root)"
-            }
-          },
-          {
-            "id": "e7ee8eb6c161be9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Capstone/Academy/Port 22 (FTP).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Port 22 (FTP)"
-            }
-          },
-          {
-            "id": "37a7382d5a8e0e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/tools scans/Nmap results for Academy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nmap results for Academy"
+              "title": "Untitled"
             }
           }
         ]
@@ -68,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -122,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Privilege Escalation (Root)"
+              "title": "Backlinks"
             }
           },
           {
@@ -141,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
-                "linksCollapsed": false,
+                "file": "PNPT/PEH/Capstone/Butler/Untitled.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Privilege Escalation (Root)"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -196,53 +167,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ff1ccd353189542",
+  "active": "d80748b4c851e5d0",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250325065645.png",
-    "PNPT/assets/Pasted image 20250325065612.png",
-    "PNPT/assets/Pasted image 20250325065556.png",
-    "PNPT/assets/Pasted image 20250325065531.png",
-    "PNPT/assets/Pasted image 20250325065221.png",
-    "PNPT/PEH/Capstone/Academy/Grimmie User.md",
-    "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
-    "PNPT/assets/Pasted image 20250325064843.png",
+    "PNPT/PEH/Capstone/Dev/Notes from walkthrough.md",
+    "PNPT/PEH/Capstone/Butler/Untitled.md",
+    "PNPT/PEH/Capstone/Butler",
+    "PNPT/PEH/Capstone/Academy/Notes from Walkthrough.md",
+    "Untitled.md",
+    "PNPT/PEH/Capstone/Academy/Takeaways.md",
     "PNPT/PEH/Capstone/Academy/Basic Information.md",
-    "PNPT/PEH/Capstone/Academy/Machine Enumeration.md",
-    "PNPT/assets/Pasted image 20250325064415.png",
-    "PNPT/assets/Pasted image 20250325064256.png",
-    "PNPT/PEH/Capstone/Academy/HTTP - Port 80.md",
-    "PNPT/assets/Pasted image 20250325062922.png",
-    "PNPT/assets/Pasted image 20250325062841.png",
-    "PNPT/assets/Pasted image 20250325062839.png",
-    "PNPT/PEH/Capstone/Academy/Port 22 (FTP).md",
+    "PNPT/tools scans/Nmap results for Dev.md",
+    "PNPT/PEH/Capstone/Dev/Key Takeaways.md",
+    "PNPT/PEH/Capstone/Dev/Root Escalation.md",
+    "PNPT/assets/Pasted image 20250325143820.png",
+    "PNPT/assets/Pasted image 20250325143805.png",
+    "PNPT/assets/Pasted image 20250325143747.png",
+    "PNPT/assets/Pasted image 20250325143735.png",
+    "PNPT/assets/Pasted image 20250325143522.png",
+    "PNPT/PEH/Capstone/Dev/JeanPaul user escalation.md",
+    "PNPT/assets/Pasted image 20250325143349.png",
     "PNPT/tools scans/Nmap results for Academy.md",
+    "PNPT/PEH/Capstone/Dev/HTTP - 80.md",
+    "PNPT/PEH/Capstone/Dev/NFS - 111, 2049.md",
+    "PNPT/assets/Pasted image 20250325143034.png",
+    "PNPT/assets/Pasted image 20250325143029.png",
+    "PNPT/PEH/Capstone/Dev/Initial Foothold (www-data).md",
+    "PNPT/PEH/Capstone/Dev/NFS files.md",
+    "PNPT/assets/Pasted image 20250325142811.png",
+    "PNPT/assets/Pasted image 20250325142728.png",
+    "PNPT/PEH/Capstone/Dev/HTTP - 8080.md",
+    "PNPT/PEH/Capstone/Academy/HTTP - Port 80.md",
+    "PNPT/PEH/Capstone/Dev/Basic Info.md",
+    "PNPT/PEH/Capstone/Blue/Basic Information.md",
+    "PNPT/PEH/Capstone/Dev",
+    "PNPT/PEH/Capstone/Untitled.md",
+    "PNPT/PEH/Capstone/Academy/Privilege Escalation (Root).md",
+    "PNPT/PEH/Capstone/Academy/Port 22 (FTP).md",
+    "PNPT/PEH/Capstone/Academy/Machine Enumeration.md",
+    "PNPT/PEH/Capstone/Academy/Grimmie User.md",
     "PNPT/PEH/Capstone/Blue/Port 139, 445.md",
     "PNPT/PEH/Capstone/Blue/Notes From Walkthrough.md",
-    "PNPT/PEH/Capstone/Blue/Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1).md",
-    "PNPT/PEH/Capstone/Blue/Basic Information.md",
     "PNPT/PEH/Capstone/Academy",
-    "PNPT/tools scans/Nmap results for Blue.md",
-    "PNPT/PEH/Exploitation/Staged vs Non staged payloads.md",
-    "PNPT/tools scans/Nmap Scan for kioptrix.md",
-    "PNPT/PEH/Exploitation/Manual Exploitation.md",
     "PNPT/PEH/Capstone/Blue",
     "PNPT/PEH/Capstone",
-    "PNPT/PEH/Scanning & Enumeration/Enumerating HTTP and HTTPS.md",
-    "PNPT/PEH/Exploitation/Bruteforcing (SSH Specially).md",
-    "PNPT/PEH/Exploitation/Reverse vs Bind Shells.md",
-    "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
-    "PNPT/PEH/Information Gathering/Google Fu.md",
-    "PNPT/PEH/Information Gathering/Gathering Breached Passwords.md",
-    "PNPT/PEH/Information Gathering/Finding Website Technologies.md",
-    "PNPT/PEH/Information Gathering/Discovering Email Addresses.md",
-    "PNPT/PEH/Exploitation/Gaining root with Metasploit.md",
-    "PNPT/PEH/Exploitation/Credential Stuffing and Password Spraying.md",
     "PNPT/PEH/Exploitation",
     "PNPT/PEH/Scanning & Enumeration/Untitled",
     "PNPT/tools scans",
     "PNPT/assets/nmap_kioptrix_all",
-    "home/drasstrange/PNPT_Prep/PEH",
-    "home/drasstrange/PNPT_Prep",
-    "home/drasstrange"
+    "home/drasstrange/PNPT_Prep/PEH"
   ]
 }

@@ -1,0 +1,2 @@
+- Again, almost did not find `/dev/pages` directory. Make sure to `gobuster` in sub directories
+- Pay attention on reflected outputs and reflected file names from our input.

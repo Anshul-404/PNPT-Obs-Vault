@@ -1,0 +1,3 @@
+- `showmount -e <ip>` to view exports on ip
+- alternative to `zip2john` : `fcrackzip -v -u -D -p <wordlist> <file.zip>`
+- ==Completely missed `LFI`(directory traversal) exploit on `BoltWire 6.03`==in `action` get param.
