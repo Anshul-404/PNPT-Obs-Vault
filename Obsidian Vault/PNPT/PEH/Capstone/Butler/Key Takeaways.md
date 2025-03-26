@@ -1,0 +1,2 @@
+- Go from ==easy -> difficult== in terms of finding vulnerabilities. For example, got `administrator` access just with single `getsystem` command.
+- Try common ==obvious passwords of a service,== common season + year names (like in PEH course), usernames, dob, etc. For example, we got `jenkins : jenkins` credentials for `jenkins` server.
