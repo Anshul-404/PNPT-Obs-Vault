@@ -1,0 +1,2 @@
+- Missed another root privesc point:![[Pasted image 20250326150525.png]]
+-  Can also use `powerup.ps1`

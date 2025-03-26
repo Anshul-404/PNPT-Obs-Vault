@@ -1,0 +1,2 @@
+- IP: `192.168.157.133`
+- Credentials: `root:tcm`

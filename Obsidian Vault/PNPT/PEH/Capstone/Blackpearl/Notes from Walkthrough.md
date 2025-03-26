@@ -1,0 +1,4 @@
+- Apart from hint, we ==must know of tool== called #dnsrecon
+- ![[Pasted image 20250326151626.png]]
+- Here, `r`: range, `n`: machine ip, `d`: dns (type anything)
+- ![[Pasted image 20250326151923.png]]

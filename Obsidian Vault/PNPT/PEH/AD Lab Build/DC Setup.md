@@ -1,0 +1,3 @@
+- Let’s launch the Server Manager and click on **Add roles and features** option.
+- ![[Pasted image 20250326165945.png]]
+- DSRM password: Password1234
