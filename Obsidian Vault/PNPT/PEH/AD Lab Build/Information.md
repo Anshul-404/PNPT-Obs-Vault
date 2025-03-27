@@ -1,0 +1,8 @@
+- **AD Certificate Services** : Verify Identities in a domain controller
+	- Form of enhanced security
+	- ==Allows us to use `Secure LDAP`==
+	- LDAP is Lightweight Directory Access Protocol :  Phonebook (Relay Attack)
+	- A ==lot of attacks== related to this.
+- **Domain and Enterprise Admins** really good targets
+- **Any user can see Domain Admin's comments**
+- A lot of **misconfiguration** happens for **Service accounts**.
