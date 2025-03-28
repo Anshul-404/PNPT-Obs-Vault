@@ -6,3 +6,4 @@
 - **Domain and Enterprise Admins** really good targets
 - **Any user can see Domain Admin's comments**
 - A lot of **misconfiguration** happens for **Service accounts**.
+- Tony Stark : Password@12345!

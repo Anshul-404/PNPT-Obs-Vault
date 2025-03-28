@@ -1,0 +1,11 @@
+- Setup to **disable windows defender** as enforced
+- All the users will have AV disabled because enforced
+- Steps:
+	- `Group Policy Management`
+	- `Right Click MARVEL.local -> Create A GPO in this domain and link it here -> Disable Windows Defender`
+	- `Right Click Disable Windows Defender Policy` and `Edit`
+	- `Computer Configuration -> Policies -> Administrative Templates -> Windows Components -> Microsoft / Windows Defender Antivirus`
+	- `Turn off Microsoft Defender Antivirus -> Enable -> Apply -> OK`
+- ![[Pasted image 20250328013240.png]]
+- ![[Pasted image 20250328013255.png]]
+- ![[Pasted image 20250328013310.png]]

@@ -1,2 +1,0 @@
-- Setup to disable windows defender as enforced
-- All the users will have AV disabled because enforced

@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "cd0e042977724762",
+        "id": "be3b50e34df5d8ca",
         "type": "tabs",
         "children": [
           {
-            "id": "6bef06698ca5e2f3",
+            "id": "0c05ff4e4159a5b6",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/AD Lab Build/Setting up Group Policy for Enter Domain.md",
+                "file": "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Setting up Group Policy for Enter Domain"
+              "title": "AD Cloud Build"
             }
           }
         ]
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.51103591918945
+    "width": 328.5
   },
   "right": {
     "id": "d52752b75cdc265e",
@@ -112,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT/PEH/AD Lab Build/Setting up Group Policy for Enter Domain.md",
+                "file": "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Setting up Group Policy for Enter Domain"
+              "title": "Outgoing links from AD Cloud Build"
             }
           },
           {
@@ -167,26 +169,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bef06698ca5e2f3",
+  "active": "0c05ff4e4159a5b6",
   "lastOpenFiles": [
-    "PNPT/PEH/AD Lab Build/Information.md",
-    "PNPT/PEH/AD Lab Build/Setting up Group Policy for Enter Domain.md",
+    "PNPT/assets/Pasted image 20250328170331.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell Lab.md",
+    "PNPT/assets/Pasted image 20250328170309.png",
+    "PNPT/assets/Pasted image 20250328170147.png",
     "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
+    "PNPT/assets/Pasted image 20250328164340.png",
+    "PNPT/PEH/AD Lab Build/Setting up Local Administrators.md",
+    "PNPT/PEH/AD Lab Build/Setting up Group Policy for Entire Domain.md",
+    "PNPT/PEH/AD Lab Build/Information.md",
+    "PNPT/assets/Pasted image 20250328162751.png",
+    "PNPT/assets/Pasted image 20250328162408.png",
+    "PNPT/assets/Pasted image 20250328161905.png",
+    "PNPT/assets/Pasted image 20250328161900.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell.md",
+    "PNPT/assets/Pasted image 20250328160830.png",
+    "PNPT/assets/Pasted image 20250328160642.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Mitigation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Replay Attack Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/What is SMB Relay?.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Theory.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Mitigation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR/Untitled",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/Cracking the Caught Hashes.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Theory.md",
     "PNPT/PEH/AD Lab Build/DC Setup.md",
+    "PNPT/PEH/5 Stages of Ethical Hacking.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors",
+    "PNPT/PEH/Active Directory Attack Vectors",
     "PNPT/PEH/Active Directory Terms/Physical AD components.md",
-    "PNPT/assets/Pasted image 20250327112233.png",
-    "PNPT/assets/Pasted image 20250326165945.png",
     "PNPT/PEH/Active Directory Terms/Logical AD Components.md",
     "PNPT/PEH/AD Lab Build",
     "PNPT/PEH/Active Directory/Building AD Lab",
-    "PNPT/assets/Pasted image 20250326160004.png",
-    "PNPT/assets/Pasted image 20250326160001.png",
-    "PNPT/assets/Pasted image 20250326155756.png",
-    "PNPT/assets/Pasted image 20250326155208.png",
-    "PNPT/assets/Pasted image 20250326155043.png",
-    "PNPT/assets/Pasted image 20250326154932.png",
-    "PNPT/assets/Pasted image 20250326154611.png",
-    "PNPT/assets/Pasted image 20250326154257.png",
     "PNPT/PEH/Active Directory Terms/Active Directory Overview.md",
     "PNPT/PEH/Capstone/Blackpearl/Notes from Walkthrough.md",
     "PNPT/PEH/Active Directory Terms",
@@ -195,25 +215,6 @@
     "PNPT/tools scans/Nmap results for Blackpearl.md",
     "PNPT/PEH/Capstone/Blackpearl/General Information.md",
     "PNPT/PEH/Capstone/Blackpearl",
-    "PNPT/PEH/Capstone/Dev/Root Escalation.md",
-    "PNPT/PEH/Capstone/Butler/Privelege Escalation.md",
-    "PNPT/PEH/Capstone/Butler/Initial Foothold.md",
-    "PNPT/PEH/Capstone/Butler/Basic Information.md",
-    "PNPT/PEH/Capstone/Butler/HTTP - 8080.md",
-    "PNPT/tools scans/Nmap results for Butler.md",
-    "PNPT/PEH/Capstone/Butler/SMB - 139,445.md",
-    "PNPT/PEH/Capstone/Dev/Notes from walkthrough.md",
-    "PNPT/PEH/Capstone/Butler",
-    "PNPT/PEH/Capstone/Academy/Notes from Walkthrough.md",
-    "Untitled.md",
-    "PNPT/PEH/Capstone/Academy/Takeaways.md",
-    "PNPT/PEH/Capstone/Academy/Basic Information.md",
-    "PNPT/tools scans/Nmap results for Dev.md",
-    "PNPT/PEH/Capstone/Dev/Key Takeaways.md",
-    "PNPT/PEH/Capstone/Dev",
-    "PNPT/PEH/Capstone/Academy",
-    "PNPT/PEH/Capstone/Blue",
-    "PNPT/PEH/Capstone",
-    "PNPT/PEH/Exploitation"
+    "PNPT/PEH/Capstone/Dev/Root Escalation.md"
   ]
 }
