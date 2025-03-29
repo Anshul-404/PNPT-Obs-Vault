@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c05ff4e4159a5b6",
+            "id": "e8bfdc06dc6271ed",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "AD Cloud Build"
             }
+          },
+          {
+            "id": "19962cabcfc0ae3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Mitigation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mitigation"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
+                "file": "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Mitigation.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AD Cloud Build"
+              "title": "Outgoing links from Mitigation"
             }
           },
           {
@@ -169,52 +184,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c05ff4e4159a5b6",
+  "active": "19962cabcfc0ae3a",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250328170331.png",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell Lab.md",
-    "PNPT/assets/Pasted image 20250328170309.png",
-    "PNPT/assets/Pasted image 20250328170147.png",
+    "PNPT/assets/Pasted image 20250329170052.png",
+    "PNPT/PEH/Process soo far.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Mitigation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Lab.md",
+    "PNPT/assets/Pasted image 20250329165648.png",
+    "PNPT/assets/Pasted image 20250329165310.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
+    "PNPT/assets/Pasted image 20250329165259.png",
+    "PNPT/assets/Pasted image 20250329164841.png",
+    "PNPT/assets/Pasted image 20250329164738.png",
     "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
-    "PNPT/assets/Pasted image 20250328164340.png",
-    "PNPT/PEH/AD Lab Build/Setting up Local Administrators.md",
-    "PNPT/PEH/AD Lab Build/Setting up Group Policy for Entire Domain.md",
-    "PNPT/PEH/AD Lab Build/Information.md",
-    "PNPT/assets/Pasted image 20250328162751.png",
-    "PNPT/assets/Pasted image 20250328162408.png",
-    "PNPT/assets/Pasted image 20250328161905.png",
-    "PNPT/assets/Pasted image 20250328161900.png",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell.md",
-    "PNPT/assets/Pasted image 20250328160830.png",
-    "PNPT/assets/Pasted image 20250328160642.png",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Mitigation.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Replay Attack Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/What is SMB Relay?.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Theory.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Mitigation.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR/Untitled",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/Cracking the Caught Hashes.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/PTH Mitigations.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting",
+    "PNPT/assets/Pasted image 20250329163743.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Secretsdump and Cracking.md",
+    "PNPT/assets/Pasted image 20250329163630.png",
+    "PNPT/assets/Pasted image 20250329163153.png",
+    "PNPT/assets/Pasted image 20250329163049.png",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Theory.md",
-    "PNPT/PEH/AD Lab Build/DC Setup.md",
-    "PNPT/PEH/5 Stages of Ethical Hacking.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors",
-    "PNPT/PEH/Active Directory Attack Vectors",
-    "PNPT/PEH/Active Directory Terms/Physical AD components.md",
-    "PNPT/PEH/Active Directory Terms/Logical AD Components.md",
-    "PNPT/PEH/AD Lab Build",
-    "PNPT/PEH/Active Directory/Building AD Lab",
-    "PNPT/PEH/Active Directory Terms/Active Directory Overview.md",
-    "PNPT/PEH/Capstone/Blackpearl/Notes from Walkthrough.md",
-    "PNPT/PEH/Active Directory Terms",
-    "PNPT/PEH/Capstone/Butler/Notes from walkthrough.md",
-    "PNPT/PEH/Capstone/Butler/Key Takeaways.md",
-    "PNPT/tools scans/Nmap results for Blackpearl.md",
-    "PNPT/PEH/Capstone/Blackpearl/General Information.md",
-    "PNPT/PEH/Capstone/Blackpearl",
-    "PNPT/PEH/Capstone/Dev/Root Escalation.md"
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/What are these attacks?.md",
+    "PNPT/assets/Pasted image 20250329162248.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Introduction.md",
+    "PNPT/PEH/Scanning & Enumeration/Scanning with Nmap.md",
+    "PNPT/PEH/Scanning & Enumeration/Scanning & Enumeration.md",
+    "PNPT/PNPT.md",
+    "Tags",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Plumhound.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Post-Compromise AD Enumeration.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Initial Attack Strategy.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack/Printer Hacking.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell Lab.md",
+    "PNPT/PEH/AD Lab Build/Setting up Local Administrators.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR/Untitled"
   ]
 }

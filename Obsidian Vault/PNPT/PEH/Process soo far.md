@@ -1,0 +1,2 @@
+- Pwned `MARVEL\fcastle : Password1`through `LLMNR Poisoning` attack.
+- Pwned `SQLService : MYpassword123#` through Kerberoasting attack. 

@@ -1,3 +1,7 @@
+---
+aliases:
+  - What is SMB Relay?
+---
 - Instead of cracking the hashes, we can utilize `SMB Relay` to potentially gain **access to ==another machine on the network== using those hashes**.
 - Note: We are **relaying these hashes** to another machine to login, not the same machine
 - This is why, the user needs to be on both the machines as admin.
