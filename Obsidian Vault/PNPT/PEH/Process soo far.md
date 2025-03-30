@@ -1,2 +1,10 @@
 - Pwned `MARVEL\fcastle : Password1`through `LLMNR Poisoning` attack.
 - Pwned `SQLService : MYpassword123#` through Kerberoasting attack. 
+- Got `delegate impersonation token`  of `MARVEL/kamran` after he logged in on `ThePunisher` machine.
+- Created a domain admin user `MARVEL/hawkeye` and dumped SAM hashes directly from `DOMAIN CONTROLLER`.
+	- Now, we have 2 domain admins: `kamran` and `hawkeye`
+		- ![[Pasted image 20250330055111.png]]
+		- ![[Pasted image 20250330055228.png]]
+- Got the `NTLM.dit` file from `secretsdump` on `DC`.
+- Cracked hashes there.
+- Got access to `krbtgt` account using `mimikatz`

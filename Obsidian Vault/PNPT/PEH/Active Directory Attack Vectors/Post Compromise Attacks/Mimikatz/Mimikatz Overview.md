@@ -1,0 +1,3 @@
+- Tool used to steal credentials, generate Kerberos tickets, and leverage attacks.
+- Dump Credentials stored in memory
+- ![[Pasted image 20250330064325.png]]

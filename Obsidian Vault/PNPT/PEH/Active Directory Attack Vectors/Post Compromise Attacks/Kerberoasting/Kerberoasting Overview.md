@@ -1,4 +1,5 @@
 - Takes advantage of **`Service Accounts`**
+- **==TGS encrypted with Server Account's hash==**
 - TGT -> Ticket Granting Ticket (Every authenticated user on domain can request this from DC or KDC (Key Distribution Center))
 - TGS -> Ticket Granting Service (Service ticket that provides server interaction access)
 ![[Pasted image 20250329164841.png]]
