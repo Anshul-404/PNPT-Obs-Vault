@@ -1,4 +1,4 @@
-- Needed to install using `pimpmykali:
+ - Needed to install using `pimpmykali:
 	- `git clone https://github.com/Dewalt-arch/pimpmykali`
 	- `cd pimpmykali; sudo ./pimpmykali`
 	- Choose option: `%` to install crackmapexec
