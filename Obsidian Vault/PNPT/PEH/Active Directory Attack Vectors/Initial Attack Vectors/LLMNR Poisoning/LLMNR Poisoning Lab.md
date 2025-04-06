@@ -8,8 +8,6 @@
 	- `P` -> ProxyAuth, force authentication for the proxy. (==not needed so can skip if error occurs==)
 	- `v` -> Verbose
 
-route add 10.8.0.0 mask 255.255.255.0 10.0.1.8 -p
-
 
 ![[Pasted image 20250328043508.png]]
 

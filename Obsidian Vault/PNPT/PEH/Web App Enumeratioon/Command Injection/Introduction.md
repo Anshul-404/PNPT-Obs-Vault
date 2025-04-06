@@ -1,0 +1,5 @@
+- Executes **code on server side**
+	- `eval(1+1)`
+	- `system`
+- ![[Pasted image 20250406105741.png]]
+- `appsecexplained.gitbook.io`

@@ -1,0 +1,6 @@
+- **Note**:- **Avoid using `alert(1)`** as it is blocked a lot of times.
+	- Use **`print()` or `prompt(hello)`**
+- A **keylogger**:
+	- ![[Pasted image 20250406060909.png]]
+	- This is only for local, we can use **`fetch` API** for getting input from other source.
+- Test for **`html` injection** first for verification.

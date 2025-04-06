@@ -1,0 +1,26 @@
+- `sudo apt install docker.io`
+- `sudo apt install docker-compose`
+- `wget https://cdn.fs.teachablecdn.com/CbIyLkOuS4GUH7TNFTFg`
+- `mv CbIyLkOuS4GUH7TNFTFg  peh-web-labs.tar.gz`
+- `tar -xf peh-web-labs.tar.gz`
+- `cd labs`
+- `sudo docker-compose up -d` 
+	- `-d` for background
+- `./set-permissions.sh`
+- Browse to `http://localhost`
+- ![[Pasted image 20250405144911.png]]
+- **Note**: It was giving error on browser, so run this 
+	- `sudo docker-compose down -v`
+	- `sudo docker-compose up --build`
+	- This will **delete all existing database data**, which is fine if you don't need to keep it.`
+- **To reset lab** (required first time):
+	- Goto : `localhost/init.php`
+
+Browse containers
+---
+- Running containers:
+	- `sudo docker ps -a`
+- Stop all containers:
+	- `sudo docker-compose stop`
+- Remove container:
+	- `sudo docker rm <id>`
