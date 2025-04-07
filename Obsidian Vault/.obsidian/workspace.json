@@ -4,17 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "74d977ee3cd6c9b8",
+        "id": "ad0527bdc8bcb807",
         "type": "tabs",
         "children": [
           {
-            "id": "adaeb5f075eedbca",
+            "id": "14ab03eb80a6d908",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Capstone Web App"
+            }
+          },
+          {
+            "id": "78339e0414c6061c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DOM (Lab - 1)"
             }
           }
         ]
@@ -90,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Capstone Web App"
             }
           },
           {
@@ -162,28 +183,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e89523cb8d619c0",
+  "active": "14ab03eb80a6d908",
   "lastOpenFiles": [
+    "PNPT/assets/Pasted image 20250407171914.png",
+    "PNPT/assets/Pasted image 20250407171211.png",
+    "PNPT/assets/Pasted image 20250407171125.png",
+    "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
+    "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
+    "PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md",
+    "PNPT/assets/Pasted image 20250407170712.png",
+    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/IDOR - Insecure Direct Object Reference.md",
+    "PNPT/assets/Pasted image 20250407165917.png",
+    "PNPT/assets/Pasted image 20250407165904.png",
+    "PNPT/assets/Pasted image 20250407165854.png",
+    "PNPT/assets/Pasted image 20250407165844.png",
+    "PNPT/assets/Pasted image 20250407165605.png",
+    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/Bruteforce Script.md",
+    "PNPT/assets/Pasted image 20250407164931.png",
+    "PNPT/assets/Pasted image 20250407164835.png",
+    "PNPT/PEH/Web App Enumeratioon/XXE/External Entities Injection.md",
+    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA",
+    "PNPT/PEH/Web App Enumeratioon/Untitled",
+    "PNPT/PEH/Web App Enumeratioon/Resource.md",
+    "PNPT/PEH/Web App Enumeratioon/XXE",
+    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 3 Challenge.md",
+    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 1 Bruteforce.md",
+    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 2 MFA.md",
+    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication",
+    "PNPT/PEH/Web App Enumeratioon/File Upload/Points to note.md",
+    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 3 Challenge.md",
+    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab -2 Magic Bytes.md",
+    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 1 Basics.md",
+    "PNPT/PEH/Web App Enumeratioon/XSS/Stored XSS (Lab -2).md",
     "PNPT/PEH/Web App Enumeratioon/File Upload",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Challenge Lab -3.md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md",
-    "PNPT/assets/Pasted image 20250406170224.png",
-    "PNPT/assets/Pasted image 20250406165955.png",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 1 Basics.md",
-    "PNPT/assets/Pasted image 20250406162817.png",
-    "PNPT/assets/Pasted image 20250406162756.png",
-    "PNPT/assets/Pasted image 20250406162547.png",
-    "PNPT/assets/Pasted image 20250406161911.png",
-    "PNPT/assets/Pasted image 20250406161239.png",
-    "PNPT/assets/Pasted image 20250406161017.png",
-    "PNPT/assets/Pasted image 20250406160755.png",
-    "PNPT/assets/Pasted image 20250406160328.png",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Introduction.md",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Stored XSS (Lab -2).md",
     "PNPT/PEH/Web App Enumeratioon/XSS/Some Points.md",
-    "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
     "PNPT/PEH/Web App Enumeratioon/XSS/Types of XSS.md",
     "PNPT/PEH/Web App Enumeratioon/XSS/Untitled",
     "PNPT/PEH/Web App Enumeratioon/SQL Injection/BLIND injection part - 1.md",
@@ -192,23 +230,6 @@
     "PNPT/PEH/Web App Enumeratioon/SQL Injection/UNION injection.md",
     "PNPT/PEH/Web App Enumeratioon/SQL Injection",
     "PNPT/PEH/Web App Enumeratioon/Lab Setup.md",
-    "Untitled 1.md",
-    "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
-    "2025-04-04.md",
-    "Untitled.md",
-    "2025-03-30.md",
-    "PNPT/PEH/Post Exploitation/Pivoting.md",
-    "PNPT/THM Boxes/Holo/10.200.107.33/Privilege Escalation.md",
-    "PNPT/THM Boxes/Holo/10.200.107.31/Port 80.md",
-    "PNPT/THM Boxes/Wreath/Git Server Foothold 10.200.81.150.md",
-    "PNPT/THM Boxes/Wreath/Prod Server Foothold 10.200.81.200.md",
-    "PNPT/THM Boxes/Holo/10.200.107.31/Enumeration.md",
-    "PNPT/THM Boxes/Holo/10.200.107.33/Port 80.md",
-    "PNPT/THM Boxes/Holo/10.200.107.31",
-    "PNPT/THM Boxes/Holo/10.200.107.30",
-    "PNPT/THM Boxes/Holo/10.200.107.33",
-    "PNPT/THM Boxes/Holo/Enumeration",
-    "PNPT/THM Boxes/Holo",
-    "PNPT/THM Boxes/Wreath/Enumeration"
+    "PNPT/THM Boxes/Holo/10.200.107.31"
   ]
 }

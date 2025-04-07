@@ -1,0 +1,13 @@
+- Try the following :
+	- Renaming file from `file.png` to `file.php` after pressing upload in `burpsuite`
+	- Renaming file from `file.php` to `file.png.php` and then uploading
+	- Renaming file from `file.php` to `file.php%00.png` after/before pressing upload in `burpsuite`
+	- Renaming file from `file.php` to `file.php.png` after/before pressing upload (might work in cases of `regex` search)
+	- Changing a number of letters to their capital forms to bypass case sensitive rules (e.g. `“file.aSp” or “file.PHp3”`).
+	- Trying different `php` extensions like `asd`, `phtml`, `php2`, `php3`, etc.
+	- `Content-Type` in burpsuite
+	- Try `Magic Bytes`
+- More in :
+	- **https://portswigger.net/web-security/file-upload**
+	- https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+	- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/README.md
