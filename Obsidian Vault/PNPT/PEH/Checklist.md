@@ -1,0 +1,2 @@
+- Password types:
+	- `Season / company name/ username / something user likes / web app name` + `year` + `special character` (`Summer2018!`)
