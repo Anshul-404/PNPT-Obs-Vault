@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ad0527bdc8bcb807",
+        "id": "22597c1dc6c0bd38",
         "type": "tabs",
         "children": [
           {
-            "id": "14ab03eb80a6d908",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Capstone Web App"
-            }
-          },
-          {
-            "id": "78339e0414c6061c",
+            "id": "5dfb8591a8216bd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DOM (Lab - 1)"
-            }
-          },
-          {
-            "id": "0386c3a28db41888",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lab - 2 Blind, Out of Band"
-            }
-          },
-          {
-            "id": "91ffa5ede24b4bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Challenge - Steal Admin Cookie"
-            }
-          },
-          {
-            "id": "c5a0611a670b4d2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPv6 Attack Lab"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IPv6 Attack Lab"
+              "title": "Backlinks"
             }
           },
           {
@@ -209,12 +145,23 @@
               "icon": "lucide-list",
               "title": "Outline of Hello"
             }
+          },
+          {
+            "id": "1afdda125daea5f8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,32 +170,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5a0611a670b4d2f",
+  "active": "5dfb8591a8216bd2",
   "lastOpenFiles": [
+    "PNPT/THM Boxes/Holo/10.200.107.33/Privilege Escalation.md",
+    "PNPT/OSINT/Sock Puppets.md",
     "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
+    "PNPT/PEH/AD Lab Build/DC Setup.md",
+    "PNPT/PEH/AD Lab Build/Information.md",
+    "PNPT/OSINT/Indroduction.md",
+    "PNPT/assets/Pasted image 20250409150416.png",
+    "PNPT/PNPT.tar.gz",
+    "PNPT/assets/Pasted image 20250409143936.png",
+    "PNPT/PEH/Report Writing and Documents/Pentest Report Writing Example.md",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
+    "PNPT/OSINT",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
+    "PNPT/PEH/Report Writing and Documents/Real Pentest Report.md",
+    "PNPT/assets/Pasted image 20250409120805.png",
+    "PNPT/assets/Pasted image 20250409114748.png",
+    "PNPT/assets/Pasted image 20250409114249.png",
+    "PNPT/assets/Pasted image 20250409114110.png",
+    "PNPT/assets/Pasted image 20250409113934.png",
+    "PNPT/assets/Pasted image 20250409113846.png",
+    "PNPT/assets/Pasted image 20250409113014.png",
+    "PNPT/assets/Pasted image 20250409112811.png",
+    "PNPT/PEH/Report Writing and Documents/Common Legal Documents.md",
+    "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Overview.md",
     "PNPT/PEH/Checklist.md",
-    "PNPT/PEH/Report Writing and Documents/Pentest Report Writing.md",
-    "PNPT/PEH/Report Writing and Documents/Common Legal Documents.md",
-    "PNPT/assets/Pasted image 20250408134741.png",
-    "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
     "PNPT/PEH/Report Writing and Documents",
-    "PNPT/assets/Pasted image 20250408121225.png",
-    "PNPT/assets/Pasted image 20250408121206.png",
-    "PNPT/assets/Pasted image 20250408121156.png",
-    "PNPT/assets/Pasted image 20250408121043.png",
-    "PNPT/assets/Pasted image 20250408120935.png",
-    "PNPT/assets/Pasted image 20250408120739.png",
-    "PNPT/assets/Pasted image 20250408120702.png",
     "PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md",
     "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
-    "PNPT/assets/Pasted image 20250408112649.png",
-    "PNPT/assets/Pasted image 20250408112449.png",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 1 Basics.md",
     "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/IDOR - Insecure Direct Object Reference.md",
@@ -263,16 +219,8 @@
     "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 2 MFA.md",
     "PNPT/PEH/Web App Enumeratioon/Attacking Authentication",
     "PNPT/PEH/Web App Enumeratioon/File Upload/Points to note.md",
-    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 3 Challenge.md",
-    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab -2 Magic Bytes.md",
-    "PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 1 Basics.md",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Stored XSS (Lab -2).md",
     "PNPT/PEH/Web App Enumeratioon/File Upload",
-    "PNPT/PEH/Web App Enumeratioon/Command Injection/Challenge Lab -3.md",
-    "PNPT/PEH/Web App Enumeratioon/Command Injection/Introduction.md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Untitled",
-    "PNPT/PEH/Web App Enumeratioon/XSS",
-    "PNPT/PEH/Web App Enumeratioon/SQL Injection"
+    "PNPT/PEH/Web App Enumeratioon/XSS/Untitled"
   ]
 }

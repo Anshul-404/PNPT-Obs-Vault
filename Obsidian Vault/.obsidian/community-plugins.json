@@ -1,4 +1,6 @@
 [
   "url-into-selection",
-  "languagetool"
+  "languagetool",
+  "copy-inline-code",
+  "obsidian-git"
 ]
