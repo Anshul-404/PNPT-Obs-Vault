@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22597c1dc6c0bd38",
+        "id": "d4c3d39a9fe4f33e",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfb8591a8216bd2",
+            "id": "afe6c7112b09a6b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/OSINT/Image OSINT/Challenges.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Challenges"
             }
           }
         ]
@@ -174,30 +178,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5dfb8591a8216bd2",
+  "active": "afe6c7112b09a6b4",
   "lastOpenFiles": [
-    "PNPT/THM Boxes/Holo/10.200.107.33/Privilege Escalation.md",
+    "PNPT/assets/Pasted image 20250409173314.png",
+    "PNPT/assets/Pasted image 20250409173154.png",
+    "PNPT/assets/Pasted image 20250409172621.png",
+    "PNPT/OSINT/Image OSINT/Identifying Geographical Locations.md",
+    "PNPT/OSINT/Image OSINT/Challenges.md",
+    "PNPT/assets/Pasted image 20250409170901.png",
+    "PNPT/OSINT/Image OSINT/Physical Location OSINT.md",
+    "PNPT/assets/Pasted image 20250409170518.png",
+    "PNPT/assets/Pasted image 20250409170413.png",
+    "PNPT/assets/Pasted image 20250409170102.png",
+    "PNPT/OSINT/Image OSINT/EXIF Data.md",
+    "PNPT/assets/Pasted image 20250409165731.png",
+    "PNPT/OSINT/Image OSINT/Reverse Image Search.md",
+    "PNPT/assets/Pasted image 20250409165310.png",
+    "PNPT/assets/Pasted image 20250409165122.png",
+    "PNPT/assets/Pasted image 20250409165018.png",
+    "PNPT/OSINT/Search Engine OSINT.md",
+    "PNPT/OSINT/Image OSINT",
     "PNPT/OSINT/Sock Puppets.md",
+    "www.fakenamegenerator.com.md",
+    "PNPT/THM Boxes/Holo/10.200.107.33/Privilege Escalation.md",
     "PNPT/PEH/AD Lab Build/AD Cloud Build.md",
     "PNPT/PEH/AD Lab Build/DC Setup.md",
     "PNPT/PEH/AD Lab Build/Information.md",
     "PNPT/OSINT/Indroduction.md",
-    "PNPT/assets/Pasted image 20250409150416.png",
     "PNPT/PNPT.tar.gz",
-    "PNPT/assets/Pasted image 20250409143936.png",
     "PNPT/PEH/Report Writing and Documents/Pentest Report Writing Example.md",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
     "PNPT/OSINT",
     "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
     "PNPT/PEH/Report Writing and Documents/Real Pentest Report.md",
-    "PNPT/assets/Pasted image 20250409120805.png",
-    "PNPT/assets/Pasted image 20250409114748.png",
-    "PNPT/assets/Pasted image 20250409114249.png",
-    "PNPT/assets/Pasted image 20250409114110.png",
-    "PNPT/assets/Pasted image 20250409113934.png",
-    "PNPT/assets/Pasted image 20250409113846.png",
-    "PNPT/assets/Pasted image 20250409113014.png",
-    "PNPT/assets/Pasted image 20250409112811.png",
     "PNPT/PEH/Report Writing and Documents/Common Legal Documents.md",
     "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Overview.md",
@@ -207,20 +220,11 @@
     "PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md",
     "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 1 Basics.md",
-    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/IDOR - Insecure Direct Object Reference.md",
-    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/Bruteforce Script.md",
-    "PNPT/PEH/Web App Enumeratioon/XXE/External Entities Injection.md",
     "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA",
     "PNPT/PEH/Web App Enumeratioon/Untitled",
-    "PNPT/PEH/Web App Enumeratioon/Resource.md",
     "PNPT/PEH/Web App Enumeratioon/XXE",
-    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 3 Challenge.md",
-    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 1 Bruteforce.md",
-    "PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 2 MFA.md",
     "PNPT/PEH/Web App Enumeratioon/Attacking Authentication",
-    "PNPT/PEH/Web App Enumeratioon/File Upload/Points to note.md",
     "PNPT/PEH/Web App Enumeratioon/File Upload",
-    "PNPT/PEH/Web App Enumeratioon/Command Injection",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Untitled"
+    "PNPT/PEH/Web App Enumeratioon/Command Injection"
   ]
 }
