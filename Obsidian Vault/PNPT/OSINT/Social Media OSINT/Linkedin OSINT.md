@@ -1,0 +1,12 @@
+ - **Reverse image search the profile image**
+ - Different username
+ - **Connections**
+ - **Their company and its members**
+ - **==Contact Information:==**
+	 - ![[Pasted image 20250410164848.png]]
+- Activity
+	- ![[Pasted image 20250410164924.png]]
+- **Education**
+	- ![[Pasted image 20250410165112.png]]
+- **Endorsements and recommendations**
+	- ![[Pasted image 20250410165126.png]]

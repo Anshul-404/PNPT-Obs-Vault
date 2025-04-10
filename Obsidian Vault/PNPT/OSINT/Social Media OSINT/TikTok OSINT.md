@@ -1,0 +1,4 @@
+- Look at **videos and gather information**
+- Open **Images and reverse engineer**
+	- ![[Pasted image 20250410165557.png]]
+- 
