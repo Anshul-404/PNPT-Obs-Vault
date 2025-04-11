@@ -37,3 +37,13 @@
 ---
 - Automation script by TCM : https://pastebin.com/MhE6zXVt
 - More at: ![[Pasted image 20250402143951.png]]
+
+	```bash
+	whois tcm-sec.com
+	subfinder -d tcm-sec.com
+	assetfinder tcm-sec.com
+	amass enum -d tcm-sec.com
+	cat tesla.txt | sort -u | httprobe -s -p https:443
+	gowitness file -f ./alive.txt -P ./pics --no-http
+```
+![[Pasted image 20250411165251.png]]

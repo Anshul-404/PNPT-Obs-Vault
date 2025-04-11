@@ -4,20 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "fa04d892c274d12c",
+        "id": "1bb98809bb9c1298",
         "type": "tabs",
         "children": [
           {
-            "id": "db998316695d8c72",
+            "id": "9b3257130a78b3de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/OSINT/OSINT Automation/Website OSINT Tools.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Website OSINT Tools"
+            }
+          },
+          {
+            "id": "1a309449affb98ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/OSINT/OSINT Automation/Automation Code.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automation Code"
+            }
+          },
+          {
+            "id": "e5077180777a9b1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Subdomain Enumeration"
+            }
+          },
+          {
+            "id": "0fd341312e8e56f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/OSINT/Website OSINT/Website OSINT Part - 2 + Subdomains.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Website OSINT Part - 2 + Subdomains"
+            }
+          },
+          {
+            "id": "a11ed5ddce77b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hunting Subdomains"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello.md",
+                "file": "PNPT/OSINT/OSINT Automation/Automation Code.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hello"
+              "title": "Outline of Automation Code"
             }
           },
           {
@@ -161,21 +222,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1afdda125daea5f8",
+  "active": "1a309449affb98ba",
   "lastOpenFiles": [
+    "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
+    "PNPT/OSINT/OSINT Automation/Website OSINT Tools.md",
+    "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 2 + Subdomains.md",
+    "PNPT/OSINT/OSINT Automation/Automation Code.md",
+    "PNPT/OSINT/Hunting Businesses.md",
+    "PNPT/OSINT/OSINT Automation/Automating Website OSINT.md",
+    "PNPT/assets/Pasted image 20250411165251.png",
+    "PNPT/OSINT/OSINT Tools, Lab/Other Tools.md",
+    "PNPT/OSINT/OSINT Automation",
+    "PNPT/assets/Pasted image 20250411163453.png",
+    "PNPT/OSINT/OSINT Tools, Lab/OSINT Frameworks.md",
+    "PNPT/assets/Pasted image 20250411162445.png",
+    "PNPT/assets/Pasted image 20250411162438.png",
+    "PNPT/assets/Pasted image 20250411162331.png",
+    "PNPT/assets/Pasted image 20250411162324.png",
+    "PNPT/assets/Pasted image 20250411162246.png",
+    "PNPT/assets/Pasted image 20250411161952.png",
+    "PNPT/assets/Pasted image 20250411161624.png",
+    "PNPT/assets/Pasted image 20250411160958.png",
+    "PNPT/OSINT/OSINT Tools, Lab/Social Media OSINT.md",
+    "PNPT/OSINT/OSINT Tools, Lab/Phone Number OSINT.md",
+    "PNPT/OSINT/OSINT Tools, Lab/Username and Account OSINT.md",
+    "PNPT/OSINT/OSINT Tools, Lab/Email Hunting and Breached data.md",
+    "PNPT/OSINT/OSINT Tools, Lab/Image and Location OSINT.md",
+    "PNPT/OSINT/Wireless OSINT.md",
+    "PNPT/OSINT/OSINT Tools, Lab",
+    "PNPT/PEH_Notes.zip",
+    "PNPT/OSINT/Website OSINT/Untitled.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 1.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 3 Tools.md",
     "PNPT/OSINT/Social Media OSINT/TikTok OSINT.md",
     "PNPT/OSINT/Website OSINT",
     "2025-03-30.md",
@@ -184,42 +279,12 @@
     "www.fakenamegenerator.com.md",
     "www.dehashed.com.md",
     "www.weleakinfo.to.md",
-    "PNPT/assets/Pasted image 20250410165557.png",
     "PNPT/OSINT/Social Media OSINT/Linkedin OSINT.md",
-    "PNPT/assets/Pasted image 20250410165126.png",
-    "PNPT/assets/Pasted image 20250410165112.png",
-    "PNPT/assets/Pasted image 20250410164924.png",
-    "PNPT/assets/Pasted image 20250410164848.png",
-    "PNPT/OSINT/Social Media OSINT/Reddit OSINT.md",
-    "PNPT/assets/Pasted image 20250410163154.png",
-    "PNPT/assets/Pasted image 20250410163123.png",
-    "PNPT/assets/Pasted image 20250410162955.png",
-    "PNPT/assets/Pasted image 20250410162932.png",
-    "PNPT/OSINT/Social Media OSINT/Snapchat OSINT.md",
-    "PNPT/assets/Pasted image 20250410162733.png",
-    "PNPT/OSINT/Social Media OSINT/Instagram OSINT.md",
-    "PNPT/OSINT/Social Media OSINT/Facebook OSINT.md",
-    "PNPT/OSINT/Social Media OSINT/Twitter or X Part 2.md",
-    "PNPT/OSINT/Social Media OSINT/Twitter Part 1.md",
     "PNPT/OSINT/Social Media OSINT",
-    "PNPT/OSINT/People OSINT/Searching Resumes.md",
-    "PNPT/OSINT/People OSINT/Discovering Birthdates.md",
-    "PNPT/OSINT/People OSINT/Phone Numbers.md",
-    "PNPT/OSINT/People OSINT/Searching for People.md",
     "PNPT/OSINT/People OSINT",
-    "PNPT/OSINT/Image OSINT/Username OSINT.md",
-    "PNPT/OSINT/Password OSINT.md",
-    "PNPT/PEH/Information Gathering/Gathering Breached Passwords.md",
-    "www.hashes.org.md",
-    "PNPT/PEH/Information Gathering/Discovering Email Addresses.md",
-    "PNPT/OSINT/Checklist.md",
-    "PNPT/OSINT/Email OSINT.md",
     "PNPT/OSINT/Image OSINT",
     "PNPT/PNPT.tar.gz",
     "PNPT/OSINT",
-    "PNPT/PEH/Report Writing and Documents",
-    "PNPT/PEH/Web App Enumeratioon/IDOR, BOLA",
-    "PNPT/PEH/Web App Enumeratioon/Untitled",
-    "PNPT/PEH/Web App Enumeratioon/XXE"
+    "PNPT/PEH/Report Writing and Documents"
   ]
 }
