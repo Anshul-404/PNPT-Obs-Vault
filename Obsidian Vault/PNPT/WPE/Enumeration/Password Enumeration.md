@@ -1,0 +1,4 @@
+- `findstr /si password *.txt`
+- `findstr /si password *.txt *.ini *.config`
+- ![[Pasted image 20250412120749.png]]
+- ![[Pasted image 20250412120806.png]]

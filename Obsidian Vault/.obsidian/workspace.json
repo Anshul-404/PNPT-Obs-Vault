@@ -4,81 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "1bb98809bb9c1298",
+        "id": "e7ab5d0bceab6d3b",
         "type": "tabs",
         "children": [
           {
-            "id": "9b3257130a78b3de",
+            "id": "ee3e8211b4780475",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/OSINT/OSINT Automation/Website OSINT Tools.md",
+                "file": "PNPT/WPE/Enumeration/Escalation via Stored Passwords.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Website OSINT Tools"
+              "title": "Escalation via Stored Passwords"
             }
           },
           {
-            "id": "1a309449affb98ba",
+            "id": "f839f6de490913df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/OSINT/OSINT Automation/Automation Code.md",
+                "file": "PNPT/WPE/Kernal Exploits/Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automation Code"
+              "title": "Information"
             }
           },
           {
-            "id": "e5077180777a9b1d",
+            "id": "7011c77cc3c588fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
+                "file": "PNPT/WPE/Enumeration/Automation Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subdomain Enumeration"
-            }
-          },
-          {
-            "id": "0fd341312e8e56f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/OSINT/Website OSINT/Website OSINT Part - 2 + Subdomains.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Website OSINT Part - 2 + Subdomains"
-            }
-          },
-          {
-            "id": "a11ed5ddce77b6ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hunting Subdomains"
+              "title": "Automation Tools"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,58 +204,56 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a309449affb98ba",
+  "active": "ee3e8211b4780475",
   "lastOpenFiles": [
-    "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
-    "PNPT/OSINT/OSINT Automation/Website OSINT Tools.md",
-    "PNPT/PEH/Information Gathering/Hunting Subdomains.md",
-    "PNPT/OSINT/Website OSINT/Website OSINT Part - 2 + Subdomains.md",
-    "PNPT/OSINT/OSINT Automation/Automation Code.md",
+    "PNPT/WPE/Kernal Exploits/Kernal Exploitation Manually.md",
+    "PNPT/WPE/Enumeration/Escalation via Stored Passwords.md",
+    "PNPT/WPE/Passwords and Port Forwarding",
+    "PNPT/WPE/Kernal Exploits/Kernel Exploitation Using Metasploit.md",
+    "PNPT/WPE/Kernal Exploits/Information.md",
+    "PNPT/WPE/Enumeration/Automation Tools.md",
+    "PNPT/assets/Pasted image 20250412133326.png",
+    "PNPT/assets/Pasted image 20250412133225.png",
+    "PNPT/assets/Pasted image 20250412133219.png",
+    "PNPT/assets/Pasted image 20250412133054.png",
+    "PNPT/assets/Pasted image 20250412132925.png",
+    "PNPT/assets/Pasted image 20250412132826.png",
+    "PNPT/assets/Pasted image 20250412132653.png",
+    "PNPT/assets/Pasted image 20250412132500.png",
+    "PNPT/WPE/Resources.md",
+    "PNPT/assets/Pasted image 20250412132042.png",
+    "PNPT/assets/Pasted image 20250412132026.png",
+    "PNPT/WPE/Kernal Exploits",
+    "PNPT/WPE/Enumeration/AV and FW Enumeration.md",
+    "PNPT/WPE/Enumeration/Password Enumeration.md",
+    "PNPT/WPE/Enumeration/Network Enumeration.md",
+    "PNPT/WPE/Enumeration/User Enumeration.md",
+    "PNPT/WPE/Enumeration/System Enumeration.md",
+    "PNPT/WPE/Initial Foothold.md",
+    "PNPT/WPE/Enumeration",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Mitigation.md",
+    "PNPT/WPE",
+    "PNPT/OSINT/Writing OSINT Report.md",
+    "PNPT/OSINT/OSNIT Case Studies/Cooking Tutorials.md",
+    "PNPT/OSINT/OSNIT Case Studies/Influencer Home Tours.md",
+    "PNPT/OSINT/OSNIT Case Studies/The Final Hours of Pop Smoke.md",
+    "PNPT/OSINT/OSNIT Case Studies",
+    "PNPT/OSINT/OSINT Challenges/Challenge Walkthrough.md",
+    "PNPT/OSINT/OSINT Challenges/Course Challenge.md",
+    "PNPT/OSINT/Social Media OSINT/Reddit OSINT.md",
+    "PNPT/OSINT/People OSINT/Searching for People.md",
+    "PNPT/OSINT/People OSINT/Phone Numbers.md",
+    "PNPT/OSINT/People OSINT/Discovering Birthdates.md",
+    "PNPT/OSINT/People OSINT/Searching Resumes.md",
     "PNPT/OSINT/Hunting Businesses.md",
-    "PNPT/OSINT/OSINT Automation/Automating Website OSINT.md",
-    "PNPT/assets/Pasted image 20250411165251.png",
-    "PNPT/OSINT/OSINT Tools, Lab/Other Tools.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 2 + Subdomains.md",
+    "PNPT/OSINT/OSINT Challenges",
     "PNPT/OSINT/OSINT Automation",
-    "PNPT/assets/Pasted image 20250411163453.png",
-    "PNPT/OSINT/OSINT Tools, Lab/OSINT Frameworks.md",
-    "PNPT/assets/Pasted image 20250411162445.png",
-    "PNPT/assets/Pasted image 20250411162438.png",
-    "PNPT/assets/Pasted image 20250411162331.png",
-    "PNPT/assets/Pasted image 20250411162324.png",
-    "PNPT/assets/Pasted image 20250411162246.png",
-    "PNPT/assets/Pasted image 20250411161952.png",
-    "PNPT/assets/Pasted image 20250411161624.png",
-    "PNPT/assets/Pasted image 20250411160958.png",
-    "PNPT/OSINT/OSINT Tools, Lab/Social Media OSINT.md",
-    "PNPT/OSINT/OSINT Tools, Lab/Phone Number OSINT.md",
-    "PNPT/OSINT/OSINT Tools, Lab/Username and Account OSINT.md",
-    "PNPT/OSINT/OSINT Tools, Lab/Email Hunting and Breached data.md",
-    "PNPT/OSINT/OSINT Tools, Lab/Image and Location OSINT.md",
-    "PNPT/OSINT/Wireless OSINT.md",
     "PNPT/OSINT/OSINT Tools, Lab",
     "PNPT/PEH_Notes.zip",
-    "PNPT/OSINT/Website OSINT/Untitled.md",
-    "PNPT/OSINT/Website OSINT/Website OSINT Part - 1.md",
-    "PNPT/OSINT/Website OSINT/Website OSINT Part - 3 Tools.md",
-    "PNPT/OSINT/Social Media OSINT/TikTok OSINT.md",
-    "PNPT/OSINT/Website OSINT",
-    "2025-03-30.md",
-    "Untitled.md",
-    "2025-04-04.md",
-    "www.fakenamegenerator.com.md",
-    "www.dehashed.com.md",
-    "www.weleakinfo.to.md",
-    "PNPT/OSINT/Social Media OSINT/Linkedin OSINT.md",
-    "PNPT/OSINT/Social Media OSINT",
-    "PNPT/OSINT/People OSINT",
-    "PNPT/OSINT/Image OSINT",
-    "PNPT/PNPT.tar.gz",
-    "PNPT/OSINT",
-    "PNPT/PEH/Report Writing and Documents"
+    "PNPT/OSINT/Website OSINT"
   ]
 }

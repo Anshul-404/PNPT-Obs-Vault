@@ -1,0 +1,17 @@
+# Commands
+---
+- `systeminfo`
+	- ![[Pasted image 20250412114955.png]]
+- **Grepping** using `findstr`
+	- `systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"`
+	- ![[Pasted image 20250412115100.png]]
+- `hostname`
+- **Find Patches information**:
+	- `wmic qfe`, `wmic qfe Caption,Description,HotFixID,InstalledOn`
+		- **Windows Management Instrumentation CommandLine**: Quick Fix Engineering
+		- ![[Pasted image 20250412115254.png]]
+- **List out drives**
+	- `wmic logicaldisk`
+	- `wmic logicaldisk get caption,description,providername`
+	- `wmic logicaldisk get caption`
+		- ![[Pasted image 20250412115456.png]]
