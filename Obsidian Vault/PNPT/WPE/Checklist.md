@@ -1,0 +1,5 @@
+- [[Resources]]
+- Quick Wins : `history`
+- Web Enum : `check for sql injection first`
+- We can use `wmiexec`or `smbexec`:
+	- ![[Pasted image 20250414165623.png]]

