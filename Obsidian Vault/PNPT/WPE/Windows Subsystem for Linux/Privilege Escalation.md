@@ -28,5 +28,5 @@
 
 # If Antivirus Blocks
 ---
-- We can use `wmiexec`or `smbexec`:
+- ==We can use `wmiexec`or `smbexec`:==
 	- ![[Pasted image 20250414165623.png]]

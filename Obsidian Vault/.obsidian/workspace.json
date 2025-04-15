@@ -4,52 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "e7ab5d0bceab6d3b",
+        "id": "f45338b01469e670",
         "type": "tabs",
         "children": [
           {
-            "id": "7011c77cc3c588fd",
+            "id": "f9df42536c8a296a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/WPE/Windows Subsystem for Linux/Privilege Escalation.md",
+                "file": "PNPT/WPE/Impersonation and Potato/Jeeves- Information.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Privilege Escalation"
+              "title": "Jeeves- Information"
             }
           },
           {
-            "id": "7191fd9f0ad3452e",
+            "id": "e86b00eaa7de1948",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/WPE/Resources.md",
+                "file": "PNPT/WPE/RunAs/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resources"
-            }
-          },
-          {
-            "id": "a55928d17e4acb33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/WPE/Checklist.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Checklist"
+              "title": "Introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,44 +196,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7011c77cc3c588fd",
+  "active": "e86b00eaa7de1948",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250414170532.png",
-    "PNPT/WPE/Windows Subsystem for Linux/Encoded Powershell Reverse Shell.md",
-    "PNPT/WPE/Windows Subsystem for Linux/Tyler Enumeration.md",
-    "PNPT/WPE/Windows Subsystem for Linux/Initial Foothold.md",
-    "PNPT/WPE/Windows Subsystem for Linux/Privilege Escalation.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
-    "PNPT/WPE/Resources.md",
+    "PNPT/WPE/Impersonation and Potato/Privilege Escalation.md",
+    "PNPT/WPE/RunAs/Introduction.md",
+    "PNPT/WPE/RunAs",
+    "PNPT/WPE/GetSystem.md",
+    "PNPT/WPE/Escalation via Stored Passwords/Alternate Data Streams.md",
+    "PNPT/assets/Pasted image 20250415163055.png",
+    "PNPT/assets/Pasted image 20250415163001.png",
+    "PNPT/WPE/Impersonation and Potato/Groovy Reverse Shell.md",
     "PNPT/WPE/Checklist.md",
-    "PNPT/WPE/Initial Foothold.md",
-    "PNPT/assets/Pasted image 20250414165623.png",
-    "PNPT/assets/Pasted image 20250414165526.png",
-    "PNPT/assets/Pasted image 20250414165409.png",
-    "PNPT/assets/Pasted image 20250414165408.png",
-    "PNPT/assets/Pasted image 20250414164532.png",
-    "PNPT/assets/Pasted image 20250414164330.png",
-    "PNPT/assets/Pasted image 20250414164329.png",
-    "PNPT/assets/Pasted image 20250414164229.png",
-    "PNPT/assets/Pasted image 20250414164104.png",
-    "PNPT/assets/Pasted image 20250414164036.png",
-    "PNPT/WPE/Enumeration/AV and FW Enumeration.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Evil-Winrm.md",
+    "PNPT/WPE/Windows Subsystem for Linux/Privilege Escalation.md",
+    "PNPT/assets/Pasted image 20250415162121.png",
+    "PNPT/assets/Pasted image 20250415162105.png",
+    "PNPT/assets/Pasted image 20250415162103.png",
+    "PNPT/assets/Pasted image 20250415155855.png",
+    "PNPT/assets/Pasted image 20250415155046.png",
+    "PNPT/assets/Pasted image 20250415153655.png",
+    "PNPT/assets/Pasted image 20250415153541.png",
+    "PNPT/PEH/Post Exploitation/File Transfer Methods.md",
+    "PNPT/WPE/Enumeration/User Enumeration.md",
+    "PNPT/assets/Pasted image 20250415150752.png",
+    "PNPT/WPE/Impersonation and Potato/Initial Foothold.md",
+    "PNPT/WPE/Impersonation and Potato/Jeeves- Information.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
+    "PNPT/WPE/Impersonation and Potato/Nmap Scan Results.md",
+    "PNPT/WPE/Impersonation and Potato/Potato Attacks Overview.md",
+    "PNPT/WPE/Resources.md",
+    "PNPT/WPE/Impersonation and Potato/Impersonation Privileges Overview.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Overview.md",
+    "PNPT/WPE/Impersonation and Potato/Overview.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Mimikatz/Mimikatz Lab.md",
-    "PNPT/WPE/Enumeration/System Enumeration.md",
-    "PNPT/WPE/Enumeration/Automation Tools.md",
-    "PNPT/WPE/Windows Subsystem for Linux/Nmap Scan Results.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/PTH Mitigations.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Privilege Escalation.md",
-    "PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md",
-    "PNPT/WPE/Kernal Exploits/Kernal Exploitation Manually.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Secretsdump and Cracking.md",
-    "PNPT/THM Boxes/Wreath/Git Server Foothold 10.200.81.150.md",
-    "PNPT/THM Boxes/Wreath/Prod Server Foothold 10.200.81.200.md",
-    "PNPT/WPE/Kernal Exploits/Kernel Exploitation Using Metasploit.md",
-    "PNPT/WPE/Kernal Exploits/Information.md",
-    "PNPT/WPE/Escalation via Stored Passwords/Initial Foothold.md",
-    "PNPT/WPE/Windows Subsystem for Linux/SecNotes - Information.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Mimikatz/Mimikatz Overview.md",
+    "PNPT/WPE/Windows Subsystem for Linux/Tyler Enumeration.md",
+    "PNPT/WPE/Impersonation and Potato",
+    "PNPT/WPE/Windows Subsystem for Linux/Encoded Powershell Reverse Shell.md",
+    "PNPT/WPE/Windows Subsystem for Linux/Initial Foothold.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
+    "PNPT/WPE/Initial Foothold.md",
+    "PNPT/WPE/Enumeration/AV and FW Enumeration.md",
     "PNPT/WPE/Windows Subsystem for Linux",
     "PNPT/WPE/Escalation via Stored Passwords",
     "PNPT/WPE/Passwords and Port Forwarding",
@@ -252,8 +243,6 @@
     "PNPT/WPE/Enumeration",
     "PNPT/WPE",
     "PNPT/OSINT/OSNIT Case Studies",
-    "PNPT/OSINT/OSINT Challenges",
-    "PNPT/OSINT/OSINT Automation",
-    "PNPT/OSINT/OSINT Tools, Lab"
+    "PNPT/OSINT/OSINT Challenges"
   ]
 }

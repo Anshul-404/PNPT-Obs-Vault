@@ -3,3 +3,7 @@
 - Web Enum : `check for sql injection first`
 - We can use `wmiexec`or `smbexec`:
 	- ![[Pasted image 20250414165623.png]]
+- Privileges tokens: (Service accounts are prime targets of these)
+	- https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/#eop-impersonation-privileges
+- If **potato attack is found, try that first**
+- Alternate Data Streams: https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/ [[Alternate Data Streams]]

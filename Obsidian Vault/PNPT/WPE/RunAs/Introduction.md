@@ -1,0 +1,1 @@
+- Let's you **run command as someone else** (similar to sudo -l)

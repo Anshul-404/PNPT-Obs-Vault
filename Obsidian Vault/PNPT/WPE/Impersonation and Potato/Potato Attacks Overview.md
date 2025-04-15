@@ -1,0 +1,5 @@
+- **==Service accounts are prime targets of these==**
+- Also called, `SeAssignPrimaryToken`
+- https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
+- ![[Pasted image 20250415142416.png]]
+- 

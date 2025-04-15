@@ -15,7 +15,7 @@ We got access as `tyler`from [[PNPT/WPE/Windows Subsystem for Linux/Initial Foot
 	![[Pasted image 20250414140747.png]]
 - Access the shares:
 	- ![[Pasted image 20250414141009.png]]
-	- These look like default **IIS server files for windows**. We know there is an **IIS server running on port 8808** from nmap scan [[Nmap Scan Results]]
+	- These look like default **IIS server files for windows**. We know there is an **IIS server running on port 8808** from nmap scan [[PNPT/WPE/Windows Subsystem for Linux/Nmap Scan Results]]
 	- We can `put` files
 		- ![[Pasted image 20250414141216.png]]
 		-  Let's see if we can get a shell by putting an aspx shell here.
