@@ -4,9 +4,12 @@
 **Cookies**:
 ![[Pasted image 20250412122607.png]]
 
-# If linpeas fails, get creative :) Try all the other options
+# If winpeas fails, get creative :) Try all the other options
 ---
 - `powerup.ps1`
+	- `powershell -ep bypass`
+	- `. .\PowerUp.ps1`=> **==Space Is Important here
+	- `Invoke-AllChecks`
 - `run post/multi/recon/local_exploit_suggester`
 - `windows-exploit-suggestor.py` 
 	- Save `systeminfo` information into a file **on local machine**
