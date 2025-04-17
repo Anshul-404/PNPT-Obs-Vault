@@ -1,0 +1,4 @@
+- Similar to `Autorun`[[PNPT/WPE/Autorun/Exploitation|Exploitation]]
+- **When we boot our machine, this application starts**
+- If **we can modify this application executable file, we can get an elevated shell**
+- Probably won't see in exam, but if else fails, worth a try.

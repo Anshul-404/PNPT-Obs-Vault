@@ -1,0 +1,1 @@
+- If we can **manipulate service executable with "FILE_ALL_ACCESS"** permission on it, we are able to replace the executable with malicious one and escalate.
