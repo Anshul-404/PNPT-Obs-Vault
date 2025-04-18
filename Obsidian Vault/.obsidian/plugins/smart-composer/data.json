@@ -56,10 +56,10 @@
       "providerId": "anthropic",
       "id": "claude-3.7-sonnet-thinking",
       "model": "claude-3-7-sonnet-latest",
+      "enable": true,
       "thinking": {
         "budget_tokens": 8192
-      },
-      "enable": true
+      }
     },
     {
       "providerType": "anthropic",
@@ -199,8 +199,8 @@
       "model": "morph-v0"
     },
     {
-      "providerId": "groq",
       "providerType": "groq",
+      "providerId": "groq",
       "id": "69",
       "model": "llama-3.3-70b-versatile"
     }

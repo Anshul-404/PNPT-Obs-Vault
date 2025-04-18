@@ -8,7 +8,7 @@
 - `reg query HKLM /f password /t REG_SZ /s`
 - `reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"`
 ![[Pasted image 20250413161756.png]]
-![[Pasted image 20250413161817.
+![[Pasted image 20250413161817.png]]
 
 
 # Port Forwarding Using Plink.exe

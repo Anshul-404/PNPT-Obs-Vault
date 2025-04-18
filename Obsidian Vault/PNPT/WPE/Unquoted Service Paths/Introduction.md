@@ -1,0 +1,9 @@
+- If we have a service whose **service binary's path is not enclosed within quotes AND contains a space** 
+- **==This binary is runs as system when the service starts==**
+- ![[Pasted image 20250418160615.png]]
+- Windows will go through each of the strings in the path separated with space and try to find the executable. For example :-
+	- `C:\Program.exe`
+	- `C:\Program Files\Unquoted.exe`
+	- `C:\Program Files\Unquoted Path.exe`
+	- `C:\Program Files\Unquoted Path Service\Common.exe`
+	- `.....`And so on
