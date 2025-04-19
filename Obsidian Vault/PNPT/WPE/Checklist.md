@@ -6,4 +6,11 @@
 - Privileges tokens: (Service accounts are prime targets of these)
 	- https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/#eop-impersonation-privileges
 - If **potato attack is found, try that first**
+- Then **binpath / unquoted service paths**
 - Alternate Data Streams: https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/ [[Alternate Data Streams]]
+
+- **==Powershell stuck while trying to run `PowerUp.ps1`==**:
+	- **At the end of `PowerUp.ps1`file, add `Invoke-AllChecks`**, so this function is called automatically when `PowerUp.ps1`file is loaded
+	- Then run this from `cmd.exe`:
+		- **`powershell -ep bypass .\PowerUp.ps1`**
+- **Look through Browser (internet explorer, etc) history**

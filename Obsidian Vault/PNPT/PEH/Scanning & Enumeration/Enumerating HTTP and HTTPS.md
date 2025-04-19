@@ -26,6 +26,7 @@
 
 - **Directory Bruteforcing with Dirbuster / Gobuster**
 ---
+- **==Good to include extensions: `php,txt,zip`and `asp, aspx`for windows==**
 - Look for interesting files, directories and status codes
 - ![[Pasted image 20250324141202.png]]
 - This reveals `usage_20090.html` file.

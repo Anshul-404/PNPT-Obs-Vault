@@ -1,5 +1,6 @@
 - **==Service accounts are prime targets of these==**
 - Also called, `SeAssignPrimaryToken`
+	- ==Note:- Though some potato attacks need the `SeImpersonatePrivilege`or `SeAssignPrimaryToken`, potato attacks like `Tater`or `Hot Potato`might work without it==
+		- [[THM - Tater, Hot Potato]]
 - https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
 - ![[Pasted image 20250415142416.png]]
-- 

