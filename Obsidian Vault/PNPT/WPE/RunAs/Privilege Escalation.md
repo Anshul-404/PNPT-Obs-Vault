@@ -1,5 +1,4 @@
 - **`cmdkey /list`** or from winPEAS [[Internal Enumeration]]
-- Note:- Sometimes it does not
 
 # Command:
 ---

@@ -1,12 +1,19 @@
 - [[Resources]]
-- Quick Wins : `history`
-- Web Enum : `check for sql injection first`
+- **==Upgrade from `administrators`group to `NT Authority / System`==**[[Administrator Group To SYSTEM]]
+- Quick Wins :
+	- `history`
+	- ==On older windows : `Windows 7 , Windows 2008 Server`: Kernel Exploits==
+- Web Enum :
+	- Check version exploits first then
+	- check for sql injection
 - We can use `wmiexec`or `smbexec`:
 	- ![[Pasted image 20250414165623.png]]
 - Privileges tokens: (Service accounts are prime targets of these)
 	- https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/#eop-impersonation-privileges
 - If **potato attack is found, try that first**
+	- **Chimichurry : MS10-059**
 - Then **binpath / unquoted service paths**
+- **==Make sure that exploit uses correct architecture or we get errors like `WOW64`==** in metasploit modules
 - Alternate Data Streams: https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/ [[Alternate Data Streams]]
 
 - **==Powershell stuck while trying to run `PowerUp.ps1`==**:
@@ -14,3 +21,6 @@
 	- Then run this from `cmd.exe`:
 		- **`powershell -ep bypass .\PowerUp.ps1`**
 - **Look through Browser (internet explorer, etc) history**
+- ==**Look in "AppData/Local/" for saved credentials in files**==
+- ==**Look in both "Program Files" and "Program File (x86)" for unusual apps==**
+- ==**Use responder to capture hashes (works if we have MSSQL, etc session where we are running as some other user and we can access our shares) and try to access our poisoned share**==

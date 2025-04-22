@@ -11,4 +11,5 @@
 - `use multi/script/web_delivery`
 - ![[Pasted image 20250419171228.png]]
 
-Note:- Though we are `SYSTEM`, we are not able to `cd` into `Administrator`folder
+Note:- **Though we are `NT AUTHORITY`, we are not able to `cd` into `Administrator`folder** because
+	It is a **low-privileged built-in IIS account** (Internet Information Services).

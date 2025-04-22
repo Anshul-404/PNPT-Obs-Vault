@@ -4,55 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "233703b3af0fc5ba",
+        "id": "08f0b312c2a355d5",
         "type": "tabs",
         "children": [
           {
-            "id": "61e40dab565823db",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/WPE/Capstones/Bastard - HTB/Information.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Information"
-            }
-          },
-          {
-            "id": "184e15940a42cb49",
+            "id": "e3d83e956bde8ea4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/WPE/Capstones/Bastard - HTB/Nmap Scan.md",
+                "file": "PNPT/WPE/Capstones/Alfred - THM/Nmap Results.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap Scan"
-            }
-          },
-          {
-            "id": "edd97ff7b1c57014",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/WPE/Capstones/Bastard - HTB/Initial Foothold.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Initial Foothold"
+              "title": "Nmap Results"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.51103591918945
+    "width": 345.51103591918945
   },
   "right": {
     "id": "d52752b75cdc265e",
@@ -212,53 +181,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "edd97ff7b1c57014",
+  "active": "e3d83e956bde8ea4",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250419171228.png",
-    "PNPT/assets/Pasted image 20250419170830.png",
-    "PNPT/WPE/Capstones/Bastard - HTB/Enumeration.md",
+    "PNPT/WPE/Capstones/Alfred - THM/Initial Foothold.md",
+    "PNPT/WPE/Capstones/Alfred - THM/Jenkins Groovy Shell.md",
+    "PNPT/WPE/Capstones/Alfred - THM/Privilege Escalation.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Privilege Escalation.md",
+    "PNPT/assets/Pasted image 20250422172703.png",
     "PNPT/WPE/Capstones/Bastard - HTB/Initial Foothold.md",
-    "PNPT/assets/Pasted image 20250419170657.png",
-    "PNPT/assets/Pasted image 20250419170602.png",
-    "PNPT/assets/Pasted image 20250419170450.png",
-    "PNPT/WPE/Capstones/Bastard - HTB/Information.md",
-    "PNPT/WPE/Capstones/Bastard - HTB/Nmap Scan.md",
-    "PNPT/WPE/Capstones/Bastard - HTB",
-    "PNPT/PEH/Post Exploitation/File Transfer Methods.md",
-    "PNPT/WPE/DLL Hijacking/Exploitation.md",
-    "PNPT/WPE/Capstones/Arctic - HTB/Information.md",
-    "PNPT/WPE/Capstones/Arctic - HTB/Privilege Escalation.md",
-    "PNPT/assets/Pasted image 20250419162221.png",
-    "PNPT/assets/Pasted image 20250419162212.png",
-    "PNPT/assets/Pasted image 20250419162108.png",
-    "PNPT/WPE/Capstones/Arctic - HTB/Initial Foothold.md",
-    "PNPT/WPE/DLL Hijacking/Introduction.md",
-    "PNPT/assets/Pasted image 20250419160905.png",
-    "PNPT/WPE/Unquoted Service Paths/Exploitation.md",
-    "PNPT/WPE/Executable Files - Service Escalation/Exploitation.md",
-    "PNPT/WPE/Binary paths (bin path)/Exploitation.md",
-    "PNPT/assets/Pasted image 20250419155312.png",
-    "PNPT/assets/Pasted image 20250419155149.png",
-    "PNPT/WPE/Capstones/Arctic - HTB/Nmap Scan.md",
-    "PNPT/WPE/Capstones/Arctic - HTB/Enumeration.md",
-    "PNPT/WPE/Capstones/Machines TODO.md",
-    "PNPT/WPE/Capstones/Arctic - HTB",
-    "PNPT/WPE/Capstones/Untitled.md",
-    "PNPT/WPE/CVE-2019-1388/Privilege Escalation.md",
-    "PNPT/WPE/Capstones",
+    "PNPT/WPE/Resources.md",
     "PNPT/WPE/Checklist.md",
-    "PNPT/PEH/Scanning & Enumeration/Enumerating HTTP and HTTPS.md",
-    "PNPT/WPE/CVE-2019-1388/Initial Foothold.md",
-    "PNPT/WPE/CVE-2019-1388/Enumeration.md",
-    "PNPT/WPE/CVE-2019-1388/Blaster - Information.md",
-    "PNPT/WPE/CVE-2019-1388/Nmap Scan.md",
-    "PNPT/WPE/CVE-2019-1388/Overview.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Enumeration.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Nmap Scan.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Information.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Privilege Escalation.md",
+    "PNPT/WPE/Capstones/Querier - HTB/Information.md",
+    "PNPT/WPE/Capstones/Bastion - HTB/Privilege Escalation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Initial Foothold.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Enumeration.md",
+    "PNPT/WPE/Capstones/Bastion - HTB/Initial Foothold.md",
+    "PNPT/WPE/Capstones/Bastion - HTB/Enumeration.md",
+    "PNPT/WPE/Capstones/Bastion - HTB/Nmap Results.md",
+    "PNPT/WPE/Capstones/Bastion - HTB/Information.md",
+    "PNPT/assets/Pasted image 20250422161534.png",
+    "PNPT/assets/Pasted image 20250422161458.png",
+    "PNPT/WPE/Capstones/Querier - HTB/Privilege Escalation.md",
+    "PNPT/assets/Pasted image 20250422160857.png",
+    "PNPT/assets/Pasted image 20250422160712.png",
+    "PNPT/assets/Pasted image 20250422160634.png",
+    "PNPT/assets/Pasted image 20250422160601.png",
+    "PNPT/assets/Pasted image 20250422160422.png",
+    "PNPT/assets/Pasted image 20250422160305.png",
+    "PNPT/WPE/Capstones/Querier - HTB/mssql-svc (Capturing Hash Using responder).md",
+    "PNPT/assets/Pasted image 20250422160059.png",
+    "PNPT/WPE/Capstones/Querier - HTB/Initial Foothold.md",
+    "PNPT/WPE/Capstones/Querier - HTB/Enumeration.md",
+    "PNPT/WPE/Administrator Group To SYSTEM.md",
+    "PNPT/WPE/Sensitive Directories.md",
+    "PNPT/WPE/Capstones/Querier - HTB",
+    "PNPT/WPE/Capstones/Bastion - HTB",
+    "PNPT/WPE/Capstones/Alfred - THM",
+    "PNPT/WPE/Capstones/Bastard - HTB",
+    "PNPT/WPE/Capstones/Arctic - HTB",
+    "PNPT/WPE/Capstones",
     "PNPT/WPE/CVE-2019-1388",
     "PNPT/THM Boxes/SteelMountain",
     "PNPT/Untitled",
-    "PNPT/WPE/Unquoted Service Paths",
-    "PNPT/WPE/Binary paths (bin path)",
-    "PNPT/WPE/DLL Hijacking",
-    "PNPT/assets/program 1.exe"
+    "PNPT/WPE/Unquoted Service Paths"
   ]
 }

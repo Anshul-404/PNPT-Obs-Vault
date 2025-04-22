@@ -1,0 +1,2 @@
+- Machine does not respond to pings
+- IP Address: `10.10.146.160`
