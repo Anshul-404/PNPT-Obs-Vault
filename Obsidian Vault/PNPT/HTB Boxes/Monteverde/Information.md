@@ -1,0 +1,4 @@
+- IP: `10.10.10.172`
+- Domain Name: `MEGABANK.LOCAL`
+-  `SABatchJobs` : `SABatchJobs`
+- `mhope` : `4n0therD4y@n0th3r$`

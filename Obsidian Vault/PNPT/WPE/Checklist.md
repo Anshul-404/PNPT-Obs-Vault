@@ -14,6 +14,8 @@
 	- **Chimichurry : MS10-059**
 - Then **binpath / unquoted service paths**
 - **==Make sure that exploit uses correct architecture or we get errors like `WOW64`==** in metasploit modules
+	- Upload the normal shell first like (shell/reverse_tcp) then try the x64 one if directly x64 doesn't work or vice versa
+	- ==**Migrate to svchost.exe**, try multiple ones with other pids==
 - Alternate Data Streams: https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/ [[Alternate Data Streams]]
 
 - **==Powershell stuck while trying to run `PowerUp.ps1`==**:
@@ -24,3 +26,8 @@
 - ==**Look in "AppData/Local/" for saved credentials in files**==
 - ==**Look in both "Program Files" and "Program File (x86)" for unusual apps==**
 - ==**Use responder to capture hashes (works if we have MSSQL, etc session where we are running as some other user and we can access our shares) and try to access our poisoned share**==
+
+- **If no direct / easy wins then DIG deeper, find for hidden credentials, files, services, executable, scripts, etc**:
+	- ==Can look for dates for files that were recently updated/created==
+	- ==RecycleBin==
+	- ==AppData/Local/SomeApplication/stored_credentials.xml,conf,etc==

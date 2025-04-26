@@ -45,6 +45,8 @@ Spawns a new elevated Meterpreter session using token duplication techniques.
 
 - Ensure that you **migrate to a process with correct permissions** (the above question's answer). The safest process to pick is the **services.exe process**. First, use the _ps_ command to view processes and find the PID of the services.exe process. Migrate to this process using the command _migrate PID-OF-PROCESS_
 
+- ==**Migrate to svchost.exe**, try multiple ones with other pids==
+
 ## ✅ Verify Elevation
 
 ```powershell

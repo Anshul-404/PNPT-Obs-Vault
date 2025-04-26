@@ -25,3 +25,11 @@
 	- `list_tokens -u`
 	- `impersonate_token "NT AUTHORITY\\SYSTEM"`
 		- ![[Pasted image 20250422160857.png]]
+
+
+# Vulnerable Service - Method 2
+---
+- Binary Path Exploitation
+![[Pasted image 20250423161053.png]]
+![[Pasted image 20250423161125.png]]
+![[Pasted image 20250423161153.png]]
