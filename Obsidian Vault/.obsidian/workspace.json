@@ -4,20 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "5ac125c7c25655d0",
+        "id": "014bab097cf8e42c",
         "type": "tabs",
         "children": [
           {
-            "id": "45653720d8f52465",
+            "id": "518ecb272aa26fba",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/HTB Boxes/Devel/Information.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Information"
+            }
+          },
+          {
+            "id": "17fe2fa33d69d499",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/HTB Boxes/Devel/Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Privilege Escalation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,53 +198,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45653720d8f52465",
+  "active": "17fe2fa33d69d499",
   "lastOpenFiles": [
+    "PNPT/assets/Pasted image 20250426161530.png",
+    "PNPT/assets/Pasted image 20250426161453.png",
+    "PNPT/assets/Pasted image 20250426161408.png",
+    "PNPT/HTB Boxes/Devel/Information.md",
+    "PNPT/HTB Boxes/Devel/Privilege Escalation.md",
+    "PNPT/HTB Boxes/Devel/Initial Foothold.md",
+    "PNPT/assets/Pasted image 20250426160632.png",
+    "PNPT/assets/Pasted image 20250426160625.png",
+    "PNPT/HTB Boxes/Devel/Enumeration.md",
+    "PNPT/assets/Pasted image 20250426160113.png",
+    "PNPT/assets/Pasted image 20250426155949.png",
+    "PNPT/assets/Pasted image 20250426155832.png",
+    "PNPT/assets/Pasted image 20250426155617.png",
+    "PNPT/HTB Boxes/Devel/Nmap Scans.md",
+    "PNPT/HTB Boxes/Active/Information.md",
+    "PNPT/HTB Boxes/Devel",
+    "PNPT/LPE",
+    "PNPT/OSINT/Untitled",
+    "PNPT/HTB Boxes/Active/Full Exploitation.md",
+    "PNPT/assets/Pasted image 20250426154413.png",
+    "PNPT/assets/Pasted image 20250426154322.png",
+    "PNPT/HTB Boxes/Active/Nmap Results.md",
+    "PNPT/HTB Boxes/Legacy/Enumeration.md",
+    "PNPT/HTB Boxes/Legacy/Information.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
+    "PNPT/HTB Boxes/Active",
+    "PNPT/HTB Boxes/Legacy",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
+    "PNPT/HTB Boxes/Blackfield/Initial Foothold.md",
+    "PNPT/HTB Boxes/Blackfield/Privilege Escalation.md",
+    "PNPT/HTB Boxes/Forest/Privilege Escalation.md",
+    "PNPT/HTB Boxes/Monteverde/Initial Foothold.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack/Printer Hacking.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration/Finding Accounts using LDAP.md",
     "PNPT/HTB Boxes/Blackfield/Information.md",
     "PNPT/WPE/Resources.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Backup OPs, Account Ops, Exchange Wind Perms.md",
-    "PNPT/HTB Boxes/Forest/Privilege Escalation.md",
     "PNPT/HTB Boxes/Monteverde/Privilege Escalation.md",
-    "PNPT/HTB Boxes/Blackfield/Privilege Escalation.md",
-    "PNPT/assets/Pasted image 20250426051125.png",
-    "PNPT/assets/Pasted image 20250426051003.png",
-    "PNPT/assets/Pasted image 20250426050753.png",
-    "PNPT/assets/Pasted image 20250426050523.png",
-    "PNPT/HTB Boxes/Blackfield/Initial Foothold.md",
-    "PNPT/assets/Pasted image 20250426045431.png",
-    "PNPT/assets/Pasted image 20250426045429.png",
     "PNPT/HTB Boxes/Blackfield/Enumeration.md",
-    "PNPT/assets/Pasted image 20250426045303.png",
-    "PNPT/assets/Pasted image 20250426044931.png",
-    "PNPT/HTB Boxes/Blackfield/Nmap Results.md",
-    "PNPT/PEH/Scanning & Enumeration/Scanning & Enumeration.md",
-    "PNPT/assets/Pasted image 20250426024412.png",
-    "PNPT/assets/Pasted image 20250426024339.png",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
     "PNPT/HTB Boxes/Blackfield",
-    "PNPT/HTB Boxes/Monteverde/Information.md",
-    "PNPT/HTB Boxes/Monteverde/Enumeration.md",
-    "PNPT/HTB Boxes/Monteverde/Initial Foothold.md",
-    "PNPT/HTB Boxes/Monteverde/Nmap Scans.md",
     "PNPT/HTB Boxes/Monteverde",
-    "PNPT/HTB Boxes/Forest/Information.md",
-    "PNPT/HTB Boxes/Forest/Initial Foothold.md",
     "PNPT/HTB Boxes/Forest/Forest.pdf",
-    "PNPT/HTB Boxes/Forest/Enumeration.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration/Finding Accounts using LDAP.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
-    "PNPT/WPE/Binary paths (bin path)/Exploitation.md",
-    "PNPT/WPE/Autorun/Exploitation.md",
-    "PNPT/WPE/Autorun/Introduction.md",
-    "PNPT/WPE/DLL Hijacking/Exploitation.md",
-    "PNPT/WPE/regsvc ACL/Exploitation.md",
     "PNPT/HTB Boxes/Forest/Untitled",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration",
-    "PNPT/HTB Boxes/Forest",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/ASREP Roasting",
-    "PNPT/HTB Boxes/Sauna",
-    "PNPT/HTB Boxes",
-    "PNPT/WPE/Capstones/Querier - HTB"
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration"
   ]
 }

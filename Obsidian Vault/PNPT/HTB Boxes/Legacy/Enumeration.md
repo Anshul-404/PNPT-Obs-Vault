@@ -1,0 +1,2 @@
+- Literally use kernel exploit after searching the Windows Version : 5.1
+	- `use exploit/windows/smb/ms08_067_netapi`

@@ -1,0 +1,2 @@
+- IP Address: `10.10.10.100`
+- `SVC_TGS`: `GPPstillStandingStrong2k18`
