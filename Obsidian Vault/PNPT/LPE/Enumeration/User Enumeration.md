@@ -1,0 +1,6 @@
+- `whoami`, `id` => Groups
+- `sudo -l`=> what can we run as sudo without password
+- `/etc/passwd`=> Users
+- `/etc/shadow`=> Passwords
+- `/etc/group`=> Groups
+- ==`history`== => **History (Quick Win)**

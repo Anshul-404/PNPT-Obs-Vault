@@ -4,41 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "014bab097cf8e42c",
+        "id": "036d1fa728485e57",
         "type": "tabs",
         "children": [
           {
-            "id": "518ecb272aa26fba",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/HTB Boxes/Devel/Information.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Information"
-            }
-          },
-          {
-            "id": "17fe2fa33d69d499",
+            "id": "da642e9ed32a6e46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/HTB Boxes/Devel/Privilege Escalation.md",
+                "file": "PNPT/LPE/SUIDs/SUIDs - Environmental Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Privilege Escalation"
+              "title": "SUIDs - Environmental Variables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.51103591918945
+    "width": 307.51103591918945
   },
   "right": {
     "id": "d52752b75cdc265e",
@@ -198,53 +181,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17fe2fa33d69d499",
+  "active": "6e89523cb8d619c0",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250426161530.png",
-    "PNPT/assets/Pasted image 20250426161453.png",
-    "PNPT/assets/Pasted image 20250426161408.png",
-    "PNPT/HTB Boxes/Devel/Information.md",
+    "PNPT/LPE/Capabilities",
+    "PNPT/assets/Pasted image 20250429164748.png",
+    "PNPT/assets/Pasted image 20250429164618.png",
+    "PNPT/assets/Pasted image 20250429163609.png",
+    "PNPT/assets/Pasted image 20250429163524.png",
+    "PNPT/assets/Pasted image 20250429163522.png",
+    "PNPT/assets/Pasted image 20250429163428.png",
+    "PNPT/assets/Pasted image 20250429162957.png",
+    "PNPT/assets/Pasted image 20250429162919.png",
+    "PNPT/assets/Pasted image 20250429162833.png",
+    "PNPT/assets/Pasted image 20250429162802.png",
+    "PNPT/LPE/SUIDs/SUIDs - Binary Symlinks.md",
+    "PNPT/LPE/SUIDs/SUIDs - Environmental Variables.md",
+    "PNPT/LPE/SUIDs/SUIDs - Shared Object Injection.md",
+    "PNPT/LPE/SUIDs/SUIDs - GTFOBins(able).md",
+    "PNPT/LPE/SUIDs",
+    "PNPT/LPE/Tips & Resources.md",
+    "PNPT/LPE/Sudo Escalation/CVE-2019-14287  ALL=(ALL,!root).md",
+    "PNPT/LPE/Sudo Escalation/CVE-2019-18634 Asterisks Passwords .pwfeedback.md",
+    "PNPT/LPE/Sudo Escalation/Challenge - EasyCTF.md",
+    "PNPT/LPE/Sudo Escalation/LD_PRELOAD.md",
+    "PNPT/LPE/Sudo Escalation/Intended Functionality.md",
+    "PNPT/LPE/Sudo Escalation/Sudo Shell Escaping.md",
+    "PNPT/LPE/Passwords & File Permissions/SSH Keys Exploitation.md",
+    "PNPT/LPE/Sudo Escalation",
+    "PNPT/LPE/Passwords & File Permissions/File Permissions Exploitation.md",
+    "PNPT/LPE/Passwords & File Permissions/Passwords.md",
+    "PNPT/LPE/Passwords & File Permissions/Passwords Exploitation.md",
+    "PNPT/LPE/Kernel Exploits/Exploitation.md",
+    "PNPT/LPE/Passwords & File Permissions",
+    "PNPT/LPE/Kernel Exploits/Resources.md",
+    "PNPT/LPE/Enumeration/Automated Tools.md",
+    "PNPT/LPE/Kernel Exploits",
+    "PNPT/LPE/Enumeration/Password Hunting.md",
+    "PNPT/LPE/Enumeration/Network Enumeration.md",
+    "PNPT/LPE/Enumeration/Password Huntung",
+    "PNPT/LPE/Enumeration/User Enumeration.md",
+    "PNPT/LPE/Enumeration/System Enumeration.md",
+    "PNPT/LPE/Enumeration",
     "PNPT/HTB Boxes/Devel/Privilege Escalation.md",
     "PNPT/HTB Boxes/Devel/Initial Foothold.md",
-    "PNPT/assets/Pasted image 20250426160632.png",
-    "PNPT/assets/Pasted image 20250426160625.png",
-    "PNPT/HTB Boxes/Devel/Enumeration.md",
-    "PNPT/assets/Pasted image 20250426160113.png",
-    "PNPT/assets/Pasted image 20250426155949.png",
-    "PNPT/assets/Pasted image 20250426155832.png",
-    "PNPT/assets/Pasted image 20250426155617.png",
-    "PNPT/HTB Boxes/Devel/Nmap Scans.md",
-    "PNPT/HTB Boxes/Active/Information.md",
+    "PNPT/HTB Boxes/Devel/Information.md",
     "PNPT/HTB Boxes/Devel",
     "PNPT/LPE",
     "PNPT/OSINT/Untitled",
-    "PNPT/HTB Boxes/Active/Full Exploitation.md",
-    "PNPT/assets/Pasted image 20250426154413.png",
-    "PNPT/assets/Pasted image 20250426154322.png",
-    "PNPT/HTB Boxes/Active/Nmap Results.md",
-    "PNPT/HTB Boxes/Legacy/Enumeration.md",
-    "PNPT/HTB Boxes/Legacy/Information.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
-    "PNPT/HTB Boxes/Active",
-    "PNPT/HTB Boxes/Legacy",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
-    "PNPT/HTB Boxes/Blackfield/Initial Foothold.md",
-    "PNPT/HTB Boxes/Blackfield/Privilege Escalation.md",
-    "PNPT/HTB Boxes/Forest/Privilege Escalation.md",
-    "PNPT/HTB Boxes/Monteverde/Initial Foothold.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack/Printer Hacking.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration/Finding Accounts using LDAP.md",
-    "PNPT/HTB Boxes/Blackfield/Information.md",
-    "PNPT/WPE/Resources.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Backup OPs, Account Ops, Exchange Wind Perms.md",
-    "PNPT/HTB Boxes/Monteverde/Privilege Escalation.md",
-    "PNPT/HTB Boxes/Blackfield/Enumeration.md",
-    "PNPT/HTB Boxes/Blackfield",
-    "PNPT/HTB Boxes/Monteverde",
-    "PNPT/HTB Boxes/Forest/Forest.pdf",
-    "PNPT/HTB Boxes/Forest/Untitled",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LDAP Enumeration"
+    "PNPT/HTB Boxes/Active"
   ]
 }

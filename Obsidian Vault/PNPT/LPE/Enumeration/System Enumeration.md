@@ -1,0 +1,11 @@
+- Kernel:
+	- `uname -a`, `cat /proc/version`
+	- For **kernel exploits and architecture**
+- CPU:
+	- `lscpu`
+	- For exploits that might require **`n` number of cores or processors**
+- Services:
+	- `ps auxx`
+	- **What user is running what task or command**
+	- Servers running like web-servers or file servers
+	- `ps auxx | grep root`-> Tasks **running by root user**

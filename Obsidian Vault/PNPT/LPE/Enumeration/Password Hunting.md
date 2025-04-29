@@ -1,0 +1,8 @@
+- ==Look for passwords== with color:
+	- `grep --color=auto -rnw '/ -ie "PASSWORD=" --color=always 2>/dev/null'`
+	- `grep / -iRl password=`
+- Password as file name:
+	- `locate password | more`/ `pass`/ `pwd`
+	- `find`
+- Hunt ssh keys:
+	- `find / -name authorized_keys`, `find / -name id_rsa 2>/dev/null`

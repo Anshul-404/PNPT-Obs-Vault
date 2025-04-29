@@ -1,4 +1,4 @@
-- [[Resources]]
+- [[PNPT/WPE/Resources]]
 - **==Upgrade from `administrators`group to `NT Authority / System`==**[[Administrator Group To SYSTEM]]
 - Quick Wins :
 	- `history`

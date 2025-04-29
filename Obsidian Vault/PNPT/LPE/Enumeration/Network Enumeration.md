@@ -1,0 +1,4 @@
+- `ifconfig`, `ip a`=> Interfaces Information, ==Might have multiple IP addresses for 2 networks *useful for pivoting*==
+- `ip route`=> ==Route to another networks==
+- `arp -a`, `ip neigh`=> ==ARP tables, other addresses or other networks again==
+- `netstat -ano`, `netsta -an`=> ==Open Ports and connected IPs==, ==**Internal Ports**==
