@@ -1,0 +1,5 @@
+- Cronjobs:
+	- `cat /etc/crontab`
+	- `crontab -l`
+- Systemd Timers:
+	- `systemctl list-timers --all`
