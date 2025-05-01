@@ -4,24 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "00866a328d2f997b",
+        "id": "dc7e42c0f991115c",
         "type": "tabs",
         "children": [
           {
-            "id": "bffa5a700d8cb1db",
+            "id": "85116a8ca9aecbf3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/LPE/Capstones/UltraTech - THM/Information.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Information"
+            }
+          },
+          {
+            "id": "8f750252687e15dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/LPE/Cronjobs and Systemd Timers/Cron Wildcards.md",
+                "file": "PNPT/LPE/Capstones/UltraTech - THM/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cron Wildcards"
+              "title": "Privilege Escalation"
+            }
+          },
+          {
+            "id": "759a164296307388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/LPE/Capstones/UltraTech - THM/From Walkthrough.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "From Walkthrough"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,21 +212,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bffa5a700d8cb1db",
+  "active": "759a164296307388",
   "lastOpenFiles": [
-    "PNPT/LPE/Cronjobs and Systemd Timers/Cron file overwrite -Most common.md",
-    "PNPT/assets/Pasted image 20250430155859.png",
-    "PNPT/assets/Pasted image 20250430155842.png",
-    "PNPT/assets/Pasted image 20250430154845.png",
+    "PNPT/assets/Pasted image 20250501170113.png",
+    "PNPT/LPE/Capstones/UltraTech - THM/Initial Foothold.md",
+    "PNPT/LPE/Capstones/UltraTech - THM/From Walkthrough.md",
+    "PNPT/LPE/Capstones/UltraTech - THM/Information.md",
+    "PNPT/LPE/Capstones/UltraTech - THM/Privilege Escalation.md",
+    "PNPT/assets/Pasted image 20250501165502.png",
+    "PNPT/assets/Pasted image 20250501165416.png",
+    "PNPT/assets/Pasted image 20250501165301.png",
+    "PNPT/assets/Pasted image 20250501165157.png",
+    "PNPT/assets/Pasted image 20250501163914.png",
+    "PNPT/assets/Pasted image 20250501163419.png",
+    "PNPT/assets/Pasted image 20250501163248.png",
+    "PNPT/assets/Pasted image 20250501163237.png",
+    "PNPT/assets/Pasted image 20250501163026.png",
+    "PNPT/assets/Pasted image 20250501162850.png",
+    "PNPT/LPE/Capstones/UltraTech - THM/Enumeration.md",
+    "PNPT/LPE/Capstones/UltraTech - THM/Nmap Enumeration.md",
+    "PNPT/LPE/NFS Root Squash/Info and Explotation.md",
+    "PNPT/LPE/Capstones/UltraTech - THM",
+    "PNPT/LPE/Capstones",
+    "PNPT/LPE/Docker",
     "PNPT/LPE/Cronjobs and Systemd Timers/Cron Wildcards.md",
-    "PNPT/assets/Pasted image 20250430154614.png",
-    "PNPT/assets/Pasted image 20250430152724.png",
+    "PNPT/LPE/NFS Root Squash",
+    "PNPT/LPE/Cronjobs and Systemd Timers/Cron file overwrite -Most common.md",
     "PNPT/LPE/Cronjobs and Systemd Timers/Cron Paths.md",
-    "PNPT/assets/Pasted image 20250430152517.png",
-    "PNPT/assets/Pasted image 20250430152454.png",
-    "PNPT/assets/Pasted image 20250430152319.png",
-    "PNPT/assets/Pasted image 20250430152304.png",
-    "PNPT/assets/Pasted image 20250430151653.png",
     "PNPT/LPE/Cronjobs and Systemd Timers/Indroduction.md",
     "PNPT/LPE/Capablities/Exploitation.md",
     "PNPT/LPE/Cronjobs and Systemd Timers",
@@ -216,17 +259,6 @@
     "PNPT/LPE/Sudo Escalation/Sudo Shell Escaping.md",
     "PNPT/LPE/Passwords & File Permissions/SSH Keys Exploitation.md",
     "PNPT/LPE/Sudo Escalation",
-    "PNPT/LPE/Passwords & File Permissions/File Permissions Exploitation.md",
-    "PNPT/LPE/Passwords & File Permissions/Passwords.md",
-    "PNPT/LPE/Passwords & File Permissions/Passwords Exploitation.md",
-    "PNPT/LPE/Kernel Exploits/Exploitation.md",
-    "PNPT/LPE/Passwords & File Permissions",
-    "PNPT/LPE/Kernel Exploits/Resources.md",
-    "PNPT/LPE/Enumeration/Automated Tools.md",
-    "PNPT/LPE/Kernel Exploits",
-    "PNPT/LPE/Enumeration/Password Hunting.md",
-    "PNPT/LPE/Enumeration/Password Huntung",
-    "PNPT/LPE/Enumeration",
-    "PNPT/HTB Boxes/Devel"
+    "PNPT/LPE/Passwords & File Permissions"
   ]
 }
