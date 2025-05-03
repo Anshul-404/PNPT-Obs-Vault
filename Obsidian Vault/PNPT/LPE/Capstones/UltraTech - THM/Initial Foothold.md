@@ -1,4 +1,4 @@
-- Since we can ping our IP, if we can inject our code in IP, we can get a reverse shell [[Enumeration]]
+- Since we can ping our IP, if we can inject our code in IP, we can get a reverse shell [[PNPT/LPE/Capstones/UltraTech - THM/Enumeration]]
 
 # Python reverse shell
 ----
