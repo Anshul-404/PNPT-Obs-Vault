@@ -1,5 +1,5 @@
 [[Gathering Breached Passwords]]
-**==Connect the DOTS (Red Yarm :) )==**
+**==Connect the DOTS (Red Yarn :) )==**
 # Passwords from Breaches
 ---
 - Credentials from breaches like, linkedin, adobe, etc.
