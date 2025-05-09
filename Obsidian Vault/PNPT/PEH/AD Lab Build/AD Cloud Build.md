@@ -30,5 +30,6 @@
 - Instead of relying on public IPs, I added an `Ubuntu` VM with public IP, set it up as OpenVPN Server, now I can directly access any machine from my network without any costs.
 - [Reference](https://gist.github.com/proffapt/15cacf6c0abdd5509e5c1b7d2c7a49ce)
 - OpenVPN Server Public IP : `REDACTED`
+- Credentials: `drasstrange`: `Password!123`
 - We have to configure `Routing Table` and `Route Path` so that AD machines can reach another network i.e `OpenVPN Network`:
 ![[Pasted image 20250328064533.png]]

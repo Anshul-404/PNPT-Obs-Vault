@@ -13,7 +13,7 @@
 	- `impacket-secretsdump pparker:@10.0.1.10 -hashes aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16`
 		- ![[Pasted image 20250329163049.png]]
 
-# Though Process
+# Thought Process
 ---
 - ==We should always try to run the **obtained hashes on other machines** as well to gain access to **new machines** if that admin is present==
 - **Lateral Movement**

