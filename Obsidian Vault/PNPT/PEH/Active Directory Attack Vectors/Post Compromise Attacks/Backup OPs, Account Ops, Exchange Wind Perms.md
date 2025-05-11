@@ -1,2 +1,3 @@
 - Account Operators and Exchange Windows Perms: [[PNPT/HTB Boxes/Forest/Privilege Escalation|Privilege Escalation]]
 - Backup Operators: [[PNPT/HTB Boxes/Blackfield/Privilege Escalation|Privilege Escalation]]
+- Double Click on Owned Users to find paths 

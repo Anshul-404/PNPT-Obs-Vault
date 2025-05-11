@@ -1,0 +1,11 @@
+- Website Requests (Burp Information):
+	- Try changing header from GET to POST, vice versa
+	- Look for requests to another sub.domain.com or hidden directories
+- Nmap Scan:
+	- Using `-sU -p` for UDP
+- Website Dirbusting:
+	- Use website based extensions, like for Apache, use php, for microsoft, use asp, aspx
+- Try SSH / Login Portal Bruteforce with found usernames in External Website
+- LPE / WPE:
+	- Search history as quick win
+- Credential 

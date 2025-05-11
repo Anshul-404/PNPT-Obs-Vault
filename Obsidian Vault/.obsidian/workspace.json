@@ -4,43 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "2762bd57bfb8ead1",
+        "id": "19e9e91736ba8056",
         "type": "tabs",
         "children": [
           {
-            "id": "8442cb79a5e099e9",
+            "id": "33f2ce8b650715bd",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/AD Lab Build/AD Cloud Build Personal.md",
+                "file": "PNPT/PEH/Active Directory Attack Vectors/Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "AD Cloud Build Personal"
+              "title": "Checklist"
             }
           },
           {
-            "id": "b652c62bd2c579b2",
+            "id": "0b354a57d0324a2f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Post Exploitation/Ligolo-NG.md",
+                "file": "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Ligolo-NG"
+              "title": "Pass Attacks Lab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "checklist",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,44 +197,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b652c62bd2c579b2",
+  "active": "33f2ce8b650715bd",
   "lastOpenFiles": [
-    "PNPT/assets/Pasted image 20250509164905.png",
-    "PNPT/assets/Pasted image 20250509164759.png",
-    "PNPT/PEH/AD Lab Build/AD Cloud Build Personal.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
-    "PNPT/PEH/Post Exploitation/Ligolo-NG.md",
-    "PNPT/THM Boxes/Wreath/Prod Server Foothold 10.200.81.200.md",
-    "PNPT/assets/Pasted image 20250509162045.png",
-    "PNPT/assets/Pasted image 20250509161931.png",
-    "PNPT/assets/Pasted image 20250509161837.png",
-    "PNPT/assets/Pasted image 20250509161151.png",
-    "PNPT/THM Boxes/Wreath/Scans/Nmap Scan Result.md",
-    "PNPT/THM Boxes/Wreath/Git Server Foothold 10.200.81.150.md",
-    "PNPT/THM Boxes/Wreath/Pivoting.md",
-    "PNPT/THM Boxes/Wreath/Progress.md",
-    "PNPT/THM Boxes/Wreath/Introduction.md",
-    "PNPT/THM Boxes/Wreath/Enumeration/10.200.81.200.md",
-    "PNPT/assets/Pasted image 20250509155200.png",
-    "PNPT/assets/Pasted image 20250509154740.png",
-    "PNPT/PEH/Post Exploitation/Pivoting.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Checklist.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Secretsdump and Cracking.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/PTH Mitigations.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Privilege Escalation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Evil-Winrm.md",
+    "PNPT/assets/Pasted image 20250510141441.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Plumhound.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Backup OPs, Account Ops, Exchange Wind Perms.md",
+    "PNPT/HTB Boxes/Blackfield/Privilege Escalation.md",
+    "PNPT/HTB Boxes/Forest/Privilege Escalation.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Impacket Tools.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Initial Attack Strategy.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Post-Compromise AD Enumeration.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Post Compromise Strategy.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/LNK File Attacks/LNK File Attacks Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/LNK File Attacks/Linked File Attacks.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post-Domain Compromise Attack/Golden Tickets Attack.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post-Domain Compromise Attack/Dumping the NTDS.dit.md",
-    "PNPT/tools scans/Nmap Scan for kioptrix.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
-    "2025-05-09.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Mitigation.md",
-    "PNPT/WPE/Administrator Group To SYSTEM.md",
-    "PNPT/assets/Pasted image 20250505162229.png",
-    "PNPT/assets/Pasted image 20250505162146.png",
-    "PNPT/assets/Pasted image 20250505162003.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack/Printer Hacking.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
+    "PNPT/PEH/Web App Enumeratioon/SQL Injection/BLIND injection part - 1.md",
+    "PNPT/PEH/Web App Enumeratioon/SQL Injection/SQL Injection Challenge.md",
+    "PNPT/WPE/Checklist.md",
+    "PNPT/WPE/Resources.md",
+    "PNPT/External Pentest Playbook/Checklist.md",
+    "PNPT/OSINT/Email OSINT.md",
+    "PNPT/Checklists",
+    "PNPT/HTB Boxes/Forest/Forest.pdf",
+    "PNPT/assets/Pasted image 20250510142752.png",
+    "PNPT/assets/Pasted image 20250510142737.png",
+    "PNPT/assets/Pasted image 20250510142722.png",
+    "PNPT/assets/Pasted image 20250510142016.png",
+    "PNPT/assets/Pasted image 20250510141813.png",
+    "PNPT/assets/Pasted image 20250510141709.png",
+    "PNPT/assets/Pasted image 20250510141652.png",
+    "PNPT/assets/Pasted image 20250510141420.png",
+    "PNPT/assets/Pasted image 20250510141118.png",
     "PNPT/External Pentest Playbook/Common Pentest Findings",
     "PNPT/External Pentest Playbook/Escalating Access",
     "PNPT/External Pentest Playbook/Attacking Login Portals",
@@ -245,8 +244,6 @@
     "PNPT/assets/Untitled",
     "PNPT/External Pentest Playbook/Kicking Off",
     "PNPT/External Pentest Playbook/Before we start",
-    "PNPT/External Pentest Playbook/Checklists",
-    "PNPT/External Pentest Playbook",
-    "PNPT/LPE/Capstones/ConvertMyVideo - THM"
+    "PNPT/External Pentest Playbook/Checklists"
   ]
 }
