@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "19e9e91736ba8056",
+        "id": "e3d5548d08391cb2",
         "type": "tabs",
         "children": [
           {
-            "id": "33f2ce8b650715bd",
+            "id": "5abbc40d949eef0e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Active Directory Attack Vectors/Checklist.md",
+                "file": "PNPT/WPE/Checklist.md",
                 "mode": "source",
                 "source": false
               },
@@ -24,20 +24,37 @@
             }
           },
           {
-            "id": "0b354a57d0324a2f",
+            "id": "d4ab4fb9a2214edf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/WPE/WPE Checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "WPE Checklist"
+            }
+          },
+          {
+            "id": "3dac56b82a8f9356",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
+                "file": "PNPT/WPE/Enumeration/AV and FW Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Attacks Lab"
+              "title": "AV and FW Enumeration"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "checklist",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,8 +127,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT/WPE/Startup Applications/Overview.md",
-                "collapseAll": false,
+                "file": "PNPT/WPE/WPE Checklist.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for WPE Checklist"
             }
           },
           {
@@ -129,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT/PEH/Capstone/Dev/JeanPaul user escalation.md",
+                "file": "PNPT/WPE/WPE Checklist.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from JeanPaul user escalation"
+              "title": "Outgoing links from WPE Checklist"
             }
           },
           {
@@ -158,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT/OSINT/OSINT Automation/Automation Code.md",
+                "file": "PNPT/WPE/WPE Checklist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Automation Code"
+              "title": "Outline of WPE Checklist"
             }
           },
           {
@@ -197,35 +214,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33f2ce8b650715bd",
+  "active": "d4ab4fb9a2214edf",
   "lastOpenFiles": [
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Pass Attacks Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Checklist.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Secretsdump and Cracking.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/PTH Mitigations.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Privilege Escalation.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Pass Attacks/Evil-Winrm.md",
-    "PNPT/assets/Pasted image 20250510141441.png",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Plumhound.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Backup OPs, Account Ops, Exchange Wind Perms.md",
-    "PNPT/HTB Boxes/Blackfield/Privilege Escalation.md",
-    "PNPT/HTB Boxes/Forest/Privilege Escalation.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Impacket Tools.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Initial Attack Strategy.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Post-Compromise AD Enumeration.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Passback (Printer) Attack/Printer Hacking.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/Gaining A Shell/Gaining a Shell.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/SMB Relay Attack/SMB Relay Attack Lab.md",
-    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
-    "PNPT/PEH/Web App Enumeratioon/SQL Injection/BLIND injection part - 1.md",
-    "PNPT/PEH/Web App Enumeratioon/SQL Injection/SQL Injection Challenge.md",
+    "PNPT/WPE/Enumeration/AV and FW Enumeration.md",
     "PNPT/WPE/Checklist.md",
+    "PNPT/WPE/WPE Checklist.md",
+    "PNPT/WPE/Enumeration/Password Enumeration.md",
+    "PNPT/WPE/Enumeration/Network Enumeration.md",
+    "PNPT/WPE/Enumeration/User Enumeration.md",
+    "PNPT/WPE/Enumeration/System Enumeration.md",
     "PNPT/WPE/Resources.md",
-    "PNPT/External Pentest Playbook/Checklist.md",
-    "PNPT/OSINT/Email OSINT.md",
+    "PNPT/PEH/Web App Enumeratioon/Checklist.md",
+    "PNPT/PEH/Web App Enumeratioon/Capstone Web App.md",
+    "PNPT/PEH/Web App Enumeratioon/Lab Setup.md",
+    "PNPT/PEH/Web App Enumeratioon/Subdomain Enumeration.md",
+    "PNPT/PEH/Web App Enumeratioon/Command Injection/Lab - 2 Blind, Out of Band.md",
+    "PNPT/PEH/Web App Enumeratioon/SQL Injection/BLIND injection part - 1.md",
+    "BLIND.md",
+    "PNPT/PEH/Web App Enumeratioon/Resource.md",
+    "PNPT/PEH/Web App Enumeratioon/SQL Injection/UNION injection.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Checklist.md",
+    "PNPT/PEH/Active Directory Case Studies/Case Study - 3.md",
+    "PNPT/PEH/Active Directory Case Studies/Case Study - 2.md",
+    "PNPT/PEH/Active Directory Case Studies/Case Study - 1.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Additional Active Directory Attacks/Check for these.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post-Domain Compromise Attack/Golden Tickets Attack.md",
+    "PNPT/assets/Pasted image 20250512161607.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post-Domain Compromise Attack/Dumping the NTDS.dit.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Post Compromise Strategy.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Mimikatz/Mimikatz Lab.md",
+    "PNPT/assets/Pasted image 20250512153918.png",
+    "PNPT/assets/Pasted image 20250510141441.png",
     "PNPT/Checklists",
     "PNPT/HTB Boxes/Forest/Forest.pdf",
     "PNPT/assets/Pasted image 20250510142752.png",
@@ -235,8 +254,6 @@
     "PNPT/assets/Pasted image 20250510141813.png",
     "PNPT/assets/Pasted image 20250510141709.png",
     "PNPT/assets/Pasted image 20250510141652.png",
-    "PNPT/assets/Pasted image 20250510141420.png",
-    "PNPT/assets/Pasted image 20250510141118.png",
     "PNPT/External Pentest Playbook/Common Pentest Findings",
     "PNPT/External Pentest Playbook/Escalating Access",
     "PNPT/External Pentest Playbook/Attacking Login Portals",

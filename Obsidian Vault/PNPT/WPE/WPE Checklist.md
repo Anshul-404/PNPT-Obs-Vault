@@ -1,0 +1,26 @@
+# Basic Enumeration
+---
+- [[PNPT/WPE/Enumeration/System Enumeration|System Enumeration]]: **Good for Kernel Exploitation**
+	- `systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"`
+	- `hostname`
+	- `wmic qfe Caption,Description,HotFixID,InstalledOn`
+	- `wmic logicaldisk get caption,description,providername` => **==Good One==**
+- [[PNPT/WPE/Enumeration/User Enumeration|User Enumeration]]
+	- **==`whoami /all`, `whoami /priv, `whoami /groups` `==**
+	- `net user`, `net user some_user`
+	- **==`net localgroup administrators`, `net localgroup`==**
+- [[PNPT/WPE/Enumeration/Network Enumeration|Network Enumeration]] : ==**maybe no need to escalate, just Pivot**==
+	- ==**`ipconfig /all`**==
+	- ==**`arp -a`**==
+	- ==**`route print`**==
+	- ==**`netstat -ano`==**
+- [[Password Enumeration]]
+	- `findstr /si password *.txt *.ini *.config`
+	- `unattend.xml`
+	- **==`wifi passwords`==**
+	- **==Personal powershell script==**
+- [[AV and FW Enumeration]]
+	- `sc query windefend`**Windows Defender Status**
+	- `sc queryex type= service` -> **==All the services==**
+	- `netsh firewall show state`, `netsh advfirewall firewall dump`
+	- `netsh firewall show config`-> **Open Ports**
