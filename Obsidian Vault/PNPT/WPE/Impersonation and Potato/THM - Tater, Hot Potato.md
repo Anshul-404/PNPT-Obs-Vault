@@ -11,7 +11,7 @@ Tater exploits a Windows **NTLM relay + NBNS spoofing vulnerability** by:
 # Possible Detection
 ---
 - `wmic qfe | findstr 3164038`
-- `windows_exploit_suggester.pu`
+- `windows_exploit_suggester.py`
 # Exploitation
 ---
 - `powershell.exe -nop -ep bypass`

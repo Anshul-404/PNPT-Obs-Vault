@@ -4,6 +4,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/
 
 # SQL Injection
 ----
+- Look on all the pages, **==also on where input can be stored like SignUp and Comments pages==**
 - **Detection:**
 	- `', ", ;` (single and double quotes) to trigger an error
 	- `jeremy'`, `jeremy' OR 1=1#`(Logical Operators)
