@@ -1,9 +1,9 @@
 # UAC Bypass from Administrators Group
 
 **Need:**  
-When you're in the `Administrators` group on Windows but still can't access certain directories (like `C:\Users\Administrator`) or perform admin actions, it's due to **User Account Control (UAC)** restricting your privileges. Even admins run with a limited token until elevated.
+==When you're in the `Administrators` group on Windows but still can't access certain directories (like `C:\Users\Administrator`) or perform admin actions==, it's due to **User Account Control (UAC)** restricting your privileges. Even admins run with a limited token until elevated.
 
-**==Note:- We can use meterpreter to load incognito and add new user if we have this group. Assign this new user to administrators group as well and then RDP for GUI==**
+**==Note:- We can use meterpreter to load incognito and add new user if we have this group. Assign this new user to administrators group and Remote Access Group (BUILTIN\Remote Desktop Users) as well and then RDP for GUI==**
 
 ---
 

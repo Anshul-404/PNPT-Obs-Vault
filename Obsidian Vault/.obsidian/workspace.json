@@ -4,41 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e3d5548d08391cb2",
+        "id": "be47a74f53674f46",
         "type": "tabs",
         "children": [
           {
-            "id": "d4ab4fb9a2214edf",
+            "id": "8218c01e641953e7",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/WPE/WPE Checklist.md",
+                "file": "PNPT/Checklists/WPE Checklist.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "WPE Checklist"
             }
-          },
-          {
-            "id": "4513d334913eae4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PNPT/WPE/CVE-2019-1388/Privilege Escalation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Privilege Escalation"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,34 +181,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4513d334913eae4a",
+  "active": "8218c01e641953e7",
   "lastOpenFiles": [
-    "PNPT/External Pentest Playbook/Before we start/Rules of Engagement.md",
-    "PNPT/WPE/WPE Checklist.md",
-    "PNPT/WPE/Checklist.md",
-    "PNPT/WPE/CVE-2019-1388/Privilege Escalation.md",
-    "PNPT/WPE/CVE-2019-1388/Initial Foothold.md",
-    "PNPT/WPE/CVE-2019-1388/Enumeration.md",
-    "PNPT/WPE/CVE-2019-1388/Nmap Scan.md",
-    "PNPT/WPE/CVE-2019-1388/Blaster - Information.md",
-    "PNPT/WPE/CVE-2019-1388/Overview.md",
-    "PNPT/WPE/CVE-2019-1388.md",
-    "PNPT/WPE/Binary paths (bin path)/Exploitation.md",
-    "PNPT/WPE/Binary paths (bin path)/Introduction.md",
-    "PNPT/WPE/Unquoted Service Paths/Introduction.md",
-    "PNPT/THM Boxes/SteelMountain/Privilege Escalation.md",
-    "PNPT/WPE/Unquoted Service Paths/Exploitation.md",
-    "PNPT/WPE/Executable Files - Service Escalation/Information.md",
-    "PNPT/WPE/DLL Hijacking/Exploitation.md",
-    "home/Checklist.md",
-    "PNPT/WPE/DLL Hijacking/Introduction.md",
-    "PNPT/WPE/Startup Applications/Exploitation.md",
-    "PNPT/PEH/Post Exploitation/File Transfer Methods.md",
-    "PNPT/WPE/Startup Applications/Overview.md",
-    "PNPT/WPE/Autorun/Exploitation.md",
+    "PNPT/Checklists/Web Enumeration Checklist.md",
+    "PNPT/Checklists/AD Checklist.md",
+    "PNPT/Checklists/External Pentest Checklist.md",
+    "PNPT/Checklists/Old WPE Checklist.md",
+    "PNPT/Checklists/Incomplete OSINT Checklist.md",
+    "PNPT/External Pentest Playbook/OSINT/Hunting Breached Credentials.md",
+    "PNPT/PEH/Information Gathering/Gathering Breached Passwords.md",
+    "PNPT/External Pentest Playbook/OSINT/Identifying Employees & Emails.md",
+    "PNPT/Checklists/WPE Checklist.md",
+    "PNPT/WPE/Administrator Group To SYSTEM.md",
     "PNPT/WPE/Executable Files - Service Escalation/Exploitation.md",
-    "PNPT/WPE/regsvc ACL/Exploitation.md",
-    "PNPT/WPE/regsvc ACL/Overview.md",
+    "PNPT/Checklists/Final Checklist.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Token Impersonation/Token Impersonation Lab.md",
+    "PNPT/WPE/Capstones/Querier - HTB/mssql-svc (Capturing Hash Using responder).md",
+    "PNPT/WPE/Escalation via Stored Passwords/Alternate Data Streams.md",
+    "PNPT/WPE/Impersonation and Potato/Potato Attacks Overview.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/ASREP Roasting/ASREP Roasting Lab.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Enumeration.md",
+    "PNPT/WPE/Capstones/Alfred - THM/Enumeration.md",
+    "PNPT/WPE/Capstones/Alfred - THM/Information.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Privilege Escalation.md",
+    "PNPT/WPE/Capstones/Bastard - HTB/Nmap Scan.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Nmap Scan.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Privilege Escalation.md",
+    "PNPT/WPE/Capstones/Arctic - HTB/Initial Foothold.md",
+    "PNPT/WPE/GetSystem.md",
     "PNPT/assets/Pasted image 20250512161607.png",
     "PNPT/assets/Pasted image 20250512153918.png",
     "PNPT/assets/Pasted image 20250510141441.png",

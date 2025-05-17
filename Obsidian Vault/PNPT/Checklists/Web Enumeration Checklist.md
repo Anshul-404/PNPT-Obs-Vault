@@ -2,6 +2,10 @@ Find behavior of the website with inputs
 https://appsecexplained.gitbook.io/appsecexplained
 https://github.com/swisskyrepo/PayloadsAllTheThings/
 
+# ==Find version of the Webpage first==
+---
+- Using `wappalyzer`
+- Nikto, changelog.txt, nmap, headers, invalid request (404) pages 
 # SQL Injection
 ----
 - Look on all the pages, **==also on where input can be stored like SignUp and Comments pages==**

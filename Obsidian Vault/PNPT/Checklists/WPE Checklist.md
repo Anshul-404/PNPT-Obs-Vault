@@ -1,4 +1,4 @@
-Initial un-managed WPE Checklist: [[PNPT/WPE/Checklist|Checklist]]
+Initial un-managed WPE Checklist: [[Old WPE Checklist|Old WPE Checklist]]
 [[PNPT/WPE/Resources]]
 # Basic Enumeration
 ---
@@ -32,13 +32,14 @@ Initial un-managed WPE Checklist: [[PNPT/WPE/Checklist|Checklist]]
 ---
 - [[Automation Tools]]
   
-# Kernel Exploits
+# ==Kernel Exploits==
 ---
 https://github.com/SecWiki/windows-kernel-exploits
 [[Kernel Exploitation Using Metasploit]]
 [[Kernal Exploitation Manually]]
 - Might have to run these **multiple times to work** (maybe use different payloads / architecture)
 - Good on **==Older versions of windows (7, 8, XP, Servers)==**
+- **Chimichurry, Reflection, ms15_051_client_copy_image, Potatos, etc are good ones**
 
 # Passwords Escalation and Port Forward
 ----
@@ -63,6 +64,7 @@ https://github.com/SecWiki/windows-kernel-exploits
 [[Token Impersonation Lab]]
 [[Potato Attacks Overview]]
 [[THM - Tater, Hot Potato]]
+[[Administrator Group To SYSTEM]]
 **[[Alternate Data Streams]]**
 
 # **==GetSystem==**
@@ -149,3 +151,8 @@ https://github.com/SecWiki/windows-kernel-exploits
 # CVE-2019-1388
 ---
 - [[PNPT/WPE/CVE-2019-1388/Privilege Escalation|Privilege Escalation]]
+
+# Caputuring MSSQL Credentials
+---
+[[mssql-svc (Capturing Hash Using responder)]]
+https://medium.com/@markmotig/how-to-capture-mssql-credentials-with-xp-dirtree-smbserver-py-5c29d852f478
