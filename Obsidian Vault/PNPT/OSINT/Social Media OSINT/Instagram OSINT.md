@@ -1,6 +1,7 @@
 - Search for usernames, real names
 - `# something` for tagged user or posts
 - Search for followers and following with similar last name
+- Search for other accounts of same person
 - ![[Pasted image 20250410162004.png]]
 
 

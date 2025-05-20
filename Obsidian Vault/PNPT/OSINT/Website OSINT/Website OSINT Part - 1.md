@@ -15,7 +15,7 @@
 	- Server Location, whois records, nameservers, creation, updating
 	- ![[Pasted image 20250411115044.png]]
 	- ![[Pasted image 20250411115210.png]]
-	- **==MX (Mail server records):==** 
+	- **==MX (Mail server records): - DNS Records==** 
 		- ![[Pasted image 20250411115845.png]]
 	- Service Scan:
 		- ![[Pasted image 20250411115915.png]]

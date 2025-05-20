@@ -1,4 +1,0 @@
-- Google Search: Who is at this role at this company
-- hunter.io : Find email
-- Clearbit 
-- Verify on email hippo, email-checker, etc 
