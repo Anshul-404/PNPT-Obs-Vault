@@ -36,6 +36,7 @@
 # Post-Compromise Enumeration
 ---
 [[Post-Compromise AD Enumeration]]
+**==Enumerate each machine thoroughly even after you found credentials or possible way forward==**
 ==**Look in the linked file in each tool on what to look for in dumped files**==
 
  - **LDAP Domain Dump**  [[Domain Enumeration ldapdomaindump]]
