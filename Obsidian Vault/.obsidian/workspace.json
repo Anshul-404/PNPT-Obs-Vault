@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb6bab44e3d40b2c",
+        "id": "655af9f32521b4bb",
         "type": "tabs",
         "children": [
           {
-            "id": "2ad6603c76b0d351",
+            "id": "80f895572941c573",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/Checklists/OSINT Checklist.md",
+                "file": "PNPT/LPE/Capablities/Exploitation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSINT Checklist"
+              "title": "Exploitation"
             }
           }
         ]
@@ -181,11 +181,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ad6603c76b0d351",
+  "active": "80f895572941c573",
   "lastOpenFiles": [
+    "home/Checklist.md",
+    "PNPT/Checklists/Methodology Checklist.md",
+    "2025-05-09.md",
+    "BLIND.md",
+    "www.weleakinfo.to.md",
+    "www.hashes.org.md",
+    "PNPT/Checklists/AD Checklist.md",
+    "PNPT/Checklists/OSINT Checklist.md",
     "PNPT/Checklists/Old WPE Checklist.md",
     "PNPT/Checklists/External Pentest Checklist.md",
-    "PNPT/Checklists/AD Checklist.md",
     "PNPT/External Pentest Playbook/Kicking Off/Attack Strategy.md",
     "PNPT/External Pentest Playbook/Common Pentest Findings/Default Web Pages.md",
     "PNPT/External Pentest Playbook/Common Pentest Findings/Username Enumeration.md",
@@ -202,13 +209,6 @@
     "PNPT/External Pentest Playbook/Common Pentest Findings/Insufficient Authentication Controls.md",
     "PNPT/External Pentest Playbook/Attacking Login Portals/Bypassing MFA.md",
     "PNPT/External Pentest Playbook/Attacking Login Portals/Attacking Other Portals.md",
-    "PNPT/External Pentest Playbook/Attacking Login Portals/Attacking OWA (Outlook).md",
-    "PNPT/External Pentest Playbook/Attacking Login Portals/Attacking O365 (Office).md",
-    "PNPT/External Pentest Playbook/OSINT/Other Useful Information.md",
-    "PNPT/External Pentest Playbook/OSINT/Enumerating Valid Accounts (Pre-Attack).md",
-    "PNPT/External Pentest Playbook/OSINT/Identifying Employees & Emails.md",
-    "PNPT/OSINT/Social Media OSINT/Linkedin OSINT.md",
-    "PNPT/PEH/Information Gathering/Discovering Email Addresses.md",
     "PNPT/assets/Pasted image 20250512161607.png",
     "PNPT/assets/Pasted image 20250512153918.png",
     "PNPT/assets/Pasted image 20250510141441.png",

