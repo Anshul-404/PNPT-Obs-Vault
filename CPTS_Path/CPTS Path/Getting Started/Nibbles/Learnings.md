@@ -1,0 +1,2 @@
+- If we find same keyword repeated like **nibbles** in this case, this could indicate some credential or password hint.
+- Use `kewl` to generate password list from website crawler
