@@ -1,4 +1,4 @@
-- [John the Ripper](https://github.com/openwall/john) (aka. `JtR` aka. `john`) is a well-known penetration testing tool used fo**r cracking passwords through various attacks including brute-force and dictionary.**
+	- [John the Ripper](https://github.com/openwall/john) (aka. `JtR` aka. `john`) is a well-known penetration testing tool used fo**r cracking passwords through various attacks including brute-force and dictionary.**
 - The **`"jumbo"` variant** is recommended for our uses, as it has performance optimizations, additional features such as multilingual word lists.
 
 # Cracking modes
