@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Password Attacks/Extracting Passwords from the Network/Credential Hunting in Network Traffic.md",
+                "file": "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Certificate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Credential Hunting in Network Traffic"
+              "title": "Pass the Certificate"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPTS Path/Password Attacks/Extracting Passwords from the Network/Credential Hunting in Network Traffic.md",
+                "file": "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Certificate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Credential Hunting in Network Traffic"
+              "title": "Outline of Pass the Certificate"
             }
           },
           {
@@ -192,26 +192,35 @@
   },
   "active": "97ca6cedfcb0d56c",
   "lastOpenFiles": [
-    "assets/Pasted image 20250701071744.png",
-    "assets/Pasted image 20250701071657.png",
-    "assets/Pasted image 20250701071523.png",
+    "assets/Pasted image 20250705073459.png",
+    "assets/Pasted image 20250705073423.png",
+    "assets/Pasted image 20250705073345.png",
+    "assets/Pasted image 20250705073216.png",
+    "assets/Pasted image 20250705073016.png",
+    "assets/Pasted image 20250705073013.png",
+    "assets/Pasted image 20250705072958.png",
+    "assets/Pasted image 20250705072951.png",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Hash (PtH).md",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Certificate.md",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Ticket (PtT) from Linux.md",
+    "assets/Pasted image 20250705065346.png",
+    "assets/Pasted image 20250705065313.png",
+    "assets/Pasted image 20250705064529.png",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Ticket (PtT) from Windows.md",
+    "CPTS Path/Password Attacks/Password_Attacks_Module_Cheat_Sheet.pdf",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques 1.md",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques.md",
+    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques",
+    "CPTS Path/Password Attacks/Extracting Passwords from the Network/Credential Hunting in Network Shares.md",
     "CPTS Path/Password Attacks/Extracting Passwords from the Network/Credential Hunting in Network Traffic.md",
     "CPTS Path/Password Attacks/Extracting Passwords from Linux/Credential Hunting in Linux.md",
     "CPTS Path/Password Attacks/Extracting Passwords from the Network",
     "CPTS Path/Password Attacks/Extracting Passwords from Linux/Credential Hunting in Network Traffic.md",
-    "assets/Pasted image 20250701065134.png",
-    "assets/Pasted image 20250701064924.png",
     "CPTS Path/Password Attacks/Extracting Passwords from Linux/Linux Authentication Process.md",
-    "assets/Pasted image 20250701062053.png",
-    "assets/Pasted image 20250701061636.png",
-    "assets/Pasted image 20250701061536.png",
-    "assets/Pasted image 20250701061258.png",
     "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking SAM, SYSTEM, and SECURITY.md",
     "CPTS Path/Password Attacks/Introduction.md",
     "CPTS Path/Password Attacks/Extracting Passwords from Windows/Credential Hunting in Windows.md",
     "CPTS Path/Password Attacks/Extracting Passwords from Linux",
-    "assets/Pasted image 20250701060002.png",
-    "assets/Pasted image 20250701052616.png",
     "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking Active Directory and NTDS.dit.md",
     "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking Windows Credential Manager.md",
     "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking LSASS.md",
@@ -226,17 +235,8 @@
     "CPTS Path/Password Attacks/Remote Password Attacks",
     "CPTS Path/Password Attacks/Password Cracking Techniques/Custom Wordlists and Rules.md",
     "CPTS Path/Password Attacks/Password Cracking Techniques/Introduction to Password Cracking.md",
-    "CPTS Path/Password Attacks/Password Cracking Techniques/HashCat.md",
-    "CPTS Path/Password Attacks/Password_Attacks_Module_Cheat_Sheet.pdf",
     "CPTS Path/Password Attacks/Password Cracking Techniques",
     "CPTS Path/Using the Metasploit Framework/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
-    "CPTS Path/Shells & Payloads/Shells_Payloads_Module_Cheat_Sheet.pdf",
-    "CPTS Path/Using the Metasploit Framework/Additional Features/Firewall and IDS,IPS Evasion.md",
-    "CPTS Path/Password Attacks",
-    "CPTS Path/Using the Metasploit Framework/Additional Features/Introduction to MSFVenom.md",
-    "CPTS Path/Using the Metasploit Framework/Additional Features/Writing and Importing Modules.md",
-    "CPTS Path/Using the Metasploit Framework/Untitled.md",
-    "CPTS Path/Using the Metasploit Framework/Introduction to MSFConsole.md",
-    "CPTS Path/Using the Metasploit Framework/MSF Sessions/Meterpreter.md"
+    "CPTS Path/Shells & Payloads/Shells_Payloads_Module_Cheat_Sheet.pdf"
   ]
 }
