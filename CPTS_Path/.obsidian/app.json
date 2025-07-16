@@ -3,5 +3,6 @@
   "attachmentFolderPath": "assets",
   "strictLineBreaks": false,
   "vimMode": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "promptDelete": false
 }

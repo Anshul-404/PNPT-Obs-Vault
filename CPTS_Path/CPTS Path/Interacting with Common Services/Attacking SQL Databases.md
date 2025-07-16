@@ -246,7 +246,8 @@
 	- `EXECUTE('select @@servername, @@version, system_user, is_srvrolemember(''sysadmin'')') AT [10.0.0.12\SQLEXPRESS]`
 	- `GO`
 	- ![[Pasted image 20250710081240.png]]
-
+- **Note** - For complex queries with multiple quotes, **use double-single quotes** to escape:
+	- `EXECUTE('SELECT * FROM OPENROWSET(BULK N''C:/Users/Administrator/Desktop/flag.txt'', SINGLE_CLOB) AS Contents') AT [LOCAL.TEST.LINKED.SRV]`
 # Labs
 ---
 - Login as htbdbuser:
