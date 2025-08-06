@@ -44,4 +44,3 @@
 - The reason for this is that **proxychains cannot understand partial packets**. If you send partial packets like half connect scans, **it will return incorrect results.**:
 	- `proxychains nmap -v -Pn -sT 172.16.5.19`
 	- `proxychains msfconsole`
-	- 

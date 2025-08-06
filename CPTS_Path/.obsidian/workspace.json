@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95c08b34745e4189",
+        "id": "e0c7c08a1ab0acd1",
         "type": "tabs",
         "children": [
           {
-            "id": "204083f45d79509c",
+            "id": "db6de1c9dc4d618b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Dynamic Port Forwarding with SSH and SOCKS Tunneling.md",
+                "file": "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning/LLMNR,NBT-NS Poisoning - from Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Port Forwarding with SSH and SOCKS Tunneling"
+              "title": "LLMNR,NBT-NS Poisoning - from Windows"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.51103591918945
+    "width": 427.51103591918945
   },
   "right": {
     "id": "804669d6b6f877d6",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Dynamic Port Forwarding with SSH and SOCKS Tunneling.md",
+                "file": "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning/LLMNR,NBT-NS Poisoning - from Windows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dynamic Port Forwarding with SSH and SOCKS Tunneling"
+              "title": "Outline of LLMNR,NBT-NS Poisoning - from Windows"
             }
           },
           {
@@ -190,53 +190,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "204083f45d79509c",
+  "active": "db6de1c9dc4d618b",
   "lastOpenFiles": [
-    "assets/Pasted image 20250716064407.png",
-    "assets/Pasted image 20250716063445.png",
-    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Lateral Movement, Pivoting, and Tunneling Compared.md",
-    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Dynamic Port Forwarding with SSH and SOCKS Tunneling.md",
-    "Untitled.md",
-    "Lainkusanagi List/Cheatsheat.md",
-    "CPTS Path/Pivoting, Tunneling, and Port Forwarding",
-    "Lainkusanagi List/Windows/Netmon/Enumeration.md",
-    "Lainkusanagi List/Windows/Netmon",
-    "Lainkusanagi List/Windows/Jerry/Compete Exploitation.md",
-    "assets/Pasted image 20250715064250.png",
-    "assets/Pasted image 20250715064244.png",
-    "assets/Pasted image 20250715064243.png",
-    "assets/Pasted image 20250715064145.png",
-    "assets/Pasted image 20250715064054.png",
-    "CPTS Path/Password Attacks/Remote Password Attacks/Spraying, Stuffing, and Defaults.md",
-    "CPTS Path/Interacting with Common Services/Service Misconfigurations.md",
-    "CPTS Path/Password Attacks/Extracting Passwords from Linux/Credential Hunting in Linux.md",
-    "Ah Shit here we Go Again.md",
-    "RDP.md",
-    "2025-07-12.md",
-    "2025-06-19.md",
-    "CPTS Path/Interacting with Common Services/Labs.md",
-    "Lainkusanagi List/Windows/Jerry",
-    "Lainkusanagi List/Windows",
-    "Lainkusanagi List",
-    "CPTS Path/Interacting with Common Services/Attacking SQL Databases.md",
-    "assets/Pasted image 20250714075048.png",
-    "assets/Pasted image 20250714075010.png",
-    "assets/Pasted image 20250714074918.png",
-    "assets/Pasted image 20250714071947.png",
-    "CPTS Path/Interacting with Common Services/Attacking RDP.md",
+    "assets/Pasted image 20250806073757.png",
+    "ActiveDirectory/svc_qualsys.hash",
+    "ActiveDirectory/svc_qualsys",
+    "assets/Pasted image 20250806073545.png",
+    "assets/Pasted image 20250806072729.png",
+    "assets/Pasted image 20250806072706.png",
+    "assets/Pasted image 20250806072641.png",
+    "assets/Pasted image 20250806072422.png",
+    "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning/LLMNR, NBT-NS Poisoning - from Linux.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning/LLMNR,NBT-NS Poisoning - from Windows.md",
+    "assets/Pasted image 20250806072111.png",
+    "ActiveDirectory/wley.hash",
+    "assets/Pasted image 20250806072046.png",
+    "assets/Pasted image 20250806072000.png",
+    "ActiveDirectory/backupagent.hash",
+    "ActiveDirectory",
+    "assets/Pasted image 20250806071711.png",
+    "assets/Pasted image 20250806071710.png",
+    "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration/External Recon and Enumeration Principles.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration",
+    "CPTS Path/Untitled",
+    "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration/Initial Enumeration of the Domain.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning",
+    "Untitled 1.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Skills Assessment.md",
+    "CPTS Path/Active Directory Enumeration & Attacks",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/SSH for Windows plink.exe - linux as pivot.md",
+    "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking LSASS.md",
+    "CPTS Path/File Transfers/Windows File Transfer Methods.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/RDP and SOCKS Tunneling with SocksOverRDP.md",
+    "CPTS Path/File Transfers/Linux File Transfer Methods.md",
+    "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking Active Directory and NTDS.dit.md",
     "CPTS Path/Interacting with Common Services/Attacking SMB.md",
-    "CPTS Path/Interacting with Common Services/Attacking FTP.md",
-    "CPTS Path/Footprinting/MSSQL.md",
-    "CPTS Path/Footprinting/SMB.md",
-    "CPTS Path/Interacting with Common Services/Attacking DNS.md",
-    "CPTS Path/Interacting with Common Services/Attacking Email Services.md",
-    "CPTS Path/Information Gathering - Web Edition/DNS & Subdomains/Fingerprinting.md",
-    "CPTS Path/Footprinting/FTP.md",
-    "CPTS Path/Footprinting/Domain Information.md",
-    "CPTS Path/Interacting with Common Services/Untitled",
-    "CPTS Path/Interacting with Common Services",
-    "CPTS Path/Footprinting/Footprinting_Module_Cheat_Sheet.pdf",
-    "CPTS Path/Password Attacks/Skills Assessment",
-    "CPTS Path/Password Attacks/Password_Attacks_Module_Cheat_Sheet.pdf"
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Meterpreter Tunneling & Port Forwarding.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/SSH Pivoting with Sshuttle.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Dynamic Port Forwarding with SSH and SOCKS Tunneling.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Remote, Reverse Port Forwarding with SSH.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Port Forwarding with Windows Netsh.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Lateral Movement, Pivoting, and Tunneling Compared.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/ICMP Tunneling with SOCKS.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/SOCKS5 Tunneling with Chisel.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/DNS Tunneling with Dnscat2.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Web Server Pivoting with Rpivot.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Socat Redirection with a Bind Shell.md",
+    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/Socat Redirection with a Reverse Shell.md"
   ]
 }

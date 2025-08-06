@@ -29,3 +29,13 @@
 	- We can login as **anonymous so ALWAYS try that**:
 		- `ftp anonymous@10.10.10.10`-> `password: anonymous`
 	- Sometimes, we can also **login as users without any password, so try that too** if some user name is known
+
+# Password Bruteforcing
+- Try the **==possible passwords / found list on ALL the users==** even if you think they belong to only one user
+
+# LFI
+- **For windows**
+---
+	-  When trying to include remote file, use SMB server instead of http server
+	- Use **backslashes `\` instead of front-slashes** `/`. For ex:- `http://10.10.10.151/blog/?lang=\Windows\System32\drivers\etc\hosts`
+	- We **don't have to include `C:\\`** just use `\` to Automatically get there
