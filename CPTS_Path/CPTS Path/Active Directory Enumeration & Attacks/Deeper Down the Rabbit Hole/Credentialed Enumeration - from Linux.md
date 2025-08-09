@@ -132,7 +132,7 @@ Using wmiexec.py
 
 # Bloodhound.py
 ---
-- REFER TO **==Domain Enumeration Bloodhound in PNPT Preparation Notes==**
+- REFER TO **==Domain Enumeration Using Bloodhound in PNPT Preparation Notes==**
   
 - Once we have domain credentials, we can run the [BloodHound.py](https://github.com/fox-it/BloodHound.py)BloodHound ingestor from our Linux attack host.
 - BloodHound is one of, **if not the most impactful tools ever released for auditing Active Directory security**, and it is hugely beneficial for us as penetration testers

