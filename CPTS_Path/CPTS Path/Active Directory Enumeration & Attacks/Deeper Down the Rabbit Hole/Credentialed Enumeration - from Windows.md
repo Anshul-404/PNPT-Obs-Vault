@@ -46,7 +46,7 @@
 ## Domain User Information
 - First up is t**he [Get-DomainUser](https://powersploit.readthedocs.io/en/latest/Recon/Get-DomainUser/) function.** 
 - This will **provide us with information on all users or specific users we specify.** Below we will use it to grab information about a specific user, `mmorgan`.
-- `Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select-Object -Property name,samaccountname,description,memberof,whencreated,pwdlastset,lastlogontimestamp,accountexpires,admincount,userprincipalname,serviceprincipalname,useraccountcontrol`
+	- `Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select-Object -Property name,samaccountname,description,memberof,whencreated,pwdlastset,lastlogontimestamp,accountexpires,admincount,userprincipalname,serviceprincipalname,useraccountcontrol`
 
 ## Recursive Group Membership
 - We can use the **[Get-DomainGroupMember](https://powersploit.readthedocs.io/en/latest/Recon/Get-DomainGroupMember/) function to retrieve group-specific information**.
@@ -107,7 +107,7 @@
 - If we run SharpHound with the `--help` option, we can see the options available to us.
   
 	- `.\SharpHound.exe -c All --zipfilename ILFREIGHT`
-
+	
 - Next, **we can exfiltrate the dataset to our own VM** or ingest it into the BloodHound GUI tool on MS01.
 - Now, **let's check out a few pre-built queries in the `Analysis` tab.**
 - The query **==`Find Computers with Unsupported Operating Systems` is great for finding outdated and unsupported operating systems==** running legacy software.

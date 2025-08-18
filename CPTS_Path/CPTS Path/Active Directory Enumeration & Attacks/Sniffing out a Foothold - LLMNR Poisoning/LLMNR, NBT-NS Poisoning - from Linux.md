@@ -26,7 +26,7 @@
 - Got the NTLMv2`hashes`:
 	![[Pasted image 20250806070725.png]]
 - ==**NTLMv2 hashes change everytime (though password is always same), NTLMv1 hashes does not change**==. 
-- Hashes are also stored in a SQLite database that can be configured in the `Responder.conf` config file, typically located in `/usr/share/responder` unless we clone the Responder repo directly from GitHub.
+	- Hashes are also stored in a SQLite database that can be configured in the `Responder.conf` config file, typically located in `/usr/share/responder` unless we clone the Responder repo directly from GitHub.
 - **We must run the tool with sudo privileges or as root and make sure the following ports are available** on our attack host for it to function best:
 	- `UDP 137, UDP 138, UDP 53, UDP/TCP 389,TCP 1433, UDP 1434, TCP 80, TCP 135, TCP 139, TCP 445, TCP 21, TCP 3141,TCP 25, TCP 110, TCP 587, TCP 3128, Multicast UDP 5355 and 5353`
 

@@ -143,7 +143,7 @@ Using wmiexec.py
 
 - Executing BloodHound.py:
 	- `sudo bloodhound-python -u 'forend' -p 'Klmcargo2' -ns 172.16.5.5 -d inlanefreight.local -c all `
-	- We **specified our nameserver as the Domain Controller with the `-ns` flag and the domain, INLANEFREIGHt.LOCAL with the `-d` flag**. 
+	- We **specified our nameserver as the Domain Controller with the `-ns` flag and the domain, INLANEFREIGHT.LOCAL with the `-d` flag**. 
 	- **The `-c all` flag told the tool to run all checks.** Once the script finishes, **we will see the output files in the current working directory in the format of <date_object.json>.**
 ![[Pasted image 20250807073930.png]]
 
