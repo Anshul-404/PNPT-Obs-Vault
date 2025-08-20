@@ -33,7 +33,7 @@
 	  
 - ==**Think out of the box**==
 	- **Default credentials**
-	- What else is available? - **Websites, Printers, Some other server**
+		- What else is available? - **Websites, Printers, Some other server**
 # Post-Compromise Enumeration
 ---
 [[Post-Compromise AD Enumeration]]

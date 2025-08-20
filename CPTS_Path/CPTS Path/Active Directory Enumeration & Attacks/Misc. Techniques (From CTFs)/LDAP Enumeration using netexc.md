@@ -1,0 +1,3 @@
+- `nxc ldap labyrinth.thm.local -u 'guest' -p '' --users`
+- This can **reveal users AND description**
+	- ![[Pasted image 20250820011040.png]]

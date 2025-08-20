@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "bf56a8587af1c948",
+        "id": "24b9c8c2af619d8f",
         "type": "tabs",
         "children": [
           {
-            "id": "66a324cdad060455",
+            "id": "009383b7b310b81d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Exam Stuff/Start Of Test.md",
+                "file": "PNPT Exam Stuff/10.10.155.5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Start Of Test"
+              "title": "10.10.155.5"
+            }
+          },
+          {
+            "id": "976dfd0802550c38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT Exam Stuff/10.10.10.25.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10.10.10.25"
+            }
+          },
+          {
+            "id": "9119e02f58fe734e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT Exam Stuff/10.10.10.35.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10.10.10.35"
+            }
+          },
+          {
+            "id": "400ac591c60b9ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT Exam Stuff/Post Compromise.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Post Compromise"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -74,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,9 +210,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66a324cdad060455",
+  "active": "85c5301fb5b8c14f",
   "lastOpenFiles": [
-    "assets/Pasted image 20250523205254.png",
+    "PNPT Exam Stuff/10.10.10.225.md",
+    "PNPT Exam Stuff/10.10.10.35.md",
+    "assets/Pasted image 20250528065029.png",
+    "PNPT Exam Stuff/10.10.10.25.md",
+    "assets/Pasted image 20250528062602.png",
+    "assets/Pasted image 20250528062350.png",
+    "PNPT Exam Stuff/RDP Access.md",
+    "PNPT Exam Stuff/10.10.155.5.md",
+    "PNPT Exam Stuff/Secrets Dump.md",
+    "assets/Pasted image 20250525001159.png",
+    "assets/Pasted image 20250525001101.png",
+    "PNPT Exam Stuff/Kerberoasting.md",
+    "PNPT Exam Stuff/Pivot using sshuttle.md",
+    "assets/Pasted image 20250524162010.png",
+    "assets/Pasted image 20250524142017.png",
+    "PNPT Exam Stuff/Internal Network Nmap Scan.md",
+    "assets/Pasted image 20250528053256.png",
+    "PNPT Exam Stuff/10.10.155.15.md",
+    "PNPT Exam Stuff/Other stuff.md",
+    "PNPT Exam Stuff/Post Compromise.md",
+    "PNPT Exam Stuff/Rules Of Engagement.md",
+    "PNPT Exam Stuff/SMB Shares.md",
+    "PNPT Exam Stuff/ThePastaMentors.md",
+    "Hashmap.md",
+    "assets/Pasted image 20250529154756.png",
+    "assets/Pasted image 20250529155343.png",
+    "PNPT Exam Stuff/Shares on 25.md",
+    "PNPT Exam Stuff/Initial foothold.md",
     "PNPT Exam Stuff/Start Of Test.md",
     "assets",
     "PNPT Exam Stuff",

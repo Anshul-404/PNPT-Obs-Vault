@@ -4,24 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "655af9f32521b4bb",
+        "id": "29d343d9bc76c26a",
         "type": "tabs",
         "children": [
           {
-            "id": "80f895572941c573",
+            "id": "7721bbe6eeebedcb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/Checklists/AD Checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "AD Checklist"
+            }
+          },
+          {
+            "id": "b2435d167fefbae3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/LPE/Capablities/Exploitation.md",
+                "file": "PNPT/Checklists/WPE Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "WPE Checklist"
+            }
+          },
+          {
+            "id": "96a0a2a10aed63be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/WPE/Impersonation and Potato/Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Privilege Escalation"
+            }
+          },
+          {
+            "id": "cebd6461d2fc2f49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/HTB Boxes/Blackfield/Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enumeration"
+            }
+          },
+          {
+            "id": "3a45728f3db6c35c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/ASREP Roasting/ASREP Roasting Lab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ASREP Roasting Lab"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -54,7 +113,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -175,40 +234,42 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80f895572941c573",
+  "active": "3a45728f3db6c35c",
   "lastOpenFiles": [
-    "home/Checklist.md",
-    "PNPT/Checklists/Methodology Checklist.md",
-    "2025-05-09.md",
-    "BLIND.md",
-    "www.weleakinfo.to.md",
-    "www.hashes.org.md",
+    "PNPT/HTB Boxes/Blackfield/Enumeration.md",
+    "PNPT/WPE/Administrator Group To SYSTEM.md",
+    "PNPT/WPE/Impersonation and Potato/Privilege Escalation.md",
+    "PNPT/WPE/Always Install Elevated/Exploitation.md",
+    "PNPT/Checklists/WPE Checklist.md",
+    "PNPT/WPE/Always Install Elevated/Overview.md",
     "PNPT/Checklists/AD Checklist.md",
-    "PNPT/Checklists/OSINT Checklist.md",
-    "PNPT/Checklists/Old WPE Checklist.md",
     "PNPT/Checklists/External Pentest Checklist.md",
-    "PNPT/External Pentest Playbook/Kicking Off/Attack Strategy.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Default Web Pages.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Username Enumeration.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Information Disclosure.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Insufficient Encryption.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Default Credentials.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Insufficient Patching.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Weak Password Policy.md",
-    "PNPT/PEH/Report Writing and Documents/Pentest Report Writing Example.md",
-    "PNPT/External Pentest Playbook/Report Writing.md",
-    "PNPT/External Pentest Playbook/Escalating Access/Strategy & Walkthrough.md",
-    "PNPT/External Pentest Playbook/Checklists/Make a Sheet of following.md",
-    "PNPT/External Pentest Playbook/Checklists/External Assesment.md",
-    "PNPT/External Pentest Playbook/Common Pentest Findings/Insufficient Authentication Controls.md",
-    "PNPT/External Pentest Playbook/Attacking Login Portals/Bypassing MFA.md",
-    "PNPT/External Pentest Playbook/Attacking Login Portals/Attacking Other Portals.md",
+    "PNPT/assets/Pasted image 20250329164841.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/Cracking the Caught Hashes.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Theory.md",
+    "PNPT/assets/Pasted image 20250328042316.png",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/LLMNR Poisoning/LLMNR Poisoning Lab.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 1.md",
+    "PNPT/THM Boxes/Wreath/Enumeration/10.200.81.150.md",
+    "PNPT/PEH/Post Exploitation/Pivoting.md",
+    "PNPT/OSINT/Website OSINT/Website OSINT Part - 3 Tools.md",
+    "PNPT/OSINT/OSINT Automation/Website OSINT Tools.md",
+    "PNPT/OSINT/Image OSINT/EXIF Data.md",
+    "PNPT/OSINT/Image OSINT/Reverse Image Search.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/IPv6 MITM Attack/IPv6 Attack Lab.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Plumhound.md",
+    "PNPT/PEH/Active Directory Terms/Logical AD Components.md",
+    "PNPT/PEH/Active Directory Terms/Physical AD components.md",
+    "PNPT/PEH/Active Directory Terms/Active Directory Overview.md",
     "PNPT/assets/Pasted image 20250512161607.png",
     "PNPT/assets/Pasted image 20250512153918.png",
     "PNPT/assets/Pasted image 20250510141441.png",
@@ -219,8 +280,6 @@
     "PNPT/assets/Pasted image 20250510142722.png",
     "PNPT/assets/Pasted image 20250510142016.png",
     "PNPT/assets/Pasted image 20250510141813.png",
-    "PNPT/assets/Pasted image 20250510141709.png",
-    "PNPT/assets/Pasted image 20250510141652.png",
     "PNPT/External Pentest Playbook/Common Pentest Findings",
     "PNPT/External Pentest Playbook/Escalating Access",
     "PNPT/External Pentest Playbook/Attacking Login Portals",
