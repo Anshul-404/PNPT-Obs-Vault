@@ -4,65 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e769407d1c891aed",
+        "id": "80b477585fcc412a",
         "type": "tabs",
         "children": [
           {
-            "id": "8efe8b3bade2d5e7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "cfa54733196b1b11",
+            "id": "eb6ddcfac3ec483a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Kerberos Constrained Delegation.md",
+                "file": "CPTS Path/Bruteforcing/Medusa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos Constrained Delegation"
-            }
-          },
-          {
-            "id": "c571c6eb0bdb3c94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/File Transfers/Windows File Transfer Methods.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows File Transfer Methods"
-            }
-          },
-          {
-            "id": "117609cd9922c9b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Miscellaneous Misconfigurations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Miscellaneous Misconfigurations"
+              "title": "Medusa"
             }
           }
         ]
@@ -138,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
+                "file": "CPTS Path/Bruteforcing/Medusa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Medusa"
             }
           },
           {
@@ -234,53 +190,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8efe8b3bade2d5e7",
+  "active": "eb6ddcfac3ec483a",
   "lastOpenFiles": [
+    "CPTS Path/Bruteforcing/Hydra/Login Forms.md",
+    "CPTS Path/Bruteforcing/Medusa.md",
+    "assets/Pasted image 20251021072349.png",
+    "CPTS Path/Bruteforcing/Hydra/Basic HTTP Authentication.md",
+    "assets/Pasted image 20251021070328.png",
+    "CPTS Path/Bruteforcing/Hydra/Introduction.md",
+    "CPTS Path/Bruteforcing/Hydra",
+    "assets/Pasted image 20251021063740.png",
+    "CPTS Path/Bruteforcing/Hybrid Attacks.md",
+    "assets/Pasted image 20251021054627.png",
+    "CPTS Path/Bruteforcing/Dictionary Attacks.md",
+    "assets/Pasted image 20251020074138.png",
+    "assets/Pasted image 20251020074025.png",
+    "CPTS Path/Bruteforcing/Brute Force Attacks.md",
+    "CPTS Path/Bruteforcing/Introduction.md",
+    "assets/Pasted image 20251020070624.png",
+    "CPTS Path/Attacking Web Apps with Ffuf/Vhost Fuzzing.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Value Fuzzing.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Page Fuzzing.md",
+    "CPTS Path/Bruteforcing",
+    "CPTS Path/Attacking Web Apps with Ffuf/Parameter Fuzzing - POST.md",
+    "assets/Pasted image 20251020032214.png",
+    "CPTS Path/Attacking Web Apps with Ffuf/Parameter Fuzzing - GET.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Filtering Results.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Sub-domain Fuzzing.md",
+    "assets/Pasted image 20251020030123.png",
+    "CPTS Path/Attacking Web Apps with Ffuf/Recursive Fuzzing.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Directory Fuzzing.md",
+    "assets/Pasted image 20251019062615.png",
+    "CPTS Path/Attacking Web Apps with Ffuf/Web Fuzzing.md",
+    "CPTS Path/Attacking Web Apps with Ffuf",
+    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Kerberos Constrained Delegation.md",
     "CPTS Path/File Transfers/Windows File Transfer Methods.md",
     "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part II.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Kerberos Constrained Delegation.md",
-    "assets/Pasted image 20250820012032.png",
     "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Miscellaneous Misconfigurations.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/LDAP Enumeration using netexc.md",
-    "assets/Pasted image 20250820011040.png",
     "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration/External Recon and Enumeration Principles.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Cooking with Fire - Kerberoasting/Kerberoasting - from Linux.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?/Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Sighting In, Hunting For A User - User Enum/Enumerating & Retrieving Password Policies.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part I.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Sighting In, Hunting For A User - User Enum/Making a Target User List.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Untitled 1.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)",
-    "assets/Pasted image 20250818075934.png",
-    "assets/Pasted image 20250818075734.png",
-    "assets/Pasted image 20250818075601.png",
-    "assets/Pasted image 20250818075146.png",
-    "CPTS Path/Active Directory Enumeration & Attacks/An ACE in the Hole - ACEs & ACLs/ACL Enumeration.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/An ACE in the Hole - ACEs & ACLs/ACL Abuse Tactics.md",
-    "assets/Pasted image 20250818073834.png",
-    "assets/Pasted image 20250818073649.png",
-    "CPTS Path/Active Directory Enumeration & Attacks/Sniffing out a Foothold - LLMNR Poisoning/LLMNR,NBT-NS Poisoning - from Windows.md",
-    "assets/Pasted image 20250818073548.png",
-    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Hash (PtH).md",
-    "CPTS Path/Password Attacks/Remote Password Attacks/Network Services.md",
-    "CPTS Path/Interacting with Common Services/Attacking RDP.md",
-    "CPTS Path/Pivoting, Tunneling, and Port Forwarding/SOCKS5 Tunneling with Chisel.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Bleeding Edge Vulnerabilities.md",
-    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Certificate.md",
-    "CPTS Path/Interacting with Common Services/Attacking SQL Databases.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Deeper Down the Rabbit Hole/Credentialed Enumeration - from Linux.md",
-    "assets/Pasted image 20250818060104.png",
-    "CPTS Path/Active Directory Enumeration & Attacks/Deeper Down the Rabbit Hole/Credentialed Enumeration - from Windows.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Privileged Access.md",
     "Lainkusanagi List/Windows/Love",
     "Lainkusanagi List/Windows/Heist",
     "Lainkusanagi List/Windows/Buff",
     "Lainkusanagi List/Windows/Remote",
     "Lainkusanagi List/Windows/Giddy",
-    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?",
-    "CPTS Path/Active Directory Enumeration & Attacks/Domain Trusts Primer",
-    "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck",
-    "CPTS Path/Active Directory Enumeration & Attacks/An ACE in the Hole - ACEs & ACLs"
+    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?"
   ]
 }
