@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "80b477585fcc412a",
+        "id": "53e692b8f04d126a",
         "type": "tabs",
         "children": [
           {
-            "id": "eb6ddcfac3ec483a",
+            "id": "d2f00c54a9b86b8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Bruteforcing/Medusa.md",
+                "file": "CPTS Path/SQLMap Essentials/Database Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Medusa"
+              "title": "Database Enumeration"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/Bruteforcing/Medusa.md",
+                "file": "CPTS Path/SQLMap Essentials/Database Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Medusa"
+              "title": "Backlinks for Database Enumeration"
             }
           },
           {
@@ -190,53 +190,59 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb6ddcfac3ec483a",
+  "active": "d2f00c54a9b86b8b",
   "lastOpenFiles": [
+    "CPTS Path/SQLMap Essentials/Attack Tuning.md",
+    "CPTS Path/SQLMap Essentials/Database Enumeration.md",
+    "CPTS Path/SQLMap Essentials/Handling SQLMap Errors.md",
+    "CPTS Path/SQLMap Essentials/Running SQLMap on an HTTP Request.md",
+    "assets/Pasted image 20251026063238.png",
+    "CPTS Path/SQLMap Essentials/SQLMap Overview.md",
+    "assets/Pasted image 20251026053737.png",
+    "CPTS Path/SQL Injection/Writing Files.md",
+    "CPTS Path/SQLMap Essentials",
+    "CPTS Path/SQL Injection/Database Enumeration.md",
+    "CPTS Path/SQL Injection/Reading Files.md",
+    "CPTS Path/SQL Injection/Subverting Query Logic.md",
+    "CPTS Path/SQL Injection/Skills Assessment - SQL Injection Fundamentals.md",
+    "CPTS Path/SQL Injection/Intro to SQL Injections.md",
+    "CPTS Path/SQL Injection/Union Injection.md",
+    "CPTS Path/SQL Injection/Untitled.md",
+    "assets/Pasted image 20251025060919.png",
+    "CPTS Path/SQL Injection/Using Comments.md",
+    "CPTS Path/SQL Injection/SQL Injection (SQLi).md",
+    "assets/Pasted image 20251024071328.png",
+    "assets/Pasted image 20251024070948.png",
+    "assets/Pasted image 20251024070558.png",
+    "assets/Pasted image 20251024065917.png",
+    "assets/Pasted image 20251024065731.png",
+    "assets/Pasted image 20251024065652.png",
+    "CPTS Path/SQL Injection/Untitled/Untitled 1.base",
+    "CPTS Path/SQL Injection/Untitled/Untitled.base",
+    "CPTS Path/SQL Injection/Untitled/Untitled.canvas",
+    "assets/Pasted image 20251024063705.png",
+    "CPTS Path/SQL Injection/Untitled",
+    "Untitled 10.md",
+    "Untitled 9.md",
+    "Untitled 8.md",
+    "CPTS Path/SQL Injection/Untitled.canvas",
+    "CPTS Path/SQL Injection/Untitled 3.canvas",
+    "CPTS Path/SQL Injection/Untitled 2.canvas",
+    "CPTS Path/Untitled/Untitled.canvas",
+    "CPTS Path/SQL Injection/Untitled 1.canvas",
+    "CPTS Path/Bruteforcing/Hydra/Introduction.md",
+    "CPTS Path/SQL Injection",
+    "CPTS Path/Bruteforcing/Skills Assessment.md",
     "CPTS Path/Bruteforcing/Hydra/Login Forms.md",
     "CPTS Path/Bruteforcing/Medusa.md",
-    "assets/Pasted image 20251021072349.png",
     "CPTS Path/Bruteforcing/Hydra/Basic HTTP Authentication.md",
-    "assets/Pasted image 20251021070328.png",
-    "CPTS Path/Bruteforcing/Hydra/Introduction.md",
+    "CPTS Path/Bruteforcing/Custom Wordlists.md",
     "CPTS Path/Bruteforcing/Hydra",
-    "assets/Pasted image 20251021063740.png",
     "CPTS Path/Bruteforcing/Hybrid Attacks.md",
-    "assets/Pasted image 20251021054627.png",
     "CPTS Path/Bruteforcing/Dictionary Attacks.md",
-    "assets/Pasted image 20251020074138.png",
-    "assets/Pasted image 20251020074025.png",
-    "CPTS Path/Bruteforcing/Brute Force Attacks.md",
-    "CPTS Path/Bruteforcing/Introduction.md",
-    "assets/Pasted image 20251020070624.png",
-    "CPTS Path/Attacking Web Apps with Ffuf/Vhost Fuzzing.md",
-    "CPTS Path/Attacking Web Apps with Ffuf/Value Fuzzing.md",
-    "CPTS Path/Attacking Web Apps with Ffuf/Page Fuzzing.md",
     "CPTS Path/Bruteforcing",
-    "CPTS Path/Attacking Web Apps with Ffuf/Parameter Fuzzing - POST.md",
-    "assets/Pasted image 20251020032214.png",
-    "CPTS Path/Attacking Web Apps with Ffuf/Parameter Fuzzing - GET.md",
-    "CPTS Path/Attacking Web Apps with Ffuf/Filtering Results.md",
-    "CPTS Path/Attacking Web Apps with Ffuf/Sub-domain Fuzzing.md",
-    "assets/Pasted image 20251020030123.png",
-    "CPTS Path/Attacking Web Apps with Ffuf/Recursive Fuzzing.md",
-    "CPTS Path/Attacking Web Apps with Ffuf/Directory Fuzzing.md",
-    "assets/Pasted image 20251019062615.png",
-    "CPTS Path/Attacking Web Apps with Ffuf/Web Fuzzing.md",
     "CPTS Path/Attacking Web Apps with Ffuf",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Kerberos Constrained Delegation.md",
-    "CPTS Path/File Transfers/Windows File Transfer Methods.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part II.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Miscellaneous Misconfigurations.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/LDAP Enumeration using netexc.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration/External Recon and Enumeration Principles.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Cooking with Fire - Kerberoasting/Kerberoasting - from Linux.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)",
-    "Lainkusanagi List/Windows/Love",
-    "Lainkusanagi List/Windows/Heist",
-    "Lainkusanagi List/Windows/Buff",
-    "Lainkusanagi List/Windows/Remote",
-    "Lainkusanagi List/Windows/Giddy",
-    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?"
+    "Lainkusanagi List/Windows/Love"
   ]
 }
