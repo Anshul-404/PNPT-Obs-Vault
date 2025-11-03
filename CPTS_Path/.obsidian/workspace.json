@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ec98ad68f517651a",
+        "id": "d3629ab9e59211d7",
         "type": "tabs",
         "children": [
           {
-            "id": "a9ffee97922a98f7",
+            "id": "067b9c0e97da3e26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/XSS/Session Hijacking.md",
+                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session Hijacking"
+              "title": "Log Poisoning"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/XSS/Session Hijacking.md",
+                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Session Hijacking"
+              "title": "Backlinks for Log Poisoning"
             }
           },
           {
@@ -190,47 +190,49 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9ffee97922a98f7",
+  "active": "067b9c0e97da3e26",
   "lastOpenFiles": [
-    "assets/Pasted image 20251029072236.png",
-    "assets/Pasted image 20251029072136.png",
-    "assets/Pasted image 20251029072108.png",
-    "assets/Pasted image 20251029070542.png",
-    "assets/Pasted image 20251029070524.png",
-    "CPTS Path/XSS/Phishing.md",
-    "CPTS Path/XSS/Session Hijacking.md",
-    "assets/Pasted image 20251029060605.png",
-    "assets/Pasted image 20251029060417.png",
-    "assets/Pasted image 20251029060249.png",
-    "assets/Pasted image 20251029060138.png",
-    "assets/Pasted image 20251029055456.png",
-    "assets/Pasted image 20251029055412.png",
-    "CPTS Path/XSS/Defacing.md",
-    "CPTS Path/XSS/Untitled",
-    "CPTS Path/XSS/Reflected XSS.md",
-    "CPTS Path/XSS/XSS Discovery.md",
-    "CPTS Path/XSS/Stored XSS.md",
-    "CPTS Path/XSS/DOM XSS.md",
-    "CPTS Path/XSS/Introduction.md",
+    "assets/Pasted image 20251103080313.png",
+    "assets/Pasted image 20251103080217.png",
+    "assets/Pasted image 20251103080146.png",
+    "assets/Pasted image 20251103080124.png",
+    "assets/Pasted image 20251103080013.png",
+    "CPTS Path/Local File Inclusion/PHP Filters.md",
+    "CPTS Path/Local File Inclusion/Log Poisoning.md",
+    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
+    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
+    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
+    "assets/Pasted image 20251103075655.png",
+    "assets/Pasted image 20251103075545.png",
+    "assets/Pasted image 20251103075300.png",
+    "assets/Pasted image 20251103075235.png",
+    "assets/Pasted image 20251103063544.png",
+    "assets/Pasted image 20251103063237.png",
+    "CPTS Path/Local File Inclusion/Intro to File Inclusions.md",
+    "CPTS Path/Local File Inclusion/Untitled",
+    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
+    "Untitled 12.md",
+    "Untitled 11.md",
+    "CPTS Path/Local File Inclusion/Basic Bypasses.md",
+    "CPTS Path/Local File Inclusion",
+    "CPTS Path/Cross Site Scripting/Session Hijacking.md",
+    "CPTS Path/Cross Site Scripting/Skills Assessment.md",
+    "CPTS Path/Cross Site Scripting/Phishing.md",
+    "CPTS Path/Cross Site Scripting/Defacing.md",
+    "CPTS Path/Cross Site Scripting/Untitled",
+    "CPTS Path/Cross Site Scripting/Reflected XSS.md",
+    "CPTS Path/Cross Site Scripting/XSS Discovery.md",
+    "CPTS Path/Cross Site Scripting/Stored XSS.md",
+    "CPTS Path/Cross Site Scripting/DOM XSS.md",
+    "CPTS Path/Cross Site Scripting/Introduction.md",
     "CPTS Path/SQLMap Essentials/Temper Scripts.md",
-    "CPTS Path/XSS",
+    "CPTS Path/Cross Site Scripting",
     "CPTS Path/SQLMap Essentials/Skills Assessment.md",
     "CPTS Path/SQLMap Essentials/OS Exploitation.md",
     "CPTS Path/SQLMap Essentials/Bypassing Web Application Protections.md",
     "CPTS Path/SQLMap Essentials/Advanced Database Enumeration.md",
     "CPTS Path/SQLMap Essentials/Database Enumeration.md",
-    "CPTS Path/SQLMap Essentials/Attack Tuning.md",
-    "CPTS Path/SQLMap Essentials/Handling SQLMap Errors.md",
-    "CPTS Path/SQLMap Essentials/Running SQLMap on an HTTP Request.md",
-    "CPTS Path/SQLMap Essentials/SQLMap Overview.md",
-    "CPTS Path/SQL Injection/Writing Files.md",
     "CPTS Path/SQLMap Essentials",
-    "CPTS Path/SQL Injection/Database Enumeration.md",
-    "CPTS Path/SQL Injection/Reading Files.md",
-    "CPTS Path/SQL Injection/Subverting Query Logic.md",
-    "CPTS Path/SQL Injection/Skills Assessment - SQL Injection Fundamentals.md",
-    "CPTS Path/SQL Injection/Intro to SQL Injections.md",
-    "CPTS Path/SQL Injection/Union Injection.md",
     "CPTS Path/SQL Injection/Untitled/Untitled 1.base",
     "CPTS Path/SQL Injection/Untitled/Untitled.base",
     "CPTS Path/SQL Injection/Untitled/Untitled.canvas",
@@ -241,8 +243,6 @@
     "CPTS Path/Untitled/Untitled.canvas",
     "CPTS Path/SQL Injection/Untitled 1.canvas",
     "CPTS Path/SQL Injection",
-    "CPTS Path/Bruteforcing/Hydra",
-    "CPTS Path/Bruteforcing",
-    "CPTS Path/Attacking Web Apps with Ffuf"
+    "CPTS Path/Bruteforcing/Hydra"
   ]
 }
