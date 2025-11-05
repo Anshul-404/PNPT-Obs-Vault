@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d3629ab9e59211d7",
+        "id": "8b6286032cd02e2c",
         "type": "tabs",
         "children": [
           {
-            "id": "067b9c0e97da3e26",
+            "id": "8233e2c99ce7bb1e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
+                "file": "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Log Poisoning"
+              "title": "Skills Assessment - File Inclusion"
             }
           }
         ]
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
+                "file": "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Log Poisoning"
+              "title": "Backlinks for Misc"
             }
           },
           {
@@ -190,48 +192,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "067b9c0e97da3e26",
+  "active": "197af3ce8d0d0841",
   "lastOpenFiles": [
-    "assets/Pasted image 20251103080313.png",
-    "assets/Pasted image 20251103080217.png",
-    "assets/Pasted image 20251103080146.png",
-    "assets/Pasted image 20251103080124.png",
-    "assets/Pasted image 20251103080013.png",
-    "CPTS Path/Local File Inclusion/PHP Filters.md",
-    "CPTS Path/Local File Inclusion/Log Poisoning.md",
-    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
-    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
-    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
-    "assets/Pasted image 20251103075655.png",
-    "assets/Pasted image 20251103075545.png",
-    "assets/Pasted image 20251103075300.png",
-    "assets/Pasted image 20251103075235.png",
-    "assets/Pasted image 20251103063544.png",
-    "assets/Pasted image 20251103063237.png",
-    "CPTS Path/Local File Inclusion/Intro to File Inclusions.md",
-    "CPTS Path/Local File Inclusion/Untitled",
-    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Untitled 1.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Misc.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/Untitled.md",
+    "CPTS Path/Getting Started/Services/Untitled.md",
+    "CPTS Path/Using the Metasploit Framework/Untitled.md",
+    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
+    "CPTS Path/SQL Injection/Untitled.md",
     "Untitled 12.md",
     "Untitled 11.md",
-    "CPTS Path/Local File Inclusion/Basic Bypasses.md",
+    "Untitled 10.md",
+    "Untitled 9.md",
+    "Untitled 8.md",
+    "Untitled 7.md",
+    "Pasted image 20250810053113.md",
+    "Untitled 6.md",
+    "Untitled 5.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "assets/Pasted image 20251106022850.png",
+    "assets/Pasted image 20251106022830.png",
+    "assets/Pasted image 20251106022823.png",
+    "assets/Pasted image 20251106022628.png",
+    "assets/Pasted image 20251106022128.png",
+    "assets/Pasted image 20251106022045.png",
+    "assets/Pasted image 20251106022018.png",
+    "assets/Pasted image 20251106022015.png",
+    "assets/Pasted image 20251106021814.png",
+    "assets/Pasted image 20251106021658.png",
+    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
+    "CPTS Path/Local File Inclusion/Log Poisoning.md",
+    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
+    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
+    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
+    "CPTS Path/Local File Inclusion/Untitled",
     "CPTS Path/Local File Inclusion",
-    "CPTS Path/Cross Site Scripting/Session Hijacking.md",
-    "CPTS Path/Cross Site Scripting/Skills Assessment.md",
-    "CPTS Path/Cross Site Scripting/Phishing.md",
-    "CPTS Path/Cross Site Scripting/Defacing.md",
     "CPTS Path/Cross Site Scripting/Untitled",
-    "CPTS Path/Cross Site Scripting/Reflected XSS.md",
-    "CPTS Path/Cross Site Scripting/XSS Discovery.md",
-    "CPTS Path/Cross Site Scripting/Stored XSS.md",
-    "CPTS Path/Cross Site Scripting/DOM XSS.md",
-    "CPTS Path/Cross Site Scripting/Introduction.md",
-    "CPTS Path/SQLMap Essentials/Temper Scripts.md",
     "CPTS Path/Cross Site Scripting",
-    "CPTS Path/SQLMap Essentials/Skills Assessment.md",
-    "CPTS Path/SQLMap Essentials/OS Exploitation.md",
-    "CPTS Path/SQLMap Essentials/Bypassing Web Application Protections.md",
-    "CPTS Path/SQLMap Essentials/Advanced Database Enumeration.md",
-    "CPTS Path/SQLMap Essentials/Database Enumeration.md",
     "CPTS Path/SQLMap Essentials",
     "CPTS Path/SQL Injection/Untitled/Untitled 1.base",
     "CPTS Path/SQL Injection/Untitled/Untitled.base",
