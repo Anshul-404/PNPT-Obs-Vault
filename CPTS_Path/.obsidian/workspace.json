@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b6286032cd02e2c",
+        "id": "6fe3962c66a459f7",
         "type": "tabs",
         "children": [
           {
-            "id": "8233e2c99ce7bb1e",
+            "id": "a16eb35d26ade960",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
+                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Skills Assessment - File Inclusion"
+              "title": "Client-Side Validation"
             }
           }
         ]
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Misc.md",
+                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Misc"
+              "title": "Backlinks for Client-Side Validation"
             }
           },
           {
@@ -192,14 +190,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "197af3ce8d0d0841",
+  "active": "a16eb35d26ade960",
   "lastOpenFiles": [
+    "assets/Pasted image 20251107010427.png",
+    "assets/Pasted image 20251107010342.png",
+    "assets/Pasted image 20251107010224.png",
+    "assets/Pasted image 20251107010011.png",
+    "assets/Pasted image 20251107005955.png",
+    "assets/Pasted image 20251107005815.png",
+    "assets/Pasted image 20251107005755.png",
+    "assets/Pasted image 20251107005733.png",
+    "CPTS Path/File Upload Attacks/Upload Exploitation.md",
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
+    "CPTS Path/File Upload Attacks/Bypassing Filters",
+    "assets/Pasted image 20251107004203.png",
+    "assets/Pasted image 20251107004106.png",
+    "assets/Pasted image 20251107004051.png",
+    "CPTS Path/File Upload Attacks/Absent Validation.md",
+    "CPTS Path/File Upload Attacks/Intro to File Upload Attacks.md",
+    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
+    "CPTS Path/File Upload Attacks",
     "CPTS Path/Active Directory Enumeration & Attacks/Untitled 1.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Misc.md",
     "CPTS Path/Active Directory Enumeration & Attacks/Untitled.md",
     "CPTS Path/Getting Started/Services/Untitled.md",
     "CPTS Path/Using the Metasploit Framework/Untitled.md",
-    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
     "CPTS Path/SQL Injection/Untitled.md",
     "Untitled 12.md",
     "Untitled 11.md",
@@ -215,21 +230,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
-    "assets/Pasted image 20251106022850.png",
-    "assets/Pasted image 20251106022830.png",
-    "assets/Pasted image 20251106022823.png",
-    "assets/Pasted image 20251106022628.png",
-    "assets/Pasted image 20251106022128.png",
-    "assets/Pasted image 20251106022045.png",
-    "assets/Pasted image 20251106022018.png",
-    "assets/Pasted image 20251106022015.png",
-    "assets/Pasted image 20251106021814.png",
-    "assets/Pasted image 20251106021658.png",
-    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
-    "CPTS Path/Local File Inclusion/Log Poisoning.md",
-    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
-    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
-    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
     "CPTS Path/Local File Inclusion/Untitled",
     "CPTS Path/Local File Inclusion",
     "CPTS Path/Cross Site Scripting/Untitled",
@@ -243,8 +243,6 @@
     "CPTS Path/SQL Injection/Untitled 3.canvas",
     "CPTS Path/SQL Injection/Untitled 2.canvas",
     "CPTS Path/Untitled/Untitled.canvas",
-    "CPTS Path/SQL Injection/Untitled 1.canvas",
-    "CPTS Path/SQL Injection",
-    "CPTS Path/Bruteforcing/Hydra"
+    "CPTS Path/SQL Injection/Untitled 1.canvas"
   ]
 }
