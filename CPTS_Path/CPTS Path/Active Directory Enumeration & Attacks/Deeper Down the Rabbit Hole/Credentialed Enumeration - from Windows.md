@@ -4,7 +4,7 @@
 - The ActiveDirectory PowerShell module is a **group of PowerShell cmdlets for administering an Active Directory environment** from the command line.
 - The **[Get-Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-module?view=powershell-7.2) cmdlet,** which is part of the [Microsoft.PowerShell.Core module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/?view=powershell-7.2), **will list all available modules, their version, and potential commands for use.**
 - This is a great way to see if **anything like Git or custom administrator scripts are installed.**
-- f the module is not loaded, **run `Import-Module ActiveDirectory` to load it for use.**
+- If the module is not loaded, **run `Import-Module ActiveDirectory` to load it for use.**
 
 - Discover Modules:
 	- `Get-Module`

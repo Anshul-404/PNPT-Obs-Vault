@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/ASREP Roasting/ASREP Roasting Lab.md",
+                "file": "PNPT/External Pentest Playbook/Attacking Login Portals/Attacking OWA (Outlook).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASREP Roasting Lab"
+              "title": "Attacking OWA (Outlook)"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "OWA",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +133,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -229,7 +230,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "smart-composer:Open smart composer": false,
+      "bases:Create new base": false,
       "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -237,11 +238,15 @@
       "templates:Insert template": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-composer:Open smart composer": false
     }
   },
   "active": "3a45728f3db6c35c",
   "lastOpenFiles": [
+    "PNPT/Checklists/External Pentest Checklist.md",
+    "PNPT/Checklists/Old WPE Checklist.md",
+    "PNPT/PEH/Active Directory Attack Vectors/Initial Attack Vectors/ASREP Roasting/ASREP Roasting Lab.md",
     "PNPT/HTB Boxes/Blackfield/Enumeration.md",
     "PNPT/WPE/Administrator Group To SYSTEM.md",
     "PNPT/WPE/Impersonation and Potato/Privilege Escalation.md",
@@ -249,7 +254,6 @@
     "PNPT/Checklists/WPE Checklist.md",
     "PNPT/WPE/Always Install Elevated/Overview.md",
     "PNPT/Checklists/AD Checklist.md",
-    "PNPT/Checklists/External Pentest Checklist.md",
     "PNPT/assets/Pasted image 20250329164841.png",
     "PNPT/PEH/Active Directory Attack Vectors/Post Compromise Attacks/Kerberoasting/Kerberoasting Overview.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration Bloodhound.md",
@@ -268,8 +272,6 @@
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Domain Enumeration ldapdomaindump.md",
     "PNPT/PEH/Active Directory Attack Vectors/Post Exploitation Enumeration/Plumhound.md",
     "PNPT/PEH/Active Directory Terms/Logical AD Components.md",
-    "PNPT/PEH/Active Directory Terms/Physical AD components.md",
-    "PNPT/PEH/Active Directory Terms/Active Directory Overview.md",
     "PNPT/assets/Pasted image 20250512161607.png",
     "PNPT/assets/Pasted image 20250512153918.png",
     "PNPT/assets/Pasted image 20250510141441.png",

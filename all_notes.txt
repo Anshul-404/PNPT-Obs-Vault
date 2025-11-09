@@ -1,0 +1,851 @@
+.
+├── all_notes.txt
+├── CPTS_Path
+│   ├── Ah Shit here we Go Again.md
+│   ├── assets
+│   │   ├── SocksOverRDP-Server 1.exe
+│   │   ├── SocksOverRDP-Server 2.exe
+│   │   └── SocksOverRDP-Server.exe
+│   ├── CPTS Path
+│   │   ├── Active Directory Enumeration & Attacks
+│   │   │   ├── Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf
+│   │   │   ├── Additional AD Auditing Techniques.md
+│   │   │   ├── AD Enumeration & Attacks - Skills Assessment Part II.md
+│   │   │   ├── AD Enumeration & Attacks - Skills Assessment Part I.md
+│   │   │   ├── An ACE in the Hole - ACEs & ACLs
+│   │   │   │   ├── Access Control List (ACL) Abuse Primer.md
+│   │   │   │   ├── ACL Abuse Tactics.md
+│   │   │   │   ├── ACL Enumeration.md
+│   │   │   │   └── DCSync.md
+│   │   │   ├── Cooking with Fire - Kerberoasting
+│   │   │   │   ├── Kerberoasting - from Linux.md
+│   │   │   │   └── Kerberoasting - from Windows.md
+│   │   │   ├── Deeper Down the Rabbit Hole
+│   │   │   │   ├── Credentialed Enumeration - from Linux.md
+│   │   │   │   ├── Credentialed Enumeration - from Windows.md
+│   │   │   │   ├── Enumerating Security Controls.md
+│   │   │   │   └── Living Off the Land.md
+│   │   │   ├── Initial Enumeration
+│   │   │   │   ├── External Recon and Enumeration Principles.md
+│   │   │   │   └── Initial Enumeration of the Domain.md
+│   │   │   ├── Misc. Techniques (From CTFs)
+│   │   │   │   ├── ADCS ESC1 Escalation in DC.md
+│   │   │   │   ├── Kerberos Constrained Delegation.md
+│   │   │   │   ├── LDAP Enumeration using netexc.md
+│   │   │   │   └── Untitled.md
+│   │   │   ├── Sighting In, Hunting For A User - User Enum
+│   │   │   │   ├── Enumerating & Retrieving Password Policies.md
+│   │   │   │   └── Making a Target User List.md
+│   │   │   ├── Sniffing out a Foothold - LLMNR Poisoning
+│   │   │   │   ├── LLMNR, NBT-NS Poisoning - from Linux.md
+│   │   │   │   └── LLMNR,NBT-NS Poisoning - from Windows.md
+│   │   │   ├── Spray Responsibly - Password Spraying
+│   │   │   │   ├── Internal Password Spraying - from Linux.md
+│   │   │   │   └── Internal Password Spraying - from Windows.md
+│   │   │   ├── Stacking The Deck
+│   │   │   │   ├── Bleeding Edge Vulnerabilities.md
+│   │   │   │   ├── Kerberos "Double Hop" Problem.md
+│   │   │   │   ├── Miscellaneous Misconfigurations.md
+│   │   │   │   └── Privileged Access.md
+│   │   │   ├── Untitled 1.md
+│   │   │   ├── Untitled.md
+│   │   │   └── Why So Trusting?
+│   │   │       ├── Attacking Domain Trusts - Child -> Parent Trusts - from Linux.md
+│   │   │       ├── Attacking Domain Trusts - Child -> Parent Trusts - Windows.md
+│   │   │       ├── Attacking Domain Trusts - Cross-Forest Trust Abuse - from Linux.md
+│   │   │       ├── Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows.md
+│   │   │       └── Domain Trusts Primer.md
+│   │   ├── Enumeration
+│   │   │   ├── Firewall and IDS, IPS Evasion.md
+│   │   │   ├── F.W Evasion Lab - 1.md
+│   │   │   ├── How to approach.md
+│   │   │   └── Nmap.md
+│   │   ├── File Transfers
+│   │   │   ├── Catching Files over HTTP(S).md
+│   │   │   ├── Evading Detection.md
+│   │   │   ├── File_Transfers_Module_Cheat_Sheet.pdf
+│   │   │   ├── Linux File Transfer Methods.md
+│   │   │   ├── Living off The Land - LOLBins.md
+│   │   │   ├── Miscellaneous File Transfer Methods.md
+│   │   │   ├── Protected File Transfers.md
+│   │   │   ├── Transferring Files with Code.md
+│   │   │   └── Windows File Transfer Methods.md
+│   │   ├── Footprinting
+│   │   │   ├── Cloud Resources.md
+│   │   │   ├── DNS.md
+│   │   │   ├── Domain Information.md
+│   │   │   ├── Enumeration Methodology.md
+│   │   │   ├── Enumeration Principles.md
+│   │   │   ├── Footprinting_Module_Cheat_Sheet.pdf
+│   │   │   ├── FTP.md
+│   │   │   ├── IMAP - POP3.md
+│   │   │   ├── IPMI.md
+│   │   │   ├── Labs.md
+│   │   │   ├── Linux Remote Management Protocols.md
+│   │   │   ├── MSSQL.md
+│   │   │   ├── MySQL.md
+│   │   │   ├── NFS.md
+│   │   │   ├── Oracle TNS.md
+│   │   │   ├── SMB.md
+│   │   │   ├── SMTP.md
+│   │   │   ├── SNMP.md
+│   │   │   ├── Staff.md
+│   │   │   └── Windows Remote Management Protocols.md
+│   │   ├── Getting Started
+│   │   │   ├── AnotherCTF
+│   │   │   │   └── Nmap scan.md
+│   │   │   ├── Nibbles
+│   │   │   │   ├── Learnings.md
+│   │   │   │   └── Nmap Scan.md
+│   │   │   ├── Privilege Escalation.md
+│   │   │   ├── Services
+│   │   │   │   ├── Scanning with Nmap.md
+│   │   │   │   └── Untitled.md
+│   │   │   ├── Tips.md
+│   │   │   ├── Transferring Files.md
+│   │   │   └── Web Enumeration
+│   │   │       ├── Directory, File Enumeration.md
+│   │   │       └── DNS Subdomain Enumeration.md
+│   │   ├── How we begin?.md
+│   │   ├── Information Gathering - Web Edition
+│   │   │   ├── Crawling
+│   │   │   │   ├── Automating Recon.md
+│   │   │   │   ├── Creepy Crawlies - Tools.md
+│   │   │   │   ├── robots.txt.md
+│   │   │   │   ├── Search Engine Discovery.md
+│   │   │   │   ├── Web Archives.md
+│   │   │   │   └── Well-Known URIs.md
+│   │   │   ├── DNS & Subdomains
+│   │   │   │   ├── Certificate Transparency Logs.md
+│   │   │   │   ├── Digging DNS.md
+│   │   │   │   ├── DNS - Introduction.md
+│   │   │   │   ├── DNS Zone Transfers.md
+│   │   │   │   ├── Fingerprinting.md
+│   │   │   │   ├── Subdomain Bruteforcing.md
+│   │   │   │   ├── Subdomains.md
+│   │   │   │   └── Virtual Hosts.md
+│   │   │   ├── Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf
+│   │   │   ├── Introduction - Passive vs Active Recon.md
+│   │   │   ├── Skills Assessment.md
+│   │   │   └── WHOIS.md
+│   │   ├── Interacting with Common Services
+│   │   │   ├── Attacking DNS.md
+│   │   │   ├── Attacking Email Services.md
+│   │   │   ├── Attacking FTP.md
+│   │   │   ├── Attacking RDP.md
+│   │   │   ├── Attacking SMB.md
+│   │   │   ├── Attacking SQL Databases.md
+│   │   │   ├── Finding Sensitive Information.md
+│   │   │   ├── Interacting with Common Services.md
+│   │   │   ├── Labs.md
+│   │   │   ├── Service Misconfigurations.md
+│   │   │   └── The Concept of Attacks.md
+│   │   ├── Password Attacks
+│   │   │   ├── Extracting Passwords from Linux
+│   │   │   │   ├── Credential Hunting in Linux.md
+│   │   │   │   └── Linux Authentication Process.md
+│   │   │   ├── Extracting Passwords from the Network
+│   │   │   │   ├── Credential Hunting in Network Shares.md
+│   │   │   │   └── Credential Hunting in Network Traffic.md
+│   │   │   ├── Extracting Passwords from Windows
+│   │   │   │   ├── Attacking Active Directory and NTDS.dit.md
+│   │   │   │   ├── Attacking LSASS.md
+│   │   │   │   ├── Attacking SAM, SYSTEM, and SECURITY.md
+│   │   │   │   ├── Attacking Windows Credential Manager.md
+│   │   │   │   ├── Credential Hunting in Windows.md
+│   │   │   │   └── Windows Authentication Process.md
+│   │   │   ├── Introduction.md
+│   │   │   ├── Password_Attacks_Module_Cheat_Sheet.pdf
+│   │   │   ├── Password Cracking Techniques
+│   │   │   │   ├── Cracking Protected Files.md
+│   │   │   │   ├── Custom Wordlists and Rules.md
+│   │   │   │   ├── HashCat.md
+│   │   │   │   ├── Introduction to Password Cracking.md
+│   │   │   │   └── John The Ripper.md
+│   │   │   ├── Remote Password Attacks
+│   │   │   │   ├── Network Services.md
+│   │   │   │   └── Spraying, Stuffing, and Defaults.md
+│   │   │   ├── Skills Assessment
+│   │   │   │   ├── Domain Controller Access.md
+│   │   │   │   ├── FILE01.md
+│   │   │   │   ├── Initial Foothold.md
+│   │   │   │   ├── JUMP01 - 172.16.119.7.md
+│   │   │   │   └── The Credential Theft Shuffle.md
+│   │   │   └── Windows Lateral Movement Techniques
+│   │   │       ├── Pass the Certificate.md
+│   │   │       ├── Pass the Hash (PtH).md
+│   │   │       ├── Pass the Ticket (PtT) from Linux.md
+│   │   │       └── Pass the Ticket (PtT) from Windows.md
+│   │   ├── Pivoting, Tunneling, and Port Forwarding
+│   │   │   ├── DNS Tunneling with Dnscat2.md
+│   │   │   ├── Dynamic Port Forwarding with SSH and SOCKS Tunneling.md
+│   │   │   ├── ICMP Tunneling with SOCKS.md
+│   │   │   ├── Lateral Movement, Pivoting, and Tunneling Compared.md
+│   │   │   ├── Meterpreter Tunneling & Port Forwarding.md
+│   │   │   ├── Port Forwarding with Windows Netsh.md
+│   │   │   ├── RDP and SOCKS Tunneling with SocksOverRDP.md
+│   │   │   ├── Remote, Reverse Port Forwarding with SSH.md
+│   │   │   ├── Skills Assessment.md
+│   │   │   ├── Socat Redirection with a Bind Shell.md
+│   │   │   ├── Socat Redirection with a Reverse Shell.md
+│   │   │   ├── SOCKS5 Tunneling with Chisel.md
+│   │   │   ├── SSH for Windows plink.exe - linux as pivot.md
+│   │   │   ├── SSH Pivoting with Sshuttle.md
+│   │   │   └── Web Server Pivoting with Rpivot.md
+│   │   ├── Shells & Payloads
+│   │   │   ├── Automating Payloads & Delivery with Metasploit.md
+│   │   │   ├── Bind Shells.md
+│   │   │   ├── Crafting Payloads with MSFvenom.md
+│   │   │   ├── Reverse Shells.md
+│   │   │   ├── Shells_Payloads_Module_Cheat_Sheet.pdf
+│   │   │   ├── The Live Engagement.md
+│   │   │   ├── Unix Shells
+│   │   │   │   ├── Infiltrating Unix,Linux.md
+│   │   │   │   └── Spawning Interactive Shells.md
+│   │   │   ├── Web Shells
+│   │   │   │   ├── Antak Webshell - PowerShell on Browser.md
+│   │   │   │   ├── Introduction and Laudanum.md
+│   │   │   │   └── PHP Web Shells.md
+│   │   │   └── Windows Shells
+│   │   │       ├── Code for Facebook Style Blog (host-2).md
+│   │   │       └── Infiltrating Windows.md
+│   │   └── Using the Metasploit Framework
+│   │       ├── Additional Features
+│   │       │   ├── Firewall and IDS,IPS Evasion.md
+│   │       │   ├── Introduction to MSFVenom.md
+│   │       │   └── Writing and Importing Modules.md
+│   │       ├── Components
+│   │       │   ├── Databases.md
+│   │       │   ├── Encoders.md
+│   │       │   ├── Modules.md
+│   │       │   ├── Payloads.md
+│   │       │   ├── Plugins.md
+│   │       │   └── Targets.md
+│   │       ├── Introduction to MSFConsole.md
+│   │       ├── MSF Sessions
+│   │       │   ├── Meterpreter.md
+│   │       │   └── Sessions.md
+│   │       ├── Untitled.md
+│   │       └── Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf
+│   ├── Lainkusanagi List
+│   │   ├── Cheatsheat.md
+│   │   └── Windows
+│   │       ├── Buff
+│   │       │   └── Wlakthrough.md
+│   │       ├── Giddy
+│   │       │   └── Walkthrough.md
+│   │       ├── Heist
+│   │       │   └── Walkthrough.md
+│   │       ├── Jerry
+│   │       │   └── Compete Exploitation.md
+│   │       ├── Love
+│   │       │   └── Walkthrough.md
+│   │       ├── Netmon
+│   │       │   └── Enumeration.md
+│   │       ├── Remote
+│   │       │   └── Walkthrough.md
+│   │       ├── Servmon
+│   │       │   └── Walkthrough.md
+│   │       └── Sniper
+│   │           └── Walkthrough.md
+│   ├── Pasted image 20250810053113.md
+│   ├── Untitled 1.md
+│   ├── Untitled 2.md
+│   ├── Untitled 3.md
+│   ├── Untitled 4.md
+│   ├── Untitled 5.md
+│   ├── Untitled 6.md
+│   ├── Untitled 7.md
+│   └── Untitled.md
+├── Obsidian Vault
+│   ├── 2025-05-26.md
+│   ├── 2025-06-13.md
+│   ├── home
+│   │   ├── Checklist.md
+│   │   └── drasstrange
+│   │       └── PNPT_Prep
+│   │           └── PEH
+│   │               └── nmap.md
+│   └── PNPT
+│       ├── assets
+│       │   ├── nmap_kioptrix_all
+│       │   ├── program 1.exe
+│       │   └── program.exe
+│       ├── Checklists
+│       │   ├── AD Checklist.md
+│       │   ├── External Pentest Checklist.md
+│       │   ├── Methodology Checklist.md
+│       │   ├── Old WPE Checklist.md
+│       │   ├── OSINT Checklist.md
+│       │   ├── Web Enumeration Checklist.md
+│       │   └── WPE Checklist.md
+│       ├── External Pentest Playbook
+│       │   ├── Attacking Login Portals
+│       │   │   ├── Attacking O365 (Office).md
+│       │   │   ├── Attacking Other Portals.md
+│       │   │   ├── Attacking OWA (Outlook).md
+│       │   │   ├── Bypassing MFA.md
+│       │   │   └── Overview.md
+│       │   ├── Before we start
+│       │   │   ├── Client Communication.md
+│       │   │   ├── Objectives of an External Pentest.md
+│       │   │   ├── Rules of Engagement.md
+│       │   │   └── Verifying Scope.md
+│       │   ├── Checklists
+│       │   │   ├── External Assesment.md
+│       │   │   └── Make a Sheet of following.md
+│       │   ├── Client Debriefs.md
+│       │   ├── Common Pentest Findings
+│       │   │   ├── Default Credentials.md
+│       │   │   ├── Default Web Pages.md
+│       │   │   ├── Historical Account Compromises.md
+│       │   │   ├── IKE Aggressive Mode.md
+│       │   │   ├── Information Disclosure.md
+│       │   │   ├── Insufficient Authentication Controls.md
+│       │   │   ├── Insufficient Encryption.md
+│       │   │   ├── Insufficient Patching.md
+│       │   │   ├── Insufficient Traffic Blocking.md
+│       │   │   ├── Open Mail Relays.md
+│       │   │   ├── Undetected Malicious Activity.md
+│       │   │   ├── Username Enumeration.md
+│       │   │   └── Weak Password Policy.md
+│       │   ├── Escalating Access
+│       │   │   └── Strategy & Walkthrough.md
+│       │   ├── Kicking Off
+│       │   │   ├── Attack Strategy.md
+│       │   │   ├── Reviewing & Extracting Information.md
+│       │   │   └── Vulnerability Scanning.md
+│       │   ├── OSINT
+│       │   │   ├── Enumerating Valid Accounts (Pre-Attack).md
+│       │   │   ├── Hunting Breached Credentials.md
+│       │   │   ├── Identifying Employees & Emails.md
+│       │   │   └── Other Useful Information.md
+│       │   └── Report Writing.md
+│       ├── HTB Boxes
+│       │   ├── Active
+│       │   │   ├── Full Exploitation.md
+│       │   │   ├── Information.md
+│       │   │   └── Nmap Results.md
+│       │   ├── Blackfield
+│       │   │   ├── Enumeration.md
+│       │   │   ├── Information.md
+│       │   │   ├── Initial Foothold.md
+│       │   │   ├── Nmap Results.md
+│       │   │   └── Privilege Escalation.md
+│       │   ├── Devel
+│       │   │   ├── Enumeration.md
+│       │   │   ├── Information.md
+│       │   │   ├── Initial Foothold.md
+│       │   │   ├── Nmap Scans.md
+│       │   │   └── Privilege Escalation.md
+│       │   ├── Forest
+│       │   │   ├── Enumeration.md
+│       │   │   ├── Forest.pdf
+│       │   │   ├── Information.md
+│       │   │   ├── Initial Foothold.md
+│       │   │   ├── Nmap Results.md
+│       │   │   └── Privilege Escalation.md
+│       │   ├── Legacy
+│       │   │   ├── Enumeration.md
+│       │   │   └── Information.md
+│       │   ├── Monteverde
+│       │   │   ├── Enumeration.md
+│       │   │   ├── Information.md
+│       │   │   ├── Initial Foothold.md
+│       │   │   ├── Nmap Scans.md
+│       │   │   └── Privilege Escalation.md
+│       │   └── Sauna
+│       │       ├── Enumeration.md
+│       │       ├── Information.md
+│       │       ├── Initial Foothold.md
+│       │       ├── Nmap Scan.md
+│       │       ├── Privilege Escalation.md
+│       │       └── Roasting.md
+│       ├── LPE
+│       │   ├── Capablities
+│       │   │   ├── Exploitation.md
+│       │   │   └── Information.md
+│       │   ├── Capstones
+│       │   │   ├── Anonymous - THM
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── Information.md
+│       │   │   │   ├── Initial Foothold.md
+│       │   │   │   ├── Nmap Scan.md
+│       │   │   │   └── Privilege Escalation.md
+│       │   │   ├── ConvertMyVideo - THM
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── Information.md
+│       │   │   │   ├── Initial Foothold.md
+│       │   │   │   ├── Nmap Scans.md
+│       │   │   │   └── Privilege Escalation.md
+│       │   │   ├── Lazy Admin - THM
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── Information.md
+│       │   │   │   ├── Initial Foothold.md
+│       │   │   │   ├── Nmap Results.md
+│       │   │   │   └── Privilege Escalation.md
+│       │   │   ├── Tomghost - THM
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── Information.md
+│       │   │   │   ├── Initial Foothold.md
+│       │   │   │   ├── Nmap Scans.md
+│       │   │   │   └── Privilege Escalation.md
+│       │   │   └── UltraTech - THM
+│       │   │       ├── Enumeration.md
+│       │   │       ├── From Walkthrough.md
+│       │   │       ├── Information.md
+│       │   │       ├── Infor.md
+│       │   │       ├── Initial Foothold.md
+│       │   │       ├── Nmap Enumeration.md
+│       │   │       └── Privilege Escalation.md
+│       │   ├── Cronjobs and Systemd Timers
+│       │   │   ├── Cron file overwrite -Most common.md
+│       │   │   ├── Cron Paths.md
+│       │   │   ├── Cron Wildcards.md
+│       │   │   └── Indroduction.md
+│       │   ├── Enumeration
+│       │   │   ├── Automated Tools.md
+│       │   │   ├── Network Enumeration.md
+│       │   │   ├── Password Hunting.md
+│       │   │   ├── System Enumeration.md
+│       │   │   └── User Enumeration.md
+│       │   ├── Kernel Exploits
+│       │   │   ├── Exploitation.md
+│       │   │   └── Resources.md
+│       │   ├── NFS Root Squash
+│       │   │   └── Info and Explotation.md
+│       │   ├── Passwords & File Permissions
+│       │   │   ├── File Permissions Exploitation.md
+│       │   │   ├── Passwords Exploitation.md
+│       │   │   └── SSH Keys Exploitation.md
+│       │   ├── Sudo Escalation
+│       │   │   ├── Challenge - EasyCTF.md
+│       │   │   ├── CVE-2019-14287  ALL=(ALL,!root).md
+│       │   │   ├── CVE-2019-18634 Asterisks Passwords .pwfeedback.md
+│       │   │   ├── Intended Functionality.md
+│       │   │   ├── LD_PRELOAD.md
+│       │   │   └── Sudo Shell Escaping.md
+│       │   ├── SUIDs
+│       │   │   ├── SUIDs - Binary Symlinks.md
+│       │   │   ├── SUIDs - Environmental Variables.md
+│       │   │   ├── SUIDs - GTFOBins(able).md
+│       │   │   └── SUIDs - Shared Object Injection.md
+│       │   └── Tips & Resources.md
+│       ├── OSINT
+│       │   ├── Email OSINT.md
+│       │   ├── Hunting Businesses.md
+│       │   ├── Image OSINT
+│       │   │   ├── Challenges.md
+│       │   │   ├── EXIF Data.md
+│       │   │   ├── Identifying Geographical Locations.md
+│       │   │   ├── Physical Location OSINT.md
+│       │   │   ├── Reverse Image Search.md
+│       │   │   └── Username OSINT.md
+│       │   ├── Indroduction.md
+│       │   ├── OSINT Automation
+│       │   │   ├── Automation Code.md
+│       │   │   └── Website OSINT Tools.md
+│       │   ├── OSINT Challenges
+│       │   │   ├── Challenge Walkthrough.md
+│       │   │   └── Course Challenge.md
+│       │   ├── OSINT Tools, Lab
+│       │   │   ├── Email Hunting and Breached data.md
+│       │   │   ├── Image and Location OSINT.md
+│       │   │   ├── OSINT Frameworks.md
+│       │   │   ├── Other Tools.md
+│       │   │   ├── Phone Number OSINT.md
+│       │   │   ├── Social Media OSINT.md
+│       │   │   └── Username and Account OSINT.md
+│       │   ├── OSNIT Case Studies
+│       │   │   ├── Cooking Tutorials.md
+│       │   │   ├── Influencer Home Tours.md
+│       │   │   └── The Final Hours of Pop Smoke.md
+│       │   ├── Password OSINT.md
+│       │   ├── People OSINT
+│       │   │   ├── Discovering Birthdates.md
+│       │   │   ├── Phone Numbers.md
+│       │   │   ├── Searching for People.md
+│       │   │   └── Searching Resumes.md
+│       │   ├── Search Engine OSINT.md
+│       │   ├── Social Media OSINT
+│       │   │   ├── Facebook OSINT.md
+│       │   │   ├── Instagram OSINT.md
+│       │   │   ├── Linkedin OSINT.md
+│       │   │   ├── Reddit OSINT.md
+│       │   │   ├── Snapchat OSINT.md
+│       │   │   ├── TikTok OSINT.md
+│       │   │   ├── Twitter or X Part 2.md
+│       │   │   └── Twitter Part 1.md
+│       │   ├── Sock Puppets.md
+│       │   ├── Website OSINT
+│       │   │   ├── Website OSINT Part - 1.md
+│       │   │   ├── Website OSINT Part - 2 + Subdomains.md
+│       │   │   └── Website OSINT Part - 3 Tools.md
+│       │   ├── Wireless OSINT.md
+│       │   └── Writing OSINT Report.md
+│       ├── PEH
+│       │   ├── 5 Stages of Ethical Hacking.md
+│       │   ├── Active Directory Attack Vectors
+│       │   │   ├── Additional Active Directory Attacks
+│       │   │   │   └── Check for these.md
+│       │   │   ├── Initial Attack Vectors
+│       │   │   │   ├── ASREP Roasting
+│       │   │   │   │   ├── ASREP Roasting Lab.md
+│       │   │   │   │   └── Introduction.md
+│       │   │   │   ├── Gaining A Shell
+│       │   │   │   │   ├── Gaining a Shell Lab.md
+│       │   │   │   │   └── Gaining a Shell.md
+│       │   │   │   ├── Impacket Tools.md
+│       │   │   │   ├── Initial Attack Strategy.md
+│       │   │   │   ├── IPv6 MITM Attack
+│       │   │   │   │   ├── IPv6 Attack Lab.md
+│       │   │   │   │   ├── IPv6 Attack.md
+│       │   │   │   │   └── IPv6 Mitigation.md
+│       │   │   │   ├── LDAP Enumeration
+│       │   │   │   │   └── Finding Accounts using LDAP.md
+│       │   │   │   ├── LLMNR Poisoning
+│       │   │   │   │   ├── Cracking the Caught Hashes.md
+│       │   │   │   │   ├── LLMNR Poisoning Lab.md
+│       │   │   │   │   ├── LLMNR Poisoning Mitigation.md
+│       │   │   │   │   └── LLMNR Poisoning Theory.md
+│       │   │   │   ├── Passback (Printer) Attack
+│       │   │   │   │   └── Printer Hacking.md
+│       │   │   │   └── SMB Relay Attack
+│       │   │   │       ├── SMB Relay Attack Lab.md
+│       │   │   │       ├── SMB Relay Attack Mitigation.md
+│       │   │   │       ├── SMB Relay Attack Theory.md
+│       │   │   │       └── What is SMB Relay.md
+│       │   │   ├── Post Compromise Attacks
+│       │   │   │   ├── Backup OPs, Account Ops, Exchange Wind Perms.md
+│       │   │   │   ├── Kerberoasting
+│       │   │   │   │   ├── Kerberoasting Lab.md
+│       │   │   │   │   ├── Kerberoasting Overview.md
+│       │   │   │   │   └── Mitigation.md
+│       │   │   │   ├── LNK File Attacks
+│       │   │   │   │   ├── Linked File Attacks.md
+│       │   │   │   │   └── LNK File Attacks Lab.md
+│       │   │   │   ├── Mimikatz
+│       │   │   │   │   ├── Mimikatz Lab.md
+│       │   │   │   │   └── Mimikatz Overview.md
+│       │   │   │   ├── Pass Attacks
+│       │   │   │   │   ├── Evil-Winrm.md
+│       │   │   │   │   ├── Pass Attacks Lab.md
+│       │   │   │   │   ├── Privilege Escalation.md
+│       │   │   │   │   ├── PTH Mitigations.md
+│       │   │   │   │   ├── Secretsdump and Cracking.md
+│       │   │   │   │   └── What are these attacks?.md
+│       │   │   │   ├── Post Compromise Strategy.md
+│       │   │   │   └── Token Impersonation
+│       │   │   │       ├── Token Impersonation Lab.md
+│       │   │   │       ├── Token Impersonation Mitigation.md
+│       │   │   │       └── Token Impersonation Overview.md
+│       │   │   ├── Post-Domain Compromise Attack
+│       │   │   │   ├── Dumping the NTDS.dit.md
+│       │   │   │   ├── Golden Tickets Attack.md
+│       │   │   │   └── Post-Domain Compromise Attack Strategy.md
+│       │   │   └── Post Exploitation Enumeration
+│       │   │       ├── Domain Enumeration Bloodhound.md
+│       │   │       ├── Domain Enumeration ldapdomaindump.md
+│       │   │       ├── Plumhound.md
+│       │   │       └── Post-Compromise AD Enumeration.md
+│       │   ├── Active Directory Case Studies
+│       │   │   ├── Case Study - 1.md
+│       │   │   ├── Case Study - 2.md
+│       │   │   └── Case Study - 3.md
+│       │   ├── Active Directory Terms
+│       │   │   ├── Active Directory Overview.md
+│       │   │   ├── Logical AD Components.md
+│       │   │   └── Physical AD components.md
+│       │   ├── AD Lab Build
+│       │   │   ├── AD Cloud Build.md
+│       │   │   ├── AD Cloud Build Personal.md
+│       │   │   ├── DC Setup.md
+│       │   │   ├── Information.md
+│       │   │   ├── Setting up Group Policy for Entire Domain.md
+│       │   │   └── Setting up Local Administrators.md
+│       │   ├── Capstone
+│       │   │   ├── Academy
+│       │   │   │   ├── Basic Information.md
+│       │   │   │   ├── Grimmie User.md
+│       │   │   │   ├── HTTP - Port 80.md
+│       │   │   │   ├── Machine Enumeration.md
+│       │   │   │   ├── Notes from Walkthrough.md
+│       │   │   │   ├── Port 22 (FTP).md
+│       │   │   │   ├── Privilege Escalation (Root).md
+│       │   │   │   └── Takeaways.md
+│       │   │   ├── Blackpearl
+│       │   │   │   ├── General Information.md
+│       │   │   │   └── Notes from Walkthrough.md
+│       │   │   ├── Blue
+│       │   │   │   ├── Basic Information.md
+│       │   │   │   ├── Notes From Walkthrough.md
+│       │   │   │   ├── Port 139, 445.md
+│       │   │   │   └── Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1).md
+│       │   │   ├── Butler
+│       │   │   │   ├── Basic Information.md
+│       │   │   │   ├── HTTP - 8080.md
+│       │   │   │   ├── Initial Foothold.md
+│       │   │   │   ├── Key Takeaways.md
+│       │   │   │   ├── Notes from walkthrough.md
+│       │   │   │   ├── Privelege Escalation.md
+│       │   │   │   └── SMB - 139,445.md
+│       │   │   └── Dev
+│       │   │       ├── Basic Info.md
+│       │   │       ├── HTTP - 8080.md
+│       │   │       ├── HTTP - 80.md
+│       │   │       ├── Initial Foothold (www-data).md
+│       │   │       ├── JeanPaul user escalation.md
+│       │   │       ├── Key Takeaways.md
+│       │   │       ├── NFS - 111, 2049.md
+│       │   │       ├── Notes from walkthrough.md
+│       │   │       └── Root Escalation.md
+│       │   ├── Exploitation
+│       │   │   ├── Bruteforcing (SSH Specially).md
+│       │   │   ├── Credential Stuffing and Password Spraying.md
+│       │   │   ├── Gaining root with Metasploit.md
+│       │   │   ├── Manual Exploitation.md
+│       │   │   ├── Reverse vs Bind Shells.md
+│       │   │   └── Staged vs Non staged payloads.md
+│       │   ├── Information Gathering
+│       │   │   ├── BurpSuite.md
+│       │   │   ├── Checklist.md
+│       │   │   ├── Discovering Email Addresses.md
+│       │   │   ├── Finding Website Technologies.md
+│       │   │   ├── Gathering Breached Passwords.md
+│       │   │   ├── Google Fu.md
+│       │   │   └── Hunting Subdomains.md
+│       │   ├── Post Exploitation
+│       │   │   ├── Cleaning Up.md
+│       │   │   ├── File Transfer Methods.md
+│       │   │   ├── Ligolo-NG.md
+│       │   │   ├── Maintaining Access.md
+│       │   │   └── Pivoting.md
+│       │   ├── Process soo far.md
+│       │   ├── Report Writing and Documents
+│       │   │   ├── Common Legal Documents.md
+│       │   │   ├── Pentest Report Writing Example.md
+│       │   │   └── Real Pentest Report.md
+│       │   ├── Scanning & Enumeration
+│       │   │   ├── Enumerating HTTP and HTTPS.md
+│       │   │   ├── Enumerating SMB (Samba Shares).md
+│       │   │   ├── Researching Potential Vulnerabilities.md
+│       │   │   ├── Scanning & Enumeration.md
+│       │   │   ├── Scanning with Nmap.md
+│       │   │   └── SSH Scanning.md
+│       │   └── Web App Enumeratioon
+│       │       ├── Attacking Authentication
+│       │       │   ├── Lab - 1 Bruteforce.md
+│       │       │   ├── Lab - 2 MFA.md
+│       │       │   └── Lab - 3 Challenge.md
+│       │       ├── Capstone Web App.md
+│       │       ├── Command Injection
+│       │       │   ├── Challenge Lab -3.md
+│       │       │   ├── Introduction.md
+│       │       │   ├── Lab - 1 Basics.md
+│       │       │   └── Lab - 2 Blind, Out of Band.md
+│       │       ├── File Upload
+│       │       │   ├── Lab - 1 Basics.md
+│       │       │   ├── Lab -2 Magic Bytes.md
+│       │       │   ├── Lab - 3 Challenge.md
+│       │       │   └── Points to note.md
+│       │       ├── IDOR, BOLA
+│       │       │   ├── Bruteforce Script.md
+│       │       │   └── IDOR - Insecure Direct Object Reference.md
+│       │       ├── Lab Setup.md
+│       │       ├── Resource.md
+│       │       ├── SQL Injection
+│       │       │   ├── BLIND injection part - 1.md
+│       │       │   ├── SQL Injection Challenge.md
+│       │       │   └── UNION injection.md
+│       │       ├── Subdomain Enumeration.md
+│       │       ├── XSS
+│       │       │   ├── Challenge - Steal Admin Cookie.md
+│       │       │   ├── DOM (Lab - 1).md
+│       │       │   ├── Some Points.md
+│       │       │   ├── Stored XSS (Lab -2).md
+│       │       │   └── Types of XSS.md
+│       │       └── XXE
+│       │           └── External Entities Injection.md
+│       ├── PEH_Notes.zip
+│       ├── THM Boxes
+│       │   ├── Holo
+│       │   │   ├── 10.200.107.30
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── nmap results.md
+│       │   │   │   └── Port 80.md
+│       │   │   ├── 10.200.107.31
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   └── Port 80.md
+│       │   │   ├── 10.200.107.33
+│       │   │   │   ├── Enumerating Docker.md
+│       │   │   │   ├── Enumeration.md
+│       │   │   │   ├── Port 80.md
+│       │   │   │   └── Privilege Escalation.md
+│       │   │   ├── Enumeration
+│       │   │   │   ├── Network Sweep to find IPs.md
+│       │   │   │   └── Nmap Scan on internal network.md
+│       │   │   └── Introduction.md
+│       │   ├── SteelMountain
+│       │   │   ├── Enumeration.md
+│       │   │   ├── Information.md
+│       │   │   ├── Initial Foothold.md
+│       │   │   ├── Nmap Results.md
+│       │   │   └── Privilege Escalation.md
+│       │   └── Wreath
+│       │       ├── Enumeration
+│       │       │   ├── 10.200.81.100.md
+│       │       │   ├── 10.200.81.150.md
+│       │       │   └── 10.200.81.200.md
+│       │       ├── Git Server Foothold 10.200.81.150.md
+│       │       ├── Introduction.md
+│       │       ├── Pivoting.md
+│       │       ├── Prod Server Foothold 10.200.81.200.md
+│       │       ├── Progress.md
+│       │       └── Scans
+│       │           ├── Nmap internal network scan.md
+│       │           └── Nmap Scan Result.md
+│       ├── tools scans
+│       │   ├── nikto for kioptrix.md
+│       │   ├── Nmap results for Academy.md
+│       │   ├── Nmap results for Blackpearl.md
+│       │   ├── Nmap results for Blue.md
+│       │   ├── Nmap results for Butler.md
+│       │   ├── Nmap results for Dev.md
+│       │   └── Nmap Scan for kioptrix.md
+│       └── WPE
+│           ├── Administrator Group To SYSTEM.md
+│           ├── Always Install Elevated
+│           │   ├── Exploitation.md
+│           │   └── Overview.md
+│           ├── Autorun
+│           │   ├── Exploitation.md
+│           │   └── Introduction.md
+│           ├── Binary paths (bin path)
+│           │   ├── Exploitation.md
+│           │   └── Introduction.md
+│           ├── Capstones
+│           │   ├── Alfred - THM
+│           │   │   ├── Enumeration.md
+│           │   │   ├── Information.md
+│           │   │   ├── Initial Foothold.md
+│           │   │   ├── Jenkins Groovy Shell.md
+│           │   │   ├── Nmap Results.md
+│           │   │   └── Privilege Escalation.md
+│           │   ├── Arctic - HTB
+│           │   │   ├── Enumeration.md
+│           │   │   ├── Information.md
+│           │   │   ├── Initial Foothold.md
+│           │   │   ├── Nmap Scan.md
+│           │   │   └── Privilege Escalation.md
+│           │   ├── Bastard - HTB
+│           │   │   ├── Enumeration.md
+│           │   │   ├── Information.md
+│           │   │   ├── Initial Foothold.md
+│           │   │   ├── Nmap Scan.md
+│           │   │   └── Privilege Escalation.md
+│           │   ├── Bastion - HTB
+│           │   │   ├── Enumeration.md
+│           │   │   ├── Information.md
+│           │   │   ├── Initial Foothold.md
+│           │   │   ├── Nmap Results.md
+│           │   │   └── Privilege Escalation.md
+│           │   ├── Machines TODO.md
+│           │   └── Querier - HTB
+│           │       ├── Enumeration.md
+│           │       ├── Information.md
+│           │       ├── Initial Foothold.md
+│           │       ├── mssql-svc (Capturing Hash Using responder).md
+│           │       ├── Nmap Scans.md
+│           │       └── Privilege Escalation.md
+│           ├── CVE-2019-1388
+│           │   ├── Blaster - Information.md
+│           │   ├── Enumeration.md
+│           │   ├── Initial Foothold.md
+│           │   ├── Nmap Scan.md
+│           │   ├── Overview.md
+│           │   └── Privilege Escalation.md
+│           ├── CVE-2019-1388.md
+│           ├── DLL Hijacking
+│           │   ├── Exploitation.md
+│           │   └── Introduction.md
+│           ├── Enumeration
+│           │   ├── Automation Tools.md
+│           │   ├── AV and FW Enumeration.md
+│           │   ├── Network Enumeration.md
+│           │   ├── Password Enumeration.md
+│           │   ├── System Enumeration.md
+│           │   └── User Enumeration.md
+│           ├── Escalation via Stored Passwords
+│           │   ├── Alternate Data Streams.md
+│           │   ├── HTB - Chatterbox.md
+│           │   ├── Initial Foothold.md
+│           │   ├── Nmap Results.md
+│           │   └── Privilege Escalation.md
+│           ├── Executable Files - Service Escalation
+│           │   ├── Exploitation.md
+│           │   └── Information.md
+│           ├── GetSystem.md
+│           ├── Impersonation and Potato
+│           │   ├── Groovy Reverse Shell.md
+│           │   ├── Impersonation Privileges Overview.md
+│           │   ├── Initial Foothold.md
+│           │   ├── Jeeves- Information.md
+│           │   ├── Nmap Scan Results.md
+│           │   ├── Overview.md
+│           │   ├── Potato Attacks Overview.md
+│           │   ├── Privilege Escalation.md
+│           │   └── THM - Tater, Hot Potato.md
+│           ├── Kernal Exploits
+│           │   ├── Information.md
+│           │   ├── Kernal Exploitation Manually.md
+│           │   ├── Kernel Exploitation Using Metasploit.md
+│           │   ├── Lab on THM.md
+│           │   └── SystemInfo.md
+│           ├── Password Mining Escalation - Memory.md
+│           ├── regsvc ACL
+│           │   ├── Exploitation.md
+│           │   └── Overview.md
+│           ├── Resources.md
+│           ├── RunAs
+│           │   ├── Initial Foothold.md
+│           │   ├── Internal Enumeration.md
+│           │   ├── Introduction.md
+│           │   ├── Nmap Scan.md
+│           │   └── Privilege Escalation.md
+│           ├── Sensitive Directories.md
+│           ├── Startup Applications
+│           │   ├── Exploitation.md
+│           │   └── Overview.md
+│           ├── Unattend.md
+│           ├── Unquoted Service Paths
+│           │   ├── Exploitation.md
+│           │   └── Introduction.md
+│           └── Windows Subsystem for Linux
+│               ├── Encoded Powershell Reverse Shell.md
+│               ├── Initial Foothold.md
+│               ├── Introduction.md
+│               ├── Nmap Scan Results.md
+│               ├── Privilege Escalation.md
+│               ├── SecNotes - Information.md
+│               └── Tyler Enumeration.md
+└── PNPT-Exam
+    ├── assets
+    ├── Hashmap.md
+    └── PNPT Exam Stuff
+        ├── 10.10.10.225.md
+        ├── 10.10.10.25.md
+        ├── 10.10.10.35.md
+        ├── 10.10.155.15.md
+        ├── 10.10.155.5.md
+        ├── Internal Network Nmap Scan.md
+        ├── Kerberoasting.md
+        ├── Other stuff.md
+        ├── Pivot using sshuttle.md
+        ├── Post Compromise.md
+        ├── RDP Access.md
+        ├── Rules Of Engagement.md
+        ├── Secrets Dump.md
+        ├── SMB Shares.md
+        └── ThePastaMentors.md
+
+180 directories, 2739 files
