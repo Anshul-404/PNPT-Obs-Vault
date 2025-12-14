@@ -1,0 +1,1 @@
+=> What's the contents of table final_flag?

@@ -1,0 +1,12 @@
+# Sub-domains
+---
+- A sub-domain is any **website underlying another domain.**
+- For example, https://photos.google.com is the photos sub-domain of google.com.
+- We can find **wordlists in `/opt/useful/seclists/Discovery/DNS/`**. 
+- In our case, we would be using a **shorter wordlist, which is `subdomains-top1million-5000.txt`**. If we want to extend our scan, we can pick a larger list.
+	- `ffuf -w /opt/useful/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/`
+- We see that we do get a few hits back. Now, **==we can try running the same thing on `academy.htb` and see if we get any hits back:==**
+	- `ffuf -w /opt/useful/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.academy.htb/`
+- We see that **==we do not get any hits back. Does this mean that there are no sub-domain under `academy.htb`? - No.==**
+	- This means **==that there are no `public` sub-domains under `academy.htb`, as it does not have a public DNS record==**, as previously mentioned.
+- Even though we did add `academy.htb` to our `/etc/hosts` file, **we only added the main domain,** so when `ffuf` is looking for other sub-domains, it will not find them in `/etc/hosts`, and will ask the public DNS, which obviously will not have them.
