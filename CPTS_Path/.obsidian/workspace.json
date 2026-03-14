@@ -1,40 +1,24 @@
 {
   "main": {
-    "id": "12dbcd1ef56c8e42",
+    "id": "a43db001fa07abf1",
     "type": "split",
     "children": [
       {
-        "id": "0af7e20a83859228",
+        "id": "63e5664c3fff37c4",
         "type": "tabs",
         "children": [
           {
-            "id": "92f3e06cf267f05a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Walkthrough"
-            }
-          },
-          {
-            "id": "9d2f4e69a303b42c",
+            "id": "207024048429a261",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
+                "file": "CPTS Path/File Upload Attacks/Blacklist Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Log Poisoning"
+              "title": "Blacklist Filters"
             }
           }
         ]
@@ -43,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e7ea898dd80edc9e",
+    "id": "8cf403659dfa1c59",
     "type": "split",
     "children": [
       {
-        "id": "e50b54d2bd56f546",
+        "id": "12f8433a89530b3e",
         "type": "tabs",
         "children": [
           {
-            "id": "911a1452f38f667b",
+            "id": "30737ac6b0918c6e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,14 +48,14 @@
             }
           },
           {
-            "id": "b754fb6570b5c479",
+            "id": "a70f4874a4429b20",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nginx",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -81,7 +65,7 @@
             }
           },
           {
-            "id": "73ec908c3d9e64fa",
+            "id": "8dd406e8e79fec61",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,23 +78,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5
   },
   "right": {
-    "id": "d668c5b13c9a5372",
+    "id": "0461e39e1ae6d451",
     "type": "split",
     "children": [
       {
-        "id": "3996ff222696aac1",
+        "id": "cb5bd827f1032bb3",
         "type": "tabs",
         "children": [
           {
-            "id": "5c9deb002b62c155",
+            "id": "31a80dc6081fea37",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Whitelist Filters"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e430d12818b2ed0f",
+            "id": "6b0cf3bb952444e2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Whitelist Filters"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "461484f0a329388b",
+            "id": "37278a67512783d6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,22 +135,31 @@
             }
           },
           {
-            "id": "62686c1d76e0befb",
+            "id": "397c693a075311e1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Walkthrough"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "980fc5220c2bbce4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -184,48 +175,38 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f3e06cf267f05a",
+  "active": "207024048429a261",
   "lastOpenFiles": [
-    "CPTS Path/Local File Inclusion/Log Poisoning.md",
-    "CPTS Path/Local File Inclusion/Automated Scanning.md",
-    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
-    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
-    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
-    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
-    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
-    "CPTS Path/Local File Inclusion/Intro to File Inclusions.md",
-    "CPTS Path/Local File Inclusion/File Inclusion Prevention.md",
-    "CPTS Path/Local File Inclusion/PHP Filters.md",
-    "CPTS Path/Local File Inclusion/Basic Bypasses.md",
-    "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
-    "Lainkusanagi List/Windows/Buff/Wlakthrough.md",
-    "Lainkusanagi List/Linux/dogcat",
-    "CPTS Path/File Upload Attacks/Other Upload Attacks/Limited File Uploads.md",
-    "CPTS Path/Cross Site Scripting/Session Hijacking.md",
-    "CPTS Path/File Upload Attacks/Skills Assessment - File Upload Attacks.md",
     "CPTS Path/File Upload Attacks/Absent Validation.md",
-    "CPTS Path/File Upload Attacks/Bypassing Filters/Type Filters.md",
-    "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
-    "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
-    "CPTS Path/File Upload Attacks/Other Upload Attacks/Other Upload Attacks.md",
+    "CPTS Path/File Upload Attacks/Blacklist Filters.md",
     "CPTS Path/File Upload Attacks/Intro to File Upload Attacks.md",
-    "assets/Pasted image 20260302012700.png",
-    "assets/Pasted image 20260302011849.png",
-    "assets/Pasted image 20260302011838.png",
-    "assets/Pasted image 20260302011455.png",
-    "assets/Pasted image 20260302011425.png",
-    "assets/Pasted image 20260302010417.png",
-    "CPTS Path/File Upload Attacks/Other Upload Attacks",
-    "assets/Pasted image 20260302003543.png",
-    "assets/Pasted image 20260302003522.png",
-    "assets/Pasted image 20260302001704.png",
-    "assets/Pasted image 20260302001548.png",
-    "CPTS Path/File Upload Attacks/Bypassing Filters/Blacklist Filters - 2.md",
     "CPTS Path/File Upload Attacks/Upload Exploitation.md",
-    "PT1 Exam/Enumeration.md"
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
+    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
+    "CPTS Path/Local File Inclusion/Log Poisoning.md",
+    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
+    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
+    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
+    "CPTS Path/Local File Inclusion/Basic Bypasses.md",
+    "CPTS Path/File Transfers/Catching Files over HTTP(S).md",
+    "CPTS Path/SQL Injection/Writing Files.md",
+    "Lainkusanagi List/Linux/Previous.md",
+    "CPTS Path/Attacking Web Apps with Ffuf/Vhost Fuzzing.md",
+    "Lainkusanagi List/Cheatsheat.md",
+    "Lainkusanagi List/Linux/Untitled",
+    "Lainkusanagi List/Linux",
+    "CPTS Path/Web exploitation/Absent Validation.md",
+    "CPTS Path/Bruteforcing/Dictionary Attacks.md",
+    "CPTS Path/Bruteforcing/Medusa.md",
+    "CPTS Path/Interacting with Common Services/Attacking FTP.md",
+    "CPTS Path/Password Attacks/Extracting Passwords from Windows/Attacking Active Directory and NTDS.dit.md",
+    "CPTS Path/Password Attacks/Skills Assessment/FILE01.md",
+    "CPTS Path/Interacting with Common Services/Attacking Email Services.md",
+    "CPTS Path/Cross Site Scripting/Session Hijacking.md",
+    "CPTS Path/SQLMap Essentials/Bypassing Web Application Protections.md",
+    "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part II.md"
   ]
 }
