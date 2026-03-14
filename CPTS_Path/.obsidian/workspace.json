@@ -1,112 +1,40 @@
 {
   "main": {
-    "id": "12996660e76b4c0d",
+    "id": "12dbcd1ef56c8e42",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "67d4bfd59028f302",
+        "id": "0af7e20a83859228",
         "type": "tabs",
         "children": [
           {
-            "id": "7179bb9d4c195727",
+            "id": "92f3e06cf267f05a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PT1 Exam/Enumeration.md",
+                "file": "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "Walkthrough"
             }
           },
           {
-            "id": "d63ff0db8776e3d8",
-=======
-        "id": "6fe3962c66a459f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a16eb35d26ade960",
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+            "id": "9d2f4e69a303b42c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Untitled 8.md",
-=======
-                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+                "file": "CPTS Path/Local File Inclusion/Log Poisoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Untitled 8"
-            }
-          },
-          {
-            "id": "8a6516c1b009d89c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Deeper Down the Rabbit Hole/Credentialed Enumeration - from Windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Credentialed Enumeration - from Windows"
-            }
-          },
-          {
-            "id": "0068ce207915cb5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/File Transfers/Windows File Transfer Methods.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows File Transfer Methods"
-            }
-          },
-          {
-            "id": "292813d53629d07e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/Cooking with Fire - Kerberoasting/Kerberoasting - from Windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kerberoasting - from Windows"
-            }
-          },
-          {
-            "id": "d5eb19562fd4304c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part II.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AD Enumeration & Attacks - Skills Assessment Part II"
-=======
-              "title": "Client-Side Validation"
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+              "title": "Log Poisoning"
             }
           }
         ]
@@ -115,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7170ca9d95beaac8",
+    "id": "e7ea898dd80edc9e",
     "type": "split",
     "children": [
       {
-        "id": "a65df08cb5647736",
+        "id": "e50b54d2bd56f546",
         "type": "tabs",
         "children": [
           {
-            "id": "197af3ce8d0d0841",
+            "id": "911a1452f38f667b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -136,12 +64,12 @@
             }
           },
           {
-            "id": "a20f1cac80e51b86",
+            "id": "b754fb6570b5c479",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Upload windows",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,7 +81,7 @@
             }
           },
           {
-            "id": "3acb570a865e8adb",
+            "id": "73ec908c3d9e64fa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -166,27 +94,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 300
   },
   "right": {
-    "id": "804669d6b6f877d6",
+    "id": "d668c5b13c9a5372",
     "type": "split",
     "children": [
       {
-        "id": "6669756604fba536",
+        "id": "3996ff222696aac1",
         "type": "tabs",
         "children": [
           {
-            "id": "6c2eeb3d5f7c3661",
+            "id": "5c9deb002b62c155",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "PT1 Exam/Enumeration.md",
-=======
-                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,29 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< HEAD
-              "title": "Backlinks for Enumeration"
-=======
-              "title": "Backlinks for Client-Side Validation"
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+              "title": "Backlinks for Whitelist Filters"
             }
           },
           {
-            "id": "17a69911b4ae0971",
+            "id": "e430d12818b2ed0f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPTS Path/Services/Scanning with Nmap.md",
+                "file": "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Scanning with Nmap"
+              "title": "Outgoing links from Whitelist Filters"
             }
           },
           {
-            "id": "e138a26baa3906f7",
+            "id": "461484f0a329388b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -233,163 +153,79 @@
             }
           },
           {
-            "id": "977dde7bcbca14dc",
+            "id": "62686c1d76e0befb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPTS Path/Active Directory Enumeration & Attacks/An ACE in the Hole - ACEs & ACLs/Access Control List (ACL) Abuse Primer.md",
+                "file": "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access Control List (ACL) Abuse Primer"
-            }
-          },
-          {
-            "id": "cc7398590c30b4b1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "14c6e3a1fad3560f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "title": "Outline of Walkthrough"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": true,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-<<<<<<< HEAD
-  "active": "7179bb9d4c195727",
+  "active": "92f3e06cf267f05a",
   "lastOpenFiles": [
-    "Untitled 8.md",
-    "PT1 Exam/Enumeration.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part II.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Cooking with Fire - Kerberoasting/Kerberoasting - from Windows.md",
-    "CPTS Path/File Transfers/Windows File Transfer Methods.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Deeper Down the Rabbit Hole/Credentialed Enumeration - from Windows.md",
-    "assets/Pasted image 20250830135331.png",
-    "assets/Pasted image 20250830135314.png",
-    "assets/Pasted image 20250830135249.png",
-    "assets/Pasted image 20250830135058.png",
-    "CPTS Path/Active Directory Enumeration & Attacks/Cooking with Fire - Kerberoasting/Kerberoasting - from Linux.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/AD Enumeration & Attacks - Skills Assessment Part I.md",
-    "assets/Pasted image 20250830104517.png",
-    "assets/Pasted image 20250830104514.png",
-    "assets/Pasted image 20250830103655.png",
-    "assets/Pasted image 20250830102007.png",
-    "assets/Pasted image 20250830101539.png",
-    "assets/Pasted image 20250830064219.png",
-    "Untitled 5.md",
-    "PT1 Exam",
-    "CPTS Path/Enumeration/Firewall and IDS, IPS Evasion.md",
-    "CPTS Path/Enumeration/How to approach.md",
-    "CPTS Path/Enumeration/Nmap.md",
-    "CPTS Path/Enumeration/F.W Evasion Lab - 1.md",
-    "CPTS Path/Web exploitation/Absent Validation.md",
-    "CPTS Path/Web exploitation/File Upload Attacks",
-    "CPTS Path/Active Directory Enumeration & Attacks/Untitled.md",
-    "CPTS Path/Web exploitation",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Untitled.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/ADCS ESC1 Escalation in DC.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Deeper Down the Rabbit Hole/Credentialed Enumeration - from Linux.md",
-    "CPTS Path/Password Attacks/Windows Lateral Movement Techniques/Pass the Certificate.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Kerberos Constrained Delegation.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Stacking The Deck/Miscellaneous Misconfigurations.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/LDAP Enumeration using netexc.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Initial Enumeration/External Recon and Enumeration Principles.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?/Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Sighting In, Hunting For A User - User Enum/Enumerating & Retrieving Password Policies.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Sighting In, Hunting For A User - User Enum/Making a Target User List.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)",
-    "Lainkusanagi List/Windows/Love",
-    "Lainkusanagi List/Windows/Heist",
-    "Lainkusanagi List/Windows/Buff",
-    "Lainkusanagi List/Windows/Remote",
-    "Lainkusanagi List/Windows/Giddy",
-    "CPTS Path/Active Directory Enumeration & Attacks/Why So Trusting?"
-=======
-  "active": "a16eb35d26ade960",
-  "lastOpenFiles": [
-    "assets/Pasted image 20251107010427.png",
-    "assets/Pasted image 20251107010342.png",
-    "assets/Pasted image 20251107010224.png",
-    "assets/Pasted image 20251107010011.png",
-    "assets/Pasted image 20251107005955.png",
-    "assets/Pasted image 20251107005815.png",
-    "assets/Pasted image 20251107005755.png",
-    "assets/Pasted image 20251107005733.png",
-    "CPTS Path/File Upload Attacks/Upload Exploitation.md",
-    "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
-    "CPTS Path/File Upload Attacks/Bypassing Filters",
-    "assets/Pasted image 20251107004203.png",
-    "assets/Pasted image 20251107004106.png",
-    "assets/Pasted image 20251107004051.png",
-    "CPTS Path/File Upload Attacks/Absent Validation.md",
-    "CPTS Path/File Upload Attacks/Intro to File Upload Attacks.md",
+    "CPTS Path/Local File Inclusion/Log Poisoning.md",
+    "CPTS Path/Local File Inclusion/Automated Scanning.md",
+    "CPTS Path/Local File Inclusion/PHP Wrappers.md",
+    "CPTS Path/Local File Inclusion/Remote File Inclusion (RFI).md",
     "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
-    "CPTS Path/File Upload Attacks",
-    "CPTS Path/Active Directory Enumeration & Attacks/Untitled 1.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Misc. Techniques (From CTFs)/Misc.md",
-    "CPTS Path/Active Directory Enumeration & Attacks/Untitled.md",
-    "CPTS Path/Getting Started/Services/Untitled.md",
-    "CPTS Path/Using the Metasploit Framework/Untitled.md",
-    "CPTS Path/SQL Injection/Untitled.md",
-    "Untitled 12.md",
-    "Untitled 11.md",
-    "Untitled 10.md",
-    "Untitled 9.md",
-    "Untitled 8.md",
-    "Untitled 7.md",
-    "Pasted image 20250810053113.md",
-    "Untitled 6.md",
-    "Untitled 5.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "CPTS Path/Local File Inclusion/Untitled",
-    "CPTS Path/Local File Inclusion",
-    "CPTS Path/Cross Site Scripting/Untitled",
-    "CPTS Path/Cross Site Scripting",
-    "CPTS Path/SQLMap Essentials",
-    "CPTS Path/SQL Injection/Untitled/Untitled 1.base",
-    "CPTS Path/SQL Injection/Untitled/Untitled.base",
-    "CPTS Path/SQL Injection/Untitled/Untitled.canvas",
-    "CPTS Path/SQL Injection/Untitled",
-    "CPTS Path/SQL Injection/Untitled.canvas",
-    "CPTS Path/SQL Injection/Untitled 3.canvas",
-    "CPTS Path/SQL Injection/Untitled 2.canvas",
-    "CPTS Path/Untitled/Untitled.canvas",
-    "CPTS Path/SQL Injection/Untitled 1.canvas"
->>>>>>> 0e384588b313a188290aeb86b2d1601d84ff051e
+    "CPTS Path/Local File Inclusion/Local File Inclusion (LFI).md",
+    "CPTS Path/Local File Inclusion/LFI and File Uploads.md",
+    "CPTS Path/Local File Inclusion/Intro to File Inclusions.md",
+    "CPTS Path/Local File Inclusion/File Inclusion Prevention.md",
+    "CPTS Path/Local File Inclusion/PHP Filters.md",
+    "CPTS Path/Local File Inclusion/Basic Bypasses.md",
+    "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
+    "Lainkusanagi List/Windows/Buff/Wlakthrough.md",
+    "Lainkusanagi List/Linux/dogcat",
+    "CPTS Path/File Upload Attacks/Other Upload Attacks/Limited File Uploads.md",
+    "CPTS Path/Cross Site Scripting/Session Hijacking.md",
+    "CPTS Path/File Upload Attacks/Skills Assessment - File Upload Attacks.md",
+    "CPTS Path/File Upload Attacks/Absent Validation.md",
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Type Filters.md",
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Whitelist Filters.md",
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Client-Side Validation.md",
+    "CPTS Path/File Upload Attacks/Other Upload Attacks/Other Upload Attacks.md",
+    "CPTS Path/File Upload Attacks/Intro to File Upload Attacks.md",
+    "assets/Pasted image 20260302012700.png",
+    "assets/Pasted image 20260302011849.png",
+    "assets/Pasted image 20260302011838.png",
+    "assets/Pasted image 20260302011455.png",
+    "assets/Pasted image 20260302011425.png",
+    "assets/Pasted image 20260302010417.png",
+    "CPTS Path/File Upload Attacks/Other Upload Attacks",
+    "assets/Pasted image 20260302003543.png",
+    "assets/Pasted image 20260302003522.png",
+    "assets/Pasted image 20260302001704.png",
+    "assets/Pasted image 20260302001548.png",
+    "CPTS Path/File Upload Attacks/Bypassing Filters/Blacklist Filters - 2.md",
+    "CPTS Path/File Upload Attacks/Upload Exploitation.md",
+    "PT1 Exam/Enumeration.md"
   ]
 }

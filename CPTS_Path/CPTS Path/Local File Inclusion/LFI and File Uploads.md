@@ -2,17 +2,17 @@
 - For example, we can **upload an image file (e.g. `image.jpg`), ==and store a PHP web shell code==** within it 'instead of image data', and ==**if we include it through the LFI vulnerability, the PHP code will get executed**== and we will have remote code execution.
 - As mentioned in the first section, the following are the functions that allow executing code with file inclusion, any of which would work with this section's attacks:
 
-|**Function**|**Read Content**|**Execute**|**Remote URL**|
-|---|:-:|:-:|:-:|
-|**PHP**||||
-|`include()`/`include_once()`|✅|✅|✅|
-|`require()`/`require_once()`|✅|✅|❌|
-|**NodeJS**||||
-|`res.render()`|✅|✅|❌|
-|**Java**||||
-|`import`|✅|✅|✅|
-|**.NET**||||
-|`include`|✅|✅|✅|
+| **Function**                 | **Read Content** | **Execute** | **Remote URL** |
+| ---------------------------- | :--------------: | :---------: | :------------: |
+| **PHP**                      |                  |             |                |
+| `include()`/`include_once()` |        ✅         |      ✅      |       ✅        |
+| `require()`/`require_once()` |        ✅         |      ✅      |       ❌        |
+| **NodeJS**                   |                  |             |                |
+| `res.render()`               |        ✅         |      ✅      |       ❌        |
+| **Java**                     |                  |             |                |
+| `import`                     |        ✅         |      ✅      |       ✅        |
+| **.NET**                     |                  |             |                |
+| `include`                    |        ✅         |      ✅      |       ✅        |
 
 ---
 
