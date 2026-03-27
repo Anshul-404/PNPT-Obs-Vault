@@ -13,11 +13,13 @@ We can utilize several techniques to produce any character we want while avoidin
 		/usr/local/bin:/usr/bin:/bin:/usr/games
 	```
 - So, if ==**we start at the `0` character, and only take a string of length `1`**,== we will end up **with only the `/` character**, which we can use in our payload:
+	- `${PATH:0:1}`
 		![[Pasted image 20260318023904.png]]
 **Note:** When we use the above command in our payload, ==**we will not add `echo`,== as we are only using it in this case to show** the outputted character.
 
 - We can do the **same with the `$HOME` or `$PWD` environment variables** as well.
 - We can also use the **==same concept to get a semi-colon character==**, to be used as an injection operator. For example, the following command gives us a semi-colon:
+	- `${LS_COLORS:10:1}`
 	- ![[Pasted image 20260318024042.png]]
 
 **==Hint: The `printenv` command prints all environment variables in Linux,==** so you can look which ones may contain useful characters, and then try to reduce the string to that character only.

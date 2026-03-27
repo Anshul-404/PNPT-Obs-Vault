@@ -1,0 +1,348 @@
+.
+├── Ah Shit here we Go Again.md
+├── assets
+│   ├── SocksOverRDP-Server 1.exe
+│   ├── SocksOverRDP-Server 2.exe
+│   └── SocksOverRDP-Server.exe
+├── CPTS Path
+│   ├── Active Directory Enumeration & Attacks
+│   │   ├── Active_Directory_Enumeration_Attacks_Module_Cheat_Sheet.pdf
+│   │   ├── Additional AD Auditing Techniques.md
+│   │   ├── AD Enumeration & Attacks - Skills Assessment Part II.md
+│   │   ├── AD Enumeration & Attacks - Skills Assessment Part I.md
+│   │   ├── An ACE in the Hole - ACEs & ACLs
+│   │   │   ├── Access Control List (ACL) Abuse Primer.md
+│   │   │   ├── ACL Abuse Tactics.md
+│   │   │   ├── ACL Enumeration.md
+│   │   │   └── DCSync.md
+│   │   ├── Cooking with Fire - Kerberoasting
+│   │   │   ├── Kerberoasting - from Linux.md
+│   │   │   └── Kerberoasting - from Windows.md
+│   │   ├── Deeper Down the Rabbit Hole
+│   │   │   ├── Credentialed Enumeration - from Linux.md
+│   │   │   ├── Credentialed Enumeration - from Windows.md
+│   │   │   ├── Enumerating Security Controls.md
+│   │   │   └── Living Off the Land.md
+│   │   ├── Initial Enumeration
+│   │   │   ├── External Recon and Enumeration Principles.md
+│   │   │   └── Initial Enumeration of the Domain.md
+│   │   ├── Misc. Techniques (From CTFs)
+│   │   │   ├── ADCS ESC1 Escalation in DC.md
+│   │   │   ├── Kerberos Constrained Delegation.md
+│   │   │   ├── LDAP Enumeration using netexc.md
+│   │   │   └── Misc.md
+│   │   ├── Sighting In, Hunting For A User - User Enum
+│   │   │   ├── Enumerating & Retrieving Password Policies.md
+│   │   │   └── Making a Target User List.md
+│   │   ├── Sniffing out a Foothold - LLMNR Poisoning
+│   │   │   ├── LLMNR, NBT-NS Poisoning - from Linux.md
+│   │   │   └── LLMNR,NBT-NS Poisoning - from Windows.md
+│   │   ├── Spray Responsibly - Password Spraying
+│   │   │   ├── Internal Password Spraying - from Linux.md
+│   │   │   └── Internal Password Spraying - from Windows.md
+│   │   ├── Stacking The Deck
+│   │   │   ├── Bleeding Edge Vulnerabilities.md
+│   │   │   ├── Kerberos "Double Hop" Problem.md
+│   │   │   ├── Miscellaneous Misconfigurations.md
+│   │   │   └── Privileged Access.md
+│   │   └── Why So Trusting?
+│   │       ├── Attacking Domain Trusts - Child -> Parent Trusts - from Linux.md
+│   │       ├── Attacking Domain Trusts - Child -> Parent Trusts - Windows.md
+│   │       ├── Attacking Domain Trusts - Cross-Forest Trust Abuse - from Linux.md
+│   │       ├── Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows.md
+│   │       └── Domain Trusts Primer.md
+│   ├── Attacking Web Apps with Ffuf
+│   │   ├── Directory Fuzzing.md
+│   │   ├── Filtering Results.md
+│   │   ├── Page Fuzzing.md
+│   │   ├── Parameter Fuzzing - GET.md
+│   │   ├── Parameter Fuzzing - POST.md
+│   │   ├── Recursive Fuzzing.md
+│   │   ├── Sub-domain Fuzzing.md
+│   │   ├── Value Fuzzing.md
+│   │   ├── Vhost Fuzzing.md
+│   │   └── Web Fuzzing.md
+│   ├── Bruteforcing
+│   │   ├── Brute Force Attacks.md
+│   │   ├── Custom Wordlists.md
+│   │   ├── Dictionary Attacks.md
+│   │   ├── Hybrid Attacks.md
+│   │   ├── Hydra
+│   │   │   ├── Basic HTTP Authentication.md
+│   │   │   ├── Introduction.md
+│   │   │   └── Login Forms.md
+│   │   ├── Introduction.md
+│   │   ├── Medusa.md
+│   │   └── Skills Assessment.md
+│   ├── Command Injections
+│   │   ├── Command Injections - cheatsheet.pdf
+│   │   ├── Exploitation
+│   │   │   ├── Detection.md
+│   │   │   ├── Injecting Commands.md
+│   │   │   └── Other Injection Operators.md
+│   │   └── Filter Evasion
+│   │       ├── Bypassing Blacklisted Characters.md
+│   │       ├── Bypassing Blacklisted Commands.md
+│   │       ├── Bypassing Space Filters.md
+│   │       └── Identifying Filters.md
+│   ├── Cross Site Scripting
+│   │   ├── Defacing.md
+│   │   ├── DOM XSS.md
+│   │   ├── Introduction.md
+│   │   ├── Phishing.md
+│   │   ├── Reflected XSS.md
+│   │   ├── Session Hijacking.md
+│   │   ├── Skills Assessment.md
+│   │   ├── Stored XSS.md
+│   │   └── XSS Discovery.md
+│   ├── Enumeration
+│   │   ├── Firewall and IDS, IPS Evasion.md
+│   │   ├── F.W Evasion Lab - 1.md
+│   │   ├── How to approach.md
+│   │   └── Nmap.md
+│   ├── File Transfers
+│   │   ├── Catching Files over HTTP(S).md
+│   │   ├── Evading Detection.md
+│   │   ├── File_Transfers_Module_Cheat_Sheet.pdf
+│   │   ├── Linux File Transfer Methods.md
+│   │   ├── Living off The Land - LOLBins.md
+│   │   ├── Miscellaneous File Transfer Methods.md
+│   │   ├── Protected File Transfers.md
+│   │   ├── Transferring Files with Code.md
+│   │   └── Windows File Transfer Methods.md
+│   ├── File Upload Attacks
+│   │   ├── Absent Validation.md
+│   │   ├── Bypassing Filters
+│   │   │   ├── Blacklist Filters - 2.md
+│   │   │   ├── Blacklist Filters.md
+│   │   │   ├── Client-Side Validation.md
+│   │   │   ├── Type Filters.md
+│   │   │   └── Whitelist Filters.md
+│   │   ├── Intro to File Upload Attacks.md
+│   │   ├── Other Upload Attacks
+│   │   │   ├── Limited File Uploads.md
+│   │   │   └── Other Upload Attacks.md
+│   │   ├── Skills Assessment - File Upload Attacks.md
+│   │   └── Upload Exploitation.md
+│   ├── Footprinting
+│   │   ├── Cloud Resources.md
+│   │   ├── DNS.md
+│   │   ├── Domain Information.md
+│   │   ├── Enumeration Methodology.md
+│   │   ├── Enumeration Principles.md
+│   │   ├── Footprinting_Module_Cheat_Sheet.pdf
+│   │   ├── FTP.md
+│   │   ├── IMAP - POP3.md
+│   │   ├── IPMI.md
+│   │   ├── Labs.md
+│   │   ├── Linux Remote Management Protocols.md
+│   │   ├── MSSQL.md
+│   │   ├── MySQL.md
+│   │   ├── NFS.md
+│   │   ├── Oracle TNS.md
+│   │   ├── SMB.md
+│   │   ├── SMTP.md
+│   │   ├── SNMP.md
+│   │   ├── Staff.md
+│   │   └── Windows Remote Management Protocols.md
+│   ├── Getting Started
+│   │   ├── AnotherCTF
+│   │   │   └── Nmap scan.md
+│   │   ├── Nibbles
+│   │   │   ├── Learnings.md
+│   │   │   └── Nmap Scan.md
+│   │   ├── Privilege Escalation.md
+│   │   ├── Services
+│   │   │   └── Scanning with Nmap.md
+│   │   ├── Tips.md
+│   │   ├── Transferring Files.md
+│   │   └── Web Enumeration
+│   │       ├── Directory, File Enumeration.md
+│   │       └── DNS Subdomain Enumeration.md
+│   ├── How we begin?.md
+│   ├── Information Gathering - Web Edition
+│   │   ├── Crawling
+│   │   │   ├── Automating Recon.md
+│   │   │   ├── Creepy Crawlies - Tools.md
+│   │   │   ├── robots.txt.md
+│   │   │   ├── Search Engine Discovery.md
+│   │   │   ├── Web Archives.md
+│   │   │   └── Well-Known URIs.md
+│   │   ├── DNS & Subdomains
+│   │   │   ├── Certificate Transparency Logs.md
+│   │   │   ├── Digging DNS.md
+│   │   │   ├── DNS - Introduction.md
+│   │   │   ├── DNS Zone Transfers.md
+│   │   │   ├── Fingerprinting.md
+│   │   │   ├── Subdomain Bruteforcing.md
+│   │   │   ├── Subdomains.md
+│   │   │   └── Virtual Hosts.md
+│   │   ├── Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf
+│   │   ├── Introduction - Passive vs Active Recon.md
+│   │   ├── Skills Assessment.md
+│   │   └── WHOIS.md
+│   ├── Interacting with Common Services
+│   │   ├── Attacking DNS.md
+│   │   ├── Attacking Email Services.md
+│   │   ├── Attacking FTP.md
+│   │   ├── Attacking RDP.md
+│   │   ├── Attacking SMB.md
+│   │   ├── Attacking SQL Databases.md
+│   │   ├── Finding Sensitive Information.md
+│   │   ├── Interacting with Common Services.md
+│   │   ├── Labs.md
+│   │   ├── Service Misconfigurations.md
+│   │   └── The Concept of Attacks.md
+│   ├── Local File Inclusion
+│   │   ├── Automated Scanning.md
+│   │   ├── Basic Bypasses.md
+│   │   ├── File Inclusion Prevention.md
+│   │   ├── Intro to File Inclusions.md
+│   │   ├── LFI and File Uploads.md
+│   │   ├── Local File Inclusion (LFI).md
+│   │   ├── Log Poisoning.md
+│   │   ├── PHP Filters.md
+│   │   ├── PHP Wrappers.md
+│   │   ├── Remote File Inclusion (RFI).md
+│   │   └── Skills Assessment - File Inclusion.md
+│   ├── Password Attacks
+│   │   ├── Extracting Passwords from Linux
+│   │   │   ├── Credential Hunting in Linux.md
+│   │   │   └── Linux Authentication Process.md
+│   │   ├── Extracting Passwords from the Network
+│   │   │   ├── Credential Hunting in Network Shares.md
+│   │   │   └── Credential Hunting in Network Traffic.md
+│   │   ├── Extracting Passwords from Windows
+│   │   │   ├── Attacking Active Directory and NTDS.dit.md
+│   │   │   ├── Attacking LSASS.md
+│   │   │   ├── Attacking SAM, SYSTEM, and SECURITY.md
+│   │   │   ├── Attacking Windows Credential Manager.md
+│   │   │   ├── Credential Hunting in Windows.md
+│   │   │   └── Windows Authentication Process.md
+│   │   ├── Introduction.md
+│   │   ├── Password_Attacks_Module_Cheat_Sheet.pdf
+│   │   ├── Password Cracking Techniques
+│   │   │   ├── Cracking Protected Files.md
+│   │   │   ├── Custom Wordlists and Rules.md
+│   │   │   ├── HashCat.md
+│   │   │   ├── Introduction to Password Cracking.md
+│   │   │   └── John The Ripper.md
+│   │   ├── Remote Password Attacks
+│   │   │   ├── Network Services.md
+│   │   │   └── Spraying, Stuffing, and Defaults.md
+│   │   ├── Skills Assessment
+│   │   │   ├── Domain Controller Access.md
+│   │   │   ├── FILE01.md
+│   │   │   ├── Initial Foothold.md
+│   │   │   ├── JUMP01 - 172.16.119.7.md
+│   │   │   └── The Credential Theft Shuffle.md
+│   │   └── Windows Lateral Movement Techniques
+│   │       ├── Pass the Certificate.md
+│   │       ├── Pass the Hash (PtH).md
+│   │       ├── Pass the Ticket (PtT) from Linux.md
+│   │       └── Pass the Ticket (PtT) from Windows.md
+│   ├── Pivoting, Tunneling, and Port Forwarding
+│   │   ├── DNS Tunneling with Dnscat2.md
+│   │   ├── Dynamic Port Forwarding with SSH and SOCKS Tunneling.md
+│   │   ├── ICMP Tunneling with SOCKS.md
+│   │   ├── Lateral Movement, Pivoting, and Tunneling Compared.md
+│   │   ├── Meterpreter Tunneling & Port Forwarding.md
+│   │   ├── Port Forwarding with Windows Netsh.md
+│   │   ├── RDP and SOCKS Tunneling with SocksOverRDP.md
+│   │   ├── Remote, Reverse Port Forwarding with SSH.md
+│   │   ├── Skills Assessment.md
+│   │   ├── Socat Redirection with a Bind Shell.md
+│   │   ├── Socat Redirection with a Reverse Shell.md
+│   │   ├── SOCKS5 Tunneling with Chisel.md
+│   │   ├── SSH for Windows plink.exe - linux as pivot.md
+│   │   ├── SSH Pivoting with Sshuttle.md
+│   │   └── Web Server Pivoting with Rpivot.md
+│   ├── Shells & Payloads
+│   │   ├── Automating Payloads & Delivery with Metasploit.md
+│   │   ├── Bind Shells.md
+│   │   ├── Crafting Payloads with MSFvenom.md
+│   │   ├── Reverse Shells.md
+│   │   ├── Shells_Payloads_Module_Cheat_Sheet.pdf
+│   │   ├── The Live Engagement.md
+│   │   ├── Unix Shells
+│   │   │   ├── Infiltrating Unix,Linux.md
+│   │   │   └── Spawning Interactive Shells.md
+│   │   ├── Web Shells
+│   │   │   ├── Antak Webshell - PowerShell on Browser.md
+│   │   │   ├── Introduction and Laudanum.md
+│   │   │   └── PHP Web Shells.md
+│   │   └── Windows Shells
+│   │       ├── Code for Facebook Style Blog (host-2).md
+│   │       └── Infiltrating Windows.md
+│   ├── SQL Injection
+│   │   ├── Database Enumeration.md
+│   │   ├── Intro to SQL Injections.md
+│   │   ├── Reading Files.md
+│   │   ├── Skills Assessment - SQL Injection Fundamentals.md
+│   │   ├── SQL Injection (SQLi).md
+│   │   ├── Subverting Query Logic.md
+│   │   ├── Union Injection.md
+│   │   ├── Using Comments.md
+│   │   └── Writing Files.md
+│   ├── SQLMap Essentials
+│   │   ├── Advanced Database Enumeration.md
+│   │   ├── Attack Tuning.md
+│   │   ├── Bypassing Web Application Protections.md
+│   │   ├── Database Enumeration.md
+│   │   ├── Handling SQLMap Errors.md
+│   │   ├── OS Exploitation.md
+│   │   ├── Running SQLMap on an HTTP Request.md
+│   │   ├── Skills Assessment.md
+│   │   ├── SQLMap Overview.md
+│   │   └── Temper Scripts.md
+│   ├── Using the Metasploit Framework
+│   │   ├── Additional Features
+│   │   │   ├── Firewall and IDS,IPS Evasion.md
+│   │   │   ├── Introduction to MSFVenom.md
+│   │   │   └── Writing and Importing Modules.md
+│   │   ├── Components
+│   │   │   ├── Databases.md
+│   │   │   ├── Encoders.md
+│   │   │   ├── Modules.md
+│   │   │   ├── Payloads.md
+│   │   │   ├── Plugins.md
+│   │   │   └── Targets.md
+│   │   ├── Introduction to MSFConsole.md
+│   │   ├── MSF Sessions
+│   │   │   ├── Meterpreter.md
+│   │   │   └── Sessions.md
+│   │   └── Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf
+│   └── Web exploitation
+│       ├── Absent Validation.md
+│       └── File Upload Attacks
+├── Lainkusanagi List
+│   ├── Cheatsheat.md
+│   ├── Linux
+│   │   ├── dogcat
+│   │   │   └── Walkthrough.md
+│   │   └── Previous.md
+│   └── Windows
+│       ├── Buff
+│       │   └── Wlakthrough.md
+│       ├── Giddy
+│       │   └── Walkthrough.md
+│       ├── Heist
+│       │   └── Walkthrough.md
+│       ├── Jerry
+│       │   └── Compete Exploitation.md
+│       ├── Love
+│       │   └── Walkthrough.md
+│       ├── Netmon
+│       │   └── Enumeration.md
+│       ├── Remote
+│       │   └── Walkthrough.md
+│       ├── Servmon
+│       │   └── Walkthrough.md
+│       └── Sniper
+│           └── Walkthrough.md
+├── PT1 Exam
+│   └── Enumeration.md
+├── Untitled 8.md
+└── Untitled.md
+
+72 directories, 1077 files
