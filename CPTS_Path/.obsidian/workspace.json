@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Web Attacks/IDOR/Identifying IDORs.md",
+                "file": "CPTS Path/Web Attacks/IDOR/Bypassing Encoded References.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identifying IDORs"
+              "title": "Bypassing Encoded References"
             }
           }
         ]
@@ -181,22 +181,26 @@
   },
   "active": "ba0b91101e7caed5",
   "lastOpenFiles": [
-    "CPTS Path/Web Attacks/IDOR/Intro to IDOR.md",
+    "assets/Pasted image 20260406020730.png",
+    "assets/Pasted image 20260406020350.png",
+    "assets/Pasted image 20260406020014.png",
+    "assets/Pasted image 20260406013452.png",
+    "assets/Pasted image 20260406012359.png",
+    "assets/Pasted image 20260406012340.png",
+    "Untitled 3.md",
+    "CPTS Path/Web Attacks/IDOR/Bypassing Encoded References.md",
+    "CPTS Path/Web Attacks/IDOR/Mass IDOR Enumeration.md",
+    "assets/Pasted image 20260406004613.png",
+    "assets/Pasted image 20260406004521.png",
+    "assets/Pasted image 20260406001359.png",
+    "assets/Pasted image 20260406001320.png",
+    "assets/Pasted image 20260406001300.png",
     "CPTS Path/Web Attacks/IDOR/Identifying IDORs.md",
+    "CPTS Path/Web Attacks/IDOR/Intro to IDOR.md",
     "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Security Filters.md",
     "CPTS Path/Web Attacks/IDOR",
-    "assets/Pasted image 20260331010652.png",
     "Untitled 2.md",
-    "assets/Pasted image 20260331005615.png",
-    "assets/Pasted image 20260331005507.png",
-    "assets/Pasted image 20260331005442.png",
-    "assets/Pasted image 20260331005336.png",
     "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Basic Authentication.md",
-    "assets/Pasted image 20260329021211.png",
-    "assets/Pasted image 20260329015955.png",
-    "assets/Pasted image 20260329015940.png",
-    "assets/Pasted image 20260329015908.png",
-    "assets/Pasted image 20260329015643.png",
     "CPTS Path/Web Attacks/HTTP Verb Tampering/Intro to HTTP Verb Tampering.md",
     "CPTS Path/Web Attacks/Introduction.md",
     "CPTS Path/Web Attacks/HTTP Verb Tampering",
@@ -219,13 +223,9 @@
     "CPTS Path/Command Injections/Filter Evasion/Untitled.md",
     "CPTS Path/Command Injections/Exploitation/Injecting Commands.md",
     "CPTS Path/Command Injections/Filter Evasion/Evasion Tools.md",
-    "Untitled 1.md",
     "notes.txt",
     "notest.txt",
     "CPTS Path/Command Injections/Command Injections - cheatsheet.pdf",
-    "Untitled.md",
-    "Lainkusanagi List/Linux/dogcat/Walkthrough.md",
-    "CPTS Path/Local File Inclusion/Skills Assessment - File Inclusion.md",
     "CPTS Path/Command Injections/Filter Evasion"
   ]
 }
