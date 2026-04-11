@@ -1,4 +1,4 @@
-- In the previous section, we saw an example of an IDOR that uses employee uids in clear text, making it easy to enumerate. In some cases, web applications **make hashes or encode their object references, making enumeration more difficult,** but it may still be possible.
+	- In the previous section, we saw an example of an IDOR that uses employee uids in clear text, making it easy to enumerate. In some cases, web applications **make hashes or encode their object references, making enumeration more difficult,** but it may still be possible.
 - Let's go back to the `Employee Manager` web application to test the `Contracts` functionality:
 	- ![[Pasted image 20260406012340.png]]
 - If we click on the `Employment_contract.pdf` file, it starts downloading the file. The intercepted request in Burp looks as follows:
