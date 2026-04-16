@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "26f6debeaa5d4c13",
+        "id": "34861b460c7e2aa8",
         "type": "tabs",
         "children": [
           {
-            "id": "8720bcaa0e09f32e",
+            "id": "5ebc403a786a4df0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS Path/Web Attacks/IDOR/Chaining IDOR Vulnerabilities.md",
+                "file": "CPTS Path/Web Attacks/XXE/Blind Data Exfiltration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chaining IDOR Vulnerabilities"
+              "title": "Blind Data Exfiltration"
             }
           }
         ]
@@ -179,21 +179,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8720bcaa0e09f32e",
+  "active": "5ebc403a786a4df0",
   "lastOpenFiles": [
-    "assets/Pasted image 20260412013644.png",
-    "assets/Pasted image 20260412013626.png",
-    "assets/Pasted image 20260412013515.png",
-    "assets/Pasted image 20260412012952.png",
-    "assets/Pasted image 20260412012934.png",
-    "assets/Pasted image 20260412012705.png",
-    "assets/Pasted image 20260412012620.png",
-    "CPTS Path/Web Attacks/IDOR/IDOR in Insecure APIs.md",
+    "assets/Pasted image 20260417021609.png",
+    "assets/Pasted image 20260417021505.png",
+    "assets/Pasted image 20260417015321.png",
+    "assets/Pasted image 20260417014909.png",
+    "assets/Pasted image 20260417014802.png",
+    "CPTS Path/Web Attacks/XXE/Advanced File Disclosure.md",
+    "CPTS Path/Web Attacks/XXE/Blind Data Exfiltration.md",
+    "assets/Pasted image 20260417010809.png",
+    "assets/Pasted image 20260417010233.png",
+    "assets/Pasted image 20260417005000.png",
+    "assets/Pasted image 20260417004541.png",
+    "CPTS Path/Web Attacks/XXE/Local File Disclosure.md",
+    "assets/Pasted image 20260413010404.png",
+    "assets/Pasted image 20260413004049.png",
+    "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Basic Authentication.md",
+    "CPTS Path/Web Attacks/HTTP Verb Tampering/Intro to HTTP Verb Tampering.md",
+    "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Security Filters.md",
+    "CPTS Path/Web Attacks/Introduction.md",
+    "CPTS Path/How we begin?.md",
+    "CPTS Path/Web Attacks/XXE/Intro to XXE.md",
+    "Untitled 4.md",
     "CPTS Path/Web Attacks/IDOR/Chaining IDOR Vulnerabilities.md",
-    "assets/Pasted image 20260412005910.png",
-    "assets/Pasted image 20260412005824.png",
-    "assets/Pasted image 20260412005716.png",
-    "assets/Pasted image 20260412005635.png",
+    "CPTS Path/Web Attacks/XXE",
+    "CPTS Path/Web Attacks/IDOR/IDOR in Insecure APIs.md",
     "CPTS Path/Web Attacks/IDOR/Bypassing Encoded References.md",
     "CPTS Path/Web Attacks/IDOR/Mass IDOR Enumeration.md",
     "PG Practice/Linux Labs/Sorcerer.md",
@@ -202,12 +213,8 @@
     "Untitled 3.md",
     "CPTS Path/Web Attacks/IDOR/Identifying IDORs.md",
     "CPTS Path/Web Attacks/IDOR/Intro to IDOR.md",
-    "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Security Filters.md",
     "CPTS Path/Web Attacks/IDOR",
     "Untitled 2.md",
-    "CPTS Path/Web Attacks/HTTP Verb Tampering/Bypassing Basic Authentication.md",
-    "CPTS Path/Web Attacks/HTTP Verb Tampering/Intro to HTTP Verb Tampering.md",
-    "CPTS Path/Web Attacks/Introduction.md",
     "CPTS Path/Web Attacks/HTTP Verb Tampering",
     "PG Practice/Linux Labs/Mzeeav.md",
     "CPTS Path/Web Attacks",
@@ -217,15 +224,8 @@
     "CPTS Path/Command Injections/Filter Evasion/Skill Assesment.md",
     "PG Practice/Linux Labs",
     "PG Practice",
-    "CPTS Path/Command Injections/Exploitation/Other Injection Operators.md",
-    "CPTS Path/Command Injections/Filter Evasion/Advanced Command Obfuscation.md",
-    "CPTS Path/Command Injections/Filter Evasion/Bypassing Blacklisted Characters.md",
-    "CPTS Path/Command Injections/Filter Evasion/Bypassing Blacklisted Commands.md",
-    "CPTS Path/Command Injections/Filter Evasion/Bypassing Space Filters.md",
-    "CPTS Path/Command Injections/Filter Evasion/Identifying Filters.md",
     "notes.txt",
     "notest.txt",
-    "CPTS Path/Command Injections/Command Injections - cheatsheet.pdf",
-    "CPTS Path/Command Injections/Filter Evasion"
+    "CPTS Path/Command Injections/Command Injections - cheatsheet.pdf"
   ]
 }
