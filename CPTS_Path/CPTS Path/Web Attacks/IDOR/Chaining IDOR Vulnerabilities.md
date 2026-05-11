@@ -1,4 +1,4 @@
-- Usually, **a `GET` request to the API endpoint should return the details of the requested user, so we may try calling it to see if we can retrieve our user's** details. 
+	- Usually, **a `GET` request to the API endpoint should return the details of the requested user, so we may try calling it to see if we can retrieve our user's** details. 
 - We also notice that after the page loads, it fetches the **user details with a `GET` request to the same API endpoint**:
 	- ![[Pasted image 20260412012620.png]]
 - As mentioned in the previous section, the **==only form of authorization in our HTTP requests is the `role=employee` cookie==**, as the HTTP request does not contain any other form of user-specific authorization, like a JWT token, for example. 
